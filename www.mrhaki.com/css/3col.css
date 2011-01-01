@@ -12,7 +12,9 @@
         -webkit-text-size-adjust: 100%;
     }
 
-    #headernav { position: absolute; top: 80px; left: 0; }
-    header { height: 130px; }
+    header { height: 140px; }
+
+    #headernav ul { float: none; list-style: none; }
+    #headernav li { float: none; padding: 4px 0; }
 }
 
