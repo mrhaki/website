@@ -1,0 +1,16 @@
+
+/*	5-column layout
+    60 px columns, 24 px gutters, 42 px margins, 480 px total
+    ---------------------------------------------------------
+    1     2      3      4      5
+    60px  144px  228px  312px  396px	*/
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+
+    body {
+        padding: 60px 42px 0;
+        width: 396px;
+        -webkit-text-size-adjust: 100%;
+    }
+
+}

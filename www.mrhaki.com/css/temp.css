@@ -1,0 +1,154 @@
+/* Columns: 186px 372px 558px 744px */
+#frame {
+	width: 744px; 
+	text-align: left; /* Reset text-align after body text-align: center */
+	margin-left: 10px;
+	position: relative;
+	border-right: 1px dotted #ccc;
+	border-left: 1px dotted #ccc;
+	background-image: url(file:///D|/home/hki/data/mrhaki.com/website/images/background-line.gif);
+}
+#leftcontent {
+	width: 186px; /* boxmodel: 186 - 1 (border) = 185 */;
+	float: left;
+	margin: 10px 0px 10px 0px;
+	background-color: #000;
+	position: relative;
+}
+#content {
+	width: 558px; /* boxmodel: 558 - 1 (border) = 557 */
+	height: 100%;
+	float: left;
+	background-color: #fff;
+	position: relative;
+}
+#toptitle {
+	width: 724px;
+	position:relative;
+	text-align:right;
+	margin-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	border-left: 1px dotted #fff;
+	border-right: 1px dotted #fff;
+}
+#top {
+	width: 100%;
+	position: relative;
+	background-color: #a4b8d0;
+	border-bottom: 1px dotted #fff;
+}
+#footer {
+	width: 100%;
+	position: relative;
+	background-color: #a4b8d0;
+	border-bottom: 1px dotted #fff;
+	border-top: 1px dotted #fff;
+}
+#footertext {
+	width: 724px;
+	position:relative;
+	text-align:right;
+	margin-left: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-left: 1px dotted #fff;
+	border-right: 1px dotted #fff;
+}
+
+#contenttext {
+	height: 100%;
+	padding: 10px;
+	width: 538px; /* boxmodel: 558 - 20 (padding) = 538 */
+	position: relative;
+	float: left;
+}
+#leftcontent a {
+	color: #fff;
+}
+#logo {
+	background-color: #000;
+	text-align: right;
+	border-top: 1px solid #fff;
+}
+#articlenav a {
+	text-decoration: none;
+	width: 20px;
+	float: left;
+	display: block;
+	text-align: center;		
+}
+#articlenav a.currentpage {
+	color: #cc0000;			
+}
+#leftcontent input.textinput {
+	border: 1px solid #fff;
+	background-color: #adadad;
+	color: #000;
+	margin-top: 10px;
+}
+#leftcontent input.submitbutton {
+	border: 1px solid #fff;
+	background-color: #000;
+	color: #fff;
+	margin-top: 10px;
+	width: 70px;
+}
+#leftcontent form {
+	display: inline;
+}
+
+div.navtab {
+	padding-left: 10px;
+	padding-top: 10px;
+	color: #fff;
+	background-color: #000; /* #adadad; */
+}
+div.navtitle {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-top: 1px solid #fff;
+	color: #fff;
+	background-color: #000;/*#848484;*/
+}
+div.notes {
+	border: 1px dotted Gray;
+	width: 340px; /* box-model: 372 - 20 (margin) - 20 padding - 2 border = 340 */
+	margin-right: 0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #69c;
+	float: right;
+	clear: right;
+	position: relative;
+}
+
+body {
+	font : 12px Arial, Helvetica, sans-serif;
+	background-color: #c3c3c3;
+	margin: 10px 0px 10px 0px;
+}
+p {
+	font : 12px Arial, Helvetica, sans-serif;
+	line-height : 18px;
+}
+h1 {
+	font : bold 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #336;
+}
+h2 {
+	font : bold 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #336;
+}
+a, a:hover, a:link,  a:active, a:focus {
+	color : #336;
+}
+a:visited {
+	color: #000;
+}
+
+

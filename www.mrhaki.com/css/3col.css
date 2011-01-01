@@ -1,0 +1,18 @@
+/*	3-column layout
+    60 px columns, 24 px gutters, 46 px margins, 320 px total
+    ---------------------------------------------------------
+    1     2      3
+    60px  144px  228px	*/
+
+@media only screen and (max-width: 479px) {
+
+    body {
+        padding: 48px 46px 0;
+        width: 228px;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    #headernav { position: absolute; top: 80px; left: 0; }
+    header { height: 130px; }
+}
+
