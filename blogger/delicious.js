@@ -1,0 +1,1 @@
+<script src="http://feeds.delicious.com/v2/js/networkbadge/mrhaki?showadd&icon=m&name&itemcount&nwcount&fancount" type="text/javascript"></script>
