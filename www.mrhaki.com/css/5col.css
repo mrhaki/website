@@ -8,7 +8,7 @@
 @media only screen and (max-width: 767px) and (min-width: 480px) {
 
     body {
-        padding: 60px 42px 0;
+        padding: 20px 42px 0;
         width: 396px;
         -webkit-text-size-adjust: 100%;
     }

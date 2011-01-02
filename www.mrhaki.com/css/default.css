@@ -23,13 +23,8 @@ body {
    -webkit-tap-highlight-color: rgb(255, 255, 0);
 }
 
-::selection {
-   background: rgb(255, 255, 0);
-}
-
-::-moz-selection {
-   background: rgb(255, 255, 0);
-}
+::selection { background: rgb(255, 255, 0); }
+::-moz-selection { background: rgb(255, 255, 0); }
 
 p { margin-bottom: 20px; }
 a { color: #333; }
@@ -53,8 +48,10 @@ footer ul { list-style: none; border-bottom: 1px solid #d9d9d9; }
 footer li { border-top: 1px solid #d9d9d9; margin: 0; padding: 4px 0; }
 footer a { text-decoration: none; }
 footer a:hover { text-decoration: underline; }
-#footer_links, #friend_links { width: 228px; float: left; margin-right: 24px; }
-#copyright { margin-top: 24px; }
+#footer_links, #friend_links { width: 228px; }
+#connect_links { width: 144px; margin: 0; }
+footer nav { float: left; margin-right: 24px; }
+#copyright { padding-top: 24px; }
 
 /*	Typography presets
     ------------------	*/
@@ -90,6 +87,8 @@ footer a:hover { text-decoration: underline; }
    line-height: 18px;
 }
 
+code, textarea { font: 11px/16px Monaco, Consolas, monospace; }
+
 /* Clear fix */
 .clearfix:after {
      visibility: hidden;
@@ -104,3 +103,10 @@ footer a:hover { text-decoration: underline; }
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+
+/* Special styles
+   -------------- */
+#connect ul { list-style: none; }
+#connect li, #connect p { text-align: center; }
+#connect ul, #connect li, #connect h2 { float: left; }
+#connect h2 { width: 60px; margin-right: 24px; font-size: 20px; }
