@@ -13,4 +13,6 @@
         -webkit-text-size-adjust: 100%;
     }
 
+    #footer_links, #connect_links { width: 60px; }
+
 }
