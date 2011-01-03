@@ -18,4 +18,6 @@
     .Label { width: 228px; }
     .CustomSearch { margin-left: 84px; }
     .Followers { margin-top: 0px; }
+
+    .syntaxhighlighter .toolbar { display: none; }
 }

@@ -20,5 +20,7 @@
     #connect_links, #footer_links, .Followers, .Label { width: 228px; }
     .CustomSearch { display: none; }
     .Followers { margin-top: 0px; }
+
+    .syntaxhighlighter .toolbar { display: none; }
 }
 

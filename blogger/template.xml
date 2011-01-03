@@ -25,7 +25,7 @@
     <link rel="stylesheet" media="all" href="http://www.mrhaki.com/css/iphone4.css"/>
 
     <link href='http://www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
-    <link href='http://www.mrhaki.com/css/syntax/shThemeEclipse.css' rel='stylesheet' type='text/css'/>
+    <link href='http://www.mrhaki.com/css/syntax/shThemeDefault.css' rel='stylesheet' type='text/css'/>
 
     <b:skin><![CDATA[
 .label-size-5, .label-size-4, .label-size-3, .label-size-2, .label-size-1 { font-weight: normal; font-size: 100%; opacity: 1.0; }
@@ -859,9 +859,11 @@
 
     <script language="javascript">
     SyntaxHighlighter.config.bloggerMode = true;
+    SyntaxHighlighter.config.clipboardSwf = 'http://www.mrhaki.com/js/syntax/clipboard.swf';
     SyntaxHighlighter.defaults['first-line'] = 0;
     SyntaxHighlighter.defaults['auto-links'] = false;
     SyntaxHighlighter.all();
+    dp.SyntaxHighlighter.HighlightAll('code');
     </script>
 
   </body>
