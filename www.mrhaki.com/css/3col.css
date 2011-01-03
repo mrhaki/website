@@ -13,13 +13,12 @@
     }
 
     header { height: 140px; }
-
     #headernav ul { float: none; list-style: none; }
     #headernav li { float: none; padding: 4px 0; }
-
     #connect ul, #connect li, #connect h2 { float: none; }
-
     footer nav h3 { margin-top: 10px; }
-    #connect_links { width: 228px; }
+    #connect_links, #footer_links, .Followers, .Label { width: 228px; }
+    .CustomSearch { display: none; }
+    .Followers { margin-top: 0px; }
 }
 

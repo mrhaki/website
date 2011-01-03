@@ -11,4 +11,11 @@
         width: 1068px;
     }
 
+    .CustomSearch { margin-left: 732px; }
+    #footer_links { width: 144px; }
+    #friend_links { width: 228px; }
+    #connect_links { width: 144px; margin-right: 24px; }
+    .Label { margin-right: 24px; width: 228px; }
+    .Followers { margin-right: 0px; margin-top: 0px; width: 228px;  }
+
 }

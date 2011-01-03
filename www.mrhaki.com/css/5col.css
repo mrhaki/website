@@ -13,6 +13,9 @@
         -webkit-text-size-adjust: 100%;
     }
 
-    #footer_links, #connect_links { width: 60px; }
-
+    #footer_links { width: 60px; }
+    #connect_links, #friend_links { width: 144px; }
+    .Label { width: 228px; }
+    .CustomSearch { margin-left: 84px; }
+    .Followers { margin-top: 0px; }
 }

@@ -5,8 +5,9 @@
 /*
     Colors:
     lightgrey: #f6f6f6
-    almost black: rgb(22, 22, 23)
     dark grey: #3a3a3a
+    grey/black for links: #aaa
+    grey: #d9d9d9
  */
 
 /*	Default 8-column layout
@@ -31,7 +32,7 @@ a { color: #333; }
 
 li { margin-left: 20px; }
 
-#main { background: #fff; padding: 20px; border: 1px solid #ededed; }
+#body_content { background: #fff; padding: 20px; border: 1px solid #ededed; }
 
 header { position: relative; height: 100px; }
 #header_logo { position: absolute; top: 0; left: 0; }
@@ -43,7 +44,7 @@ header { position: relative; height: 100px; }
 #headernav li a:hover { border-bottom: 3px solid #aaa; padding-bottom: 3px; }
 
 footer { margin-top: 24px; font-size: 13px; line-height: 18px; }
-footer h3 { font-weight: bold; font-size: 16px; text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px; }
+footer h3, footer h2 { font-weight: bold; font-size: 16px; text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px; }
 footer ul { list-style: none; border-bottom: 1px solid #d9d9d9; }
 footer li { border-top: 1px solid #d9d9d9; margin: 0; padding: 4px 0; }
 footer a { text-decoration: none; }
@@ -52,7 +53,7 @@ footer a:hover { text-decoration: underline; }
 #friend_links { width: 228px; }
 #connect_links { width: 228px; margin: 0; }
 footer nav { float: left; margin-right: 24px; }
-#copyright { padding-top: 24px; }
+#copyright { margin-top: 24px; margin-bottom: 0px; }
 
 /*	Typography presets
     ------------------	*/
@@ -88,7 +89,8 @@ footer nav { float: left; margin-right: 24px; }
    line-height: 18px;
 }
 
-code, textarea { font: 11px/16px Monaco, Consolas, monospace; }
+/*code, textarea, pre { font: 11px/16px Monaco, Consolas, monospace; }*/
+code, pre { font: 16px/24px Monaco, Consolas, monospace; }
 
 /* Clear fix */
 .clearfix:after {
@@ -111,3 +113,27 @@ code, textarea { font: 11px/16px Monaco, Consolas, monospace; }
 #connect li, #connect p { text-align: center; }
 #connect ul, #connect li, #connect h2 { float: left; }
 #connect h2 { width: 60px; margin-right: 24px; font-size: 20px; }
+
+/* Blog styles
+   ----------- */
+
+.blog-posts h2.date-header { font-size: 16px; line-height: 18px; color: #d4d0c8; }
+h3.post-title { font-size: 26px; margin-bottom: 16px; }
+.blog-posts h2, #blog-items-labels h2 { font-size: 20px }
+.gsc-branding { display: none; }
+td.gsc-input input.gsc-input { font-size: 16px; border-color: #d9d9d9; background-color: #f6f6f6; }
+.CustomSearch { margin-left: 312px; padding-top: 40px; text-align: right; }
+td.gsc-search-button input.gsc-search-button { margin-left: 8px; }
+.post.hentry { margin-bottom: 40px; }
+.post-footer, .comments { background-color: #f6f6f6; }
+.post-footer { font-size: 13px; line-height: 18px; }
+div.comment-form { width: 100%; max-width: 100%; }
+#blog-item-label-series { list-style: none; border-bottom: 1px solid #d9d9d9; }
+#blog-item-label-series li { border-top: 1px solid #d9d9d9; margin: 0; padding: 4px 0; }
+#blog-item-labels { margin-top:1em; }
+.Label, .Followers { float: left; }
+.Followers { width: 396px; margin-right: 24px; margin-top: -450px; }
+.Label { width: 228px;}
+.blog-feeds, .post-feeds { display: none; }
+span#blog-pager-newer-link { float: right; }
+span#blog-pager-older-link { float: left; }

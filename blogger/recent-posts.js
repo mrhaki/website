@@ -1,0 +1,1 @@
+<script style="text/javascript" src="http://blogergadgets.googlecode.com/files/recentpostswidgetv1.js"></script><script style="text/javascript">var numposts = 5;var showpostdate = false;var showpostsummary = false;var numchars = 100;</script><script src="http://mrhaki.blogspot.com/feeds/posts/default?orderby=published&alt=json-in-script&callback=showrecentposts"></script>
