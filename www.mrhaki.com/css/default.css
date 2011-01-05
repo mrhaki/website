@@ -71,13 +71,13 @@ footer nav { float: left; margin-right: 24px; }
 }
 
 .large, h2 {
-   font-size: 42px;
-   line-height: 48px;
+   font-size: 26px;
+   line-height: 36px;
 }
 
 .big, h3 {
-   font-size: 26px;
-   line-height: 36px;
+   font-size: 20px;
+   line-height: 26px;
 }
 
 .normal, body {
@@ -109,10 +109,10 @@ code, pre { font: 16px/24px Monaco, Consolas, monospace; }
 
 /* Special styles
    -------------- */
-#connect ul { list-style: none; }
+#connect ul { list-style: none; margin-top: 20px; }
 #connect li, #connect p { text-align: center; }
-#connect ul, #connect li, #connect h2 { float: left; }
-#connect h2 { width: 60px; margin-right: 24px; font-size: 20px; }
+#connect li { width: 150px; height: 95px; }
+#connect ul, #connect li { float: left; }
 
 /* Blog styles
    ----------- */

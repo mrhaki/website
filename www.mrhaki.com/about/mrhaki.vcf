@@ -1,0 +1,19 @@
+BEGIN:vCard
+VERSION:3.0
+N:Klein Ikkink;Hubert;A.;;
+FN:Hubert A. Klein Ikkink
+NICKNAME:mrhaki
+BDAY:1973-07-09
+PHOTO;VALUE=uri:http://www.mrhaki.com/images/photo.jpg
+ADR;TYPE=work:;;Baarnsche Dijk 8;Baarn;;3741 LR;The Netherlands
+ADR;TYPE=home:;;;Tilburg;;;The Netherlands
+TEL;TYPE=voice,msg,work:+31622986907
+LOGO;VALUE=uri:http://www.mrhaki.com/images/logo-vcf.png
+ORG:VX Company;;
+URL:http://www.mrhaki.com
+URL:http://www.vxcompany.com
+EMAIL;TYPE=internet,pref:h.kleinikkink@gmail.com
+EMAIL;TYPE=internet:hkleinikkink@vxcompany.com
+NOTE:Groovy and Java Developer
+REV:2010-01-05
+END:vCard
