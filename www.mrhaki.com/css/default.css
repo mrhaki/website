@@ -139,3 +139,5 @@ div.comment-form { width: 100%; max-width: 100%; }
 .blog-feeds, .post-feeds { display: none; }
 span#blog-pager-newer-link { float: right; }
 span#blog-pager-older-link { float: left; }
+#social-sharing-buttons { padding: 0 0 8px 0; }
+#twitter-widget-button, #facebook-like-button { float: left; height: 25px; }
