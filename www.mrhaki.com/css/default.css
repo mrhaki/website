@@ -58,9 +58,9 @@ footer nav { float: left; margin-right: 24px; }
 /*	Typography presets
     ------------------	*/
 
-.gigantic { font-size: 82px; line-height: 78px; letter-spacing: -px; }
+.gigantic { font-size: 82px; line-height: 78px; letter-spacing: -1px; }
 .huge, h1 { font-size: 44px; line-height: 52px; letter-spacing: -1px; }
-.large, h2 { font-size: 26px; line-height: 36px; }
+.large, h2 { font-size: 26px; line-height: 36px; margin-bottom: 16px; }
 .big, h3 { font-size: 20px; line-height: 26px; }
 .normal, body { font: 16px/24px Helvetica, Arial, sans-serif; }
 .small { font-size: 13px; line-height: 18px; }
@@ -84,7 +84,7 @@ code, pre { font: 16px/24px Monaco, Consolas, monospace; }
 /* Special styles
    -------------- */
 #connect ul { list-style: none; margin-top: 20px; }
-#connect li, #connect p { text-align: center; }
+#connect li, #connect ul p { text-align: center; }
 #connect li { width: 150px; height: 95px; }
 #connect ul, #connect li { float: left; }
 
