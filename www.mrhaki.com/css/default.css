@@ -58,38 +58,12 @@ footer nav { float: left; margin-right: 24px; }
 /*	Typography presets
     ------------------	*/
 
-.gigantic {
-   font-size: 110px;
-   line-height: 120px;
-   letter-spacing: -2px;
-}
-
-.huge, h1 {
-   font-size: 68px;
-   line-height: 72px;
-   letter-spacing: -1px;
-}
-
-.large, h2 {
-   font-size: 26px;
-   line-height: 36px;
-}
-
-.big, h3 {
-   font-size: 20px;
-   line-height: 26px;
-}
-
-.normal, body {
-   font: 16px/24px Helvetica, Arial, sans-serif;
-}
-
-.small {
-   font-size: 13px;
-   line-height: 18px;
-}
-
-/*code, textarea, pre { font: 11px/16px Monaco, Consolas, monospace; }*/
+.gigantic { font-size: 82px; line-height: 78px; letter-spacing: -px; }
+.huge, h1 { font-size: 44px; line-height: 52px; letter-spacing: -1px; }
+.large, h2 { font-size: 26px; line-height: 36px; }
+.big, h3 { font-size: 20px; line-height: 26px; }
+.normal, body { font: 16px/24px Helvetica, Arial, sans-serif; }
+.small { font-size: 13px; line-height: 18px; }
 code, pre { font: 16px/24px Monaco, Consolas, monospace; }
 
 /* Clear fix */
