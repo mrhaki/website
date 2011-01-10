@@ -115,3 +115,4 @@ span#blog-pager-newer-link { float: right; }
 span#blog-pager-older-link { float: left; }
 #social-sharing-buttons { padding: 0 0 8px 0; }
 #twitter-widget-button, #facebook-like-button { float: left; height: 25px; }
+.jump-link { margin-bottom: 1em; }

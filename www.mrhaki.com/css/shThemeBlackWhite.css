@@ -4,14 +4,14 @@
 
 /* Highlighed line number */
 .syntaxhighlighter .line.highlighted .number {
-    background-color: rgb(82, 109, 165) !important;
+    background-color: rgb(204, 204, 255) !important;
     color: black !important;
 }
 
 /* Highlighed line */
 .syntaxhighlighter .line.highlighted.alt1 .content,
 .syntaxhighlighter .line.highlighted.alt2 .content {
-    background-color: rgb(82, 109, 165) !important;
+    background-color: rgb(204, 204, 255) !important;
 }
 
 /* Gutter line numbers */

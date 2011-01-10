@@ -255,6 +255,11 @@
 
                     <div class='post-body entry-content'>
                         <p><data:post.body/></p>
+                        <b:if cond='data:post.hasJumpLink'>
+                        <div class='jump-link'>
+                        <a expr:href='data:post.url + "#more"'><data:post.jumpText/></a> 
+                        </div>
+                        </b:if >
                         <div style='clear: both;'/>
                     </div>
 

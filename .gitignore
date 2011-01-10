@@ -1,1 +1,5 @@
 /www.mrhaki.com/_site
+.DS_Store
+*.iml
+*.iws
+*.ipr
