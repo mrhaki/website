@@ -83,10 +83,11 @@ code, pre { font: 16px/24px Monaco, Consolas, monospace; }
 
 /* Special styles
    -------------- */
-#connect ul { list-style: none; margin-top: 20px; }
+#connect ul { list-style: none; margin: 20px 0; }
 #connect li, #connect ul p { text-align: center; }
-#connect li { width: 150px; height: 95px; }
+#connect li { width: 100px; height: 95px; }
 #connect ul, #connect li { float: left; }
+#connect p { margin-bottom: 0.3em; }
 
 /* Blog styles
    ----------- */
@@ -112,7 +113,11 @@ div.comment-form { width: 100%; max-width: 100%; }
 .Label { width: 228px;}
 .blog-feeds, .post-feeds { display: none; }
 span#blog-pager-newer-link { float: right; }
+a.blog-pager-newer-link { padding-right: 20px; background: url('/images/arrow-right.png') no-repeat right center; }
 span#blog-pager-older-link { float: left; }
+a.blog-pager-older-link, a.home-link { padding-left: 20px; }
+a.blog-pager-older-link { background: url('/images/arrow-left.png') no-repeat left center; }
+a.home-link { background: url('/images/home.png') no-repeat left center; }
 #social-sharing-buttons { padding: 0 0 8px 0; }
 #twitter-widget-button, #facebook-like-button { float: left; height: 25px; }
 .jump-link { margin-bottom: 1em; }
