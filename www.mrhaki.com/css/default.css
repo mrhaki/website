@@ -105,7 +105,7 @@ td.gsc-search-button input.gsc-search-button { margin-left: 8px; }
 .post-footer, .comments { background-color: #f6f6f6; }
 .post-footer { font-size: 13px; line-height: 18px; }
 div.comment-form { width: 100%; max-width: 100%; }
-#blog-item-label-series { list-style: none; border-bottom: 1px solid #d9d9d9; }
+#blog-item-label-series { list-style: none; }
 #blog-item-label-series li { border-top: 1px solid #d9d9d9; margin: 0; padding: 4px 0; }
 #blog-item-labels { margin-top:1em; }
 .Label, .Followers { float: left; }
@@ -121,3 +121,6 @@ a.home-link { background: url('/images/home.png') no-repeat left center; }
 #social-sharing-buttons { padding: 0 0 8px 0; }
 #twitter-widget-button, #facebook-like-button { float: left; height: 25px; }
 .jump-link { margin-bottom: 1em; }
+#comments { font-size: 13px; }
+dd.comment-footer { font-size: 13px; margin-bottom: 20px; }
+dd.comment-body p { margin-bottom: 5px; }
