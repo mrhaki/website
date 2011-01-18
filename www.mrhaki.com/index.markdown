@@ -11,3 +11,7 @@ clean, elegant, user-centered and high quality.
 My name is Hubert A. Klein Ikkink. Not a very common name, right?
 To make things easier I just picked the first letters of my firstname and surname
 and came up with haki. So there you have it, now I am known as Mr. Haki or mrhaki for short.
+The following Groovy code shows this:
+
+    assert ['Hubert', 'Alexander', 'Klein', 'Ikkink'].
+           inject('mr') { c,n -> c += n[0].toLowerCase() } == 'mrhaki'
