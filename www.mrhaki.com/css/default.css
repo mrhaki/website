@@ -28,7 +28,7 @@ body {
 ::-moz-selection { background: rgb(255, 255, 0); }
 
 p { margin-bottom: 20px; }
-a { color: #333; }
+a { color: #333; text-decoration-style: dashed; }
 
 li { margin-left: 20px; }
 
