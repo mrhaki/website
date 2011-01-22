@@ -1,0 +1,15 @@
+/home/mrhaki/public_html/www.mrhaki.com/log/*.log /home/mrhaki/public_html/www.nagelcreatie.nl/log/*.log {
+	weekly
+	missingok
+	rotate 52
+	compress
+	delaycompress
+	notifempty
+	sharedscripts
+	postrotate
+		if [ -f "`. /etc/apache2/envvars ; echo ${APACHE_PID_FILE:-/var/run/apache2.pid}`" ]; then
+			/etc/init.d/apache2 reload > /dev/null
+		fi
+	endscript
+}
+
