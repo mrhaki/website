@@ -75,15 +75,10 @@
         </div>
         <nav id="headernav">
             <ul>
-                <li>
-                    <a href="http://mrhaki.blogspot.com">Blog</a>
-                </li>
-                <li>
-                    <a href="http://github.com/mrhaki">Github</a>
-                </li>
-                <li>
-                    <a href="http://www.mrhaki.com/about/">About</a>
-                </li>
+                <li><a href="http://mrhaki.blogspot.com">Blog</a></li>
+                <li><a href="http://github.com/mrhaki">Github</a></li>
+                <li><a href="http://stream.mrhaki.com">Livestream</a></li>
+                <li><a href="http://www.mrhaki.com/about/">About</a></li>
             </ul>
         </nav>
 
@@ -700,6 +695,7 @@
                 <li><a href="http://www.mrhaki.com/">Website</a></li>
                 <li><a href="http://mrhaki.blogspot.com">Blog</a></li>
                 <li><a href="http://github.com/mrhaki">Github</a></li>
+                <li><a href="http://stream.mrhaki.com">Livestream</a></li>
                 <li><a href="http://www.mrhaki.com/about/">About</a></li>
             </ul>
         </nav>
