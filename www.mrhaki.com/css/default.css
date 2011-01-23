@@ -43,8 +43,8 @@ header { position: relative; height: 100px; }
     font-size: 16px; padding: 6px 15px 5px; text-decoration: none; }
 #headernav li a:hover { border-bottom: 3px solid #aaa; padding-bottom: 3px; }
 
-footer { margin-top: 24px; font-size: 13px; line-height: 18px; }
-footer h3, footer h2 { font-weight: bold; font-size: 16px; text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px; }
+footer { margin-top: 8px; font-size: 13px; line-height: 18px; }
+footer h3, footer h2 { font-weight: bold; font-size: 16px; margin: 8px 0; text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px; }
 footer ul { list-style: none; border-bottom: 1px solid #d9d9d9; }
 footer li { border-top: 1px solid #d9d9d9; margin: 0; padding: 4px 0; }
 footer a { text-decoration: none; }
@@ -126,5 +126,11 @@ dd.comment-body p { margin-bottom: 5px; }
 
 /* Livestream styles
    ----------------- */
-ul#activities { list-style: none; border-bottom: 1px solid #d9d9d9; }
-ul#activities li { display: block; margin: 0 0 20px 0; padding-top: 10px; border-top: 1px solid #d9d9d9; }
+ul#activities { list-style: none; }
+ul#activities li { display: block; margin: 0 0 20px 0;  padding: 8px; border-top: 1px solid #d9d9d9; }
+ul#activities li.github { border-top-color: #fff843; background-color: #fffee7; }
+ul#activities li.delicious { border-top-color: #7ed4ff; background-color: #e7f7ff; }
+ul#activities li.blogger { border-top-color: #ffba63; background-color: #fff5e7; }
+ul#activities li.twitter { border-top-color: #7ad9ef; background-color: #e4edef; }
+ul#activities li.googlereader { border-top-color: #0db124; background-color: #e1ffe5; }
+ul#activities .post-footer { background-color: transparent; }
