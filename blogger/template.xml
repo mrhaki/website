@@ -875,7 +875,6 @@
     SyntaxHighlighter.defaults['first-line'] = 0;
     SyntaxHighlighter.defaults['auto-links'] = false;
     SyntaxHighlighter.all();
-    dp.SyntaxHighlighter.HighlightAll('code');
     </script>
 
   </body>
