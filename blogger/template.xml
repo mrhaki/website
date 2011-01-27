@@ -258,18 +258,16 @@
                         <div style='clear: both;'/>
                     </div>
 
-                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                        <div id="social-sharing-buttons" class="clearfix">
-                            <div id="twitter-widget-button">
-                                <a class='twitter-share-button' data-count='horizontal' data-via='mrhaki' expr:data-text='data:post.title' expr:data-url='data:post.url' href='http://twitter.com/share' rel='nofollow'>Tweet</a>
-                                <script src='http://platform.twitter.com/widgets.js' type='text/javascript'>
-                                </script>
-                            </div>
-                            <div id="facebook-like-button">
-                            <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like show_faces="false" width="450"></fb:like>
-                            </div>
+                    <div id="social-sharing-buttons" class="clearfix">
+                        <div id="twitter-widget-button">
+                            <a class='twitter-share-button' data-url='data:post.link' data-count='horizontal' data-via='mrhaki' expr:data-text='data:post.title' expr:data-url='data:post.url' href='http://twitter.com/share' rel='nofollow'>Tweet</a>
+                            <script src='http://platform.twitter.com/widgets.js' type='text/javascript'>
+                            </script>
                         </div>
-                    </b:if>
+                        <div id="facebook-like-button">
+                        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like expr:href="data:post.url" show_faces="false" width="450"></fb:like>
+                        </div>
+                    </div>
 
                     <div class='post-footer'>
                         <div class='post-footer-line post-footer-line-1'>
