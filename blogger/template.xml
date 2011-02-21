@@ -870,7 +870,7 @@
 
     <script language="javascript">
     SyntaxHighlighter.config.bloggerMode = true;
-    SyntaxHighlighter.config.clipboardSwf = 'http://www.mrhaki.com/js/syntax/clipboard.swf';
+    SyntaxHighlighter.config.clipboardSwf = null;
     SyntaxHighlighter.defaults['first-line'] = 0;
     SyntaxHighlighter.defaults['auto-links'] = false;
     SyntaxHighlighter.all();
