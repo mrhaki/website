@@ -161,6 +161,16 @@
 
         <div id="main_content">
 
+        <div id="gr8conf_banner" class="clearfix">
+            <a href="http://www.eu2011.gr8conf.org">
+                <img class="gr8conflogo" src="http://www.eu2011.gr8conf.org/a/i-speak-at-gr8conf.png"
+                   border="0" alt="GR8 Conference Europe 2011" width="128" height="128"/>
+            </a>
+            <a href="http://www.eu2011.gr8conf.org">GR8Conf</a>
+            is an affordable conference dedicated to the Groovy dynamic language,
+            the Grails web framework, the Griffon Swing framework, and other great technologies,
+            such as Gradle, Spock, GPars, and more.
+        </div>
 
         <b:section class='main' id='main' showaddelement='no'>
 
@@ -706,7 +716,7 @@
                 <li><a href="http://www.pixeldam.net">Pixeldam</a></li>
                 <li><a href="http://www.x-panded.com/">Xpanded</a></li>
                 <li><a href="http://www.drbob42.com/">DrBob42</a></li>
-                <li><a href="http://www.vxcompany.com/SoftwareOntwikkeling/Java/Applicatie%20Ontwikkeling/Paginas/Groovy--Grails.aspx">VX Company</a></li>
+                <li><a href="http://www.vxcompany.com/SoftwareOntwikkeling/Java/Applicatie%20Ontwikkeling/Paginas/Groovy--Grails.aspx"><img src="http://www.mrhaki.com/images/VXCompany.jpg" width="143" height="54" alt="VX Company logo" title="VX Company" /></a></li>
             </ul>
         </nav>
         <nav id="connect_links">
