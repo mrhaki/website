@@ -274,9 +274,6 @@
                             <script src='http://platform.twitter.com/widgets.js' type='text/javascript'>
                             </script>
                         </div>
-                        <div id="facebook-like-button">
-                        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like expr:href="data:post.url" show_faces="false" width="450"></fb:like>
-                        </div>
                     </div>
 
                     <div class='post-footer'>
