@@ -719,7 +719,7 @@
         <b:section class='footer-widgets' id='footer-widgets' preferred='yes'>
 
             <b:widget id='Label1' locked='false' title='Labels' type='Label'>
-                <b:includable id='main'>ac
+                <b:includable id='main'>
                   <b:if cond='data:title'>
                     <h2><data:title/></h2>
                   </b:if>
