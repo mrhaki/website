@@ -6,7 +6,7 @@ printMessage 'Remote Groovy script @ http://www.mrhaki.com/samples/remotesample.
 println '!'
 
 def printMessage(message) {
-    def LINE_LENGTH = 76
+    def LINE_LENGTH = message.size() + 4
     println '*' * LINE_LENGTH
     println "* $message *"
     println '*' * LINE_LENGTH
