@@ -1,6 +1,7 @@
 .syntaxhighlighter {
     background-color: #E7E5DC !important;
 }
+div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
 
 /* Highlighed line number */
 .syntaxhighlighter .line.highlighted .number {
