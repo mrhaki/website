@@ -12,6 +12,7 @@
     #footer_links { width: 312px; }
     #friend_links { width: 396px; }
     #connect_links { width: 312px; }
+    #connect li { width: 130px; height: 95px; }
     #blogger #footer_links { width: 144px; }
     #blogger #friend_links { width: 228px; }
     #blogger #connect_links { width: 144px; margin-right: 24px; }

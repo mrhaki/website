@@ -87,7 +87,7 @@ code, pre { font: 16px/24px Monaco, Consolas, monospace; }
    -------------- */
 #connect ul { list-style: none; margin: 20px 0 40px 0; }
 #connect li, #connect ul p { text-align: center; }
-#connect li { width: 100px; height: 95px; }
+#connect li { width: 80px; height: 95px; }
 #connect ul, #connect li { float: left; }
 img.photo { margin: 5px 15px 5px 0; }
 

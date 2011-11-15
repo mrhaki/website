@@ -15,6 +15,9 @@
 
     #footer_links { width: 60px; }
     #connect_links, #friend_links { width: 144px; }
+    #connect ul { margin: 10px 0; }
+    #connect li { height: 60px; }
+    #connect li p.description { display: none; }
     .Label { width: 228px; }
     .CustomSearch { margin-left: 84px; }
     .Followers { margin-top: 0px; }
