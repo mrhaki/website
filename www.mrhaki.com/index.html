@@ -1,6 +1,6 @@
 ---
 layout: default
-title: mrhaki.com - Java/Groovy Developer
+title: mrhaki.com - Groovy, Grails and Java Developer
 ---
 
 <p>
@@ -18,7 +18,9 @@ The following Groovy code shows this:
 </p>
 
 <p>
-<code>assert ['Hubert', 'Alexander', 'Klein', 'Ikkink'].inject('mr') { c,n -> c += n[0].toLowerCase() } == 'mrhaki'</code>
+<code>assert ['Hubert', 'Alexander', 'Klein', 'Ikkink'].inject('mr') { nickname, name -> <br />
+&nbsp;&nbsp;&nbsp;&nbsp;nickname += name[0].toLowerCase() <br />
+} == 'mrhaki'</code>
 </p>
 
 <p>
