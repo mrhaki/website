@@ -131,6 +131,7 @@ a.home-link { background: url('/images/home.png') no-repeat left center; }
 #comments { font-size: 13px; }
 dd.comment-footer { font-size: 13px; margin-bottom: 20px; }
 dd.comment-body p { margin-bottom: 5px; }
+#navbar.navbar { display: none; }
 
 /* Livestream styles
    ----------------- */
