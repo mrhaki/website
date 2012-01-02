@@ -112,9 +112,9 @@ td.gsc-search-button input.gsc-search-button { margin-left: 8px; }
 .post-footer, .comments { background-color: #f6f6f6; }
 .post-footer { font-size: 13px; line-height: 18px; }
 div.comment-form { width: 100%; max-width: 100%; }
-#blog-item-label-series { list-style: none; }
-#blog-item-label-series li { border-top: 1px solid #d9d9d9; margin: 0; padding: 4px 0; }
-#blog-item-labels { margin-top:1em; }
+#blog-item-label-series, ul.related-posts, ul.related-posts li { list-style: none; }
+#blog-item-label-series li, ul.related-posts li { border-top: 1px solid #d9d9d9; margin: 0; padding: 4px 0; }
+#blog-item-labels, div.related-posts h2 { margin-top:1em; }
 .Label, .Followers { float: left; }
 .Followers { width: 396px; margin-right: 24px; margin-top: -450px; }
 .Label { width: 228px;}
