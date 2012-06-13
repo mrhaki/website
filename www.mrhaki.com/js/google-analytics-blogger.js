@@ -1,7 +1,5 @@
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-11914139-2']);
-_gaq.push(['_setDomainName', 'blogspot.com']);
-_gaq.push(['_setAllowLinker', true]);
 _gaq.push(['_trackPageview']);
 
 (function() {
