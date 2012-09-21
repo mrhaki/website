@@ -126,6 +126,7 @@ a.blog-pager-older-link, a.home-link { padding-left: 20px; }
 a.blog-pager-older-link { background: url('/images/arrow-left.png') no-repeat left center; }
 a.home-link { background: url('/images/home.png') no-repeat left center; }
 #social-sharing-buttons { padding: 0 0 8px 0; }
+.social-button { float: left; }
 #twitter-widget-button, #facebook-like-button { float: left; height: 25px; }
 .jump-link { margin-bottom: 1em; }
 #comments { font-size: 13px; }

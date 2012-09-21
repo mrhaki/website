@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset='utf-8'/>
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/>
 
     <b:include data='blog' name='all-head-content'/>
 
@@ -11,49 +11,114 @@
     <title><data:blog.title/></title>
     <b:else/>
     <title><data:blog.pageName/> - <data:blog.title/></title>
-    <meta property="og:title" expr:content="data:blog.pageName"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:image" content="http://www.mrhaki.com/images/logo-vcf.png"/>
-    <meta property="og:site_name" expr:content="data:blog.title"/>
+    <meta expr:content='data:blog.pageName' property='og:title'/>
+    <meta content='article' property='og:type'/>
+    <meta content='http://www.mrhaki.com/images/logo-vcf.png' property='og:image'/>
+    <meta expr:content='data:blog.title' property='og:site_name'/>
     </b:if>
-    <meta property="fb:admins" content="mrhaki"/>
+    <meta content='mrhaki' property='fb:admins'/>
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" media="all" href="http://www.mrhaki.com/css/resets.css"/>
-    <link rel="stylesheet" media="all" href="http://www.mrhaki.com/css/default.css"/>
-    <link rel="stylesheet" media="all" href="http://www.mrhaki.com/css/13col.css"/>
-    <link rel="stylesheet" media="all" href="http://www.mrhaki.com/css/3col.css"/>
-    <link rel="stylesheet" media="all" href="http://www.mrhaki.com/css/5col.css"/>
-    <link rel="stylesheet" media="all" href="http://www.mrhaki.com/css/iphone4.css"/>
+    <link href='http://www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
+    <link href='http://www.mrhaki.com/css/default.css' media='all' rel='stylesheet'/>
+    <link href='http://www.mrhaki.com/css/13col.css' media='all' rel='stylesheet'/>
+    <link href='http://www.mrhaki.com/css/3col.css' media='all' rel='stylesheet'/>
+    <link href='http://www.mrhaki.com/css/5col.css' media='all' rel='stylesheet'/>
+    <link href='http://www.mrhaki.com/css/iphone4.css' media='all' rel='stylesheet'/>
 
     <link href='http://www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
     <link href='http://www.mrhaki.com/css/shThemeBlackWhite.css' rel='stylesheet' type='text/css'/>
 
-    <b:skin><![CDATA[
+    <b:skin><![CDATA[.label-size-5, .label-size-4, .label-size-3, .label-size-2, .label-size-1 { font-weight: normal; font-size: 100%; opacity: 1.0; }
+.label-size-5 { font-weight: bolder; }
+.label-size-4 { font-weight: bold; }
+.label-size-5, .label-size-4, .label-size-3, .label-size-2, .label-size-1 { font-weight: normal; font-size: 100%; opacity: 1.0; }
+.label-size-5 { font-weight: bolder; }
+.label-size-4 { font-weight: bold; }
+.label-size-5, .label-size-4, .label-size-3, .label-size-2, .label-size-1 { font-weight: normal; font-size: 100%; opacity: 1.0; }
+.label-size-5 { font-weight: bolder; }
+.label-size-4 { font-weight: bold; }
+
 .label-size-5, .label-size-4, .label-size-3, .label-size-2, .label-size-1 { font-weight: normal; font-size: 100%; opacity: 1.0; }
 .label-size-5 { font-weight: bolder; }
 .label-size-4 { font-weight: bold; }
     ]]></b:skin>
 
     <!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
-    <meta name="viewport" content="width=device-width; initial-scale=1"/>
+    <meta content='width=device-width; initial-scale=1' name='viewport'/>
 
     <link href='http://www.mrhaki.com/favicon.png' rel='shortcut icon'/>
     <link href='http://www.mrhaki.com/favicon.png' rel='icon' type='image/png'/>
     <link href='http://www.mrhaki.com/favicon.png' rel='icon' type='image/vnd.microsoft.icon'/>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="http://www.mrhaki.com/js/google-analytics-blogger.js"></script>
-    <script src="http://www.mrhaki.com/related-posts/blogger-extras.js"></script>
-    <script src='http://apis.google.com/js/plusone.js' type='text/javascript'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'/>
+    <script src='http://www.mrhaki.com/js/google-analytics-blogger.js'/>
+    <script src='http://www.mrhaki.com/related-posts/blogger-extras.js'/>
+    <script src='http://apis.google.com/js/plusone.js' type='text/javascript'/>
+
+    <script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var s = document.createElement('script');
+    var t = document.getElementsByTagName('script')[0];
+
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//api.flattr.com/js/0.6/load.js?mode=auto&uid=mrhaki&button=compact&category=text';
+
+    t.parentNode.insertBefore(s, t);
+ })();
+/* ]]> */
+    </script>
 
   </head>
 
 
   <body>
+  <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'>
+<b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar'>
+<b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener(&#39;load&#39;,
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent(&#39;onload&#39;, function(){ object[attribute] = val; });
+      }
+    }
+  &lt;/script&gt;
+&lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+        gapi.load(&quot;iframes-styles-bubble&quot;, function() {
+          if (window.iframes &amp;&amp; iframes.open) {
+            iframes.open(
+                &#39;//draft.blogger.com/navbar.g?targetBlogID\0756671019398434141469\46blogName\75Messages+from+mrhaki\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75SILVER\46layoutType\75LAYOUTS\46searchRoot\75http://mrhaki.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://mrhaki.blogspot.com/\46vt\75-8033786472953828463&#39;,
+                {
+                  container: &quot;navbar-iframe-container&quot;,
+                  id: &quot;navbar-iframe&quot;
+                },
+                {
+                });
+          }
+        });
+      &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+(function() {
+var script = document.createElement(&#39;script&#39;);
+script.type = &#39;text/javascript&#39;;
+script.src = &#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&#39;;
+var head = document.getElementsByTagName(&#39;head&#39;)[0];
+if (head) {
+head.appendChild(script);
+}})();
+&lt;/script&gt;
+</b:includable>
+</b:widget>
+</b:section>
+
 
     <!-- skip links for text browsers -->
     <span id='skiplinks' style='display:none;'>
@@ -62,24 +127,23 @@
     </span>
 
     <header>
-        <div id="header_logo">
-            <a href="http://www.mrhaki.com/">
-                <img src="http://www.mrhaki.com/images/haki-logo-jdriven-64.png" width="64" height="64"
-                    alt="Logo haki" title="Logo haki"/>
+        <div id='header_logo'>
+            <a href='http://www.mrhaki.com/'>
+                <img alt='Logo haki' height='64' src='http://www.mrhaki.com/images/haki-logo-jdriven-64.png' title='Logo haki' width='64'/>
             </a>
         </div>
-        <nav id="headernav">
+        <nav id='headernav'>
             <ul>
-                <li><a href="http://mrhaki.blogspot.com">Blog</a></li>
-                <li><a href="http://github.com/mrhaki">Github</a></li>
-                <li><a href="http://stream.mrhaki.com">Livestream</a></li>
-                <li><a href="http://www.mrhaki.com/about/">About</a></li>
+                <li><a href='http://mrhaki.blogspot.com'>Blog</a></li>
+                <li><a href='http://github.com/mrhaki'>Github</a></li>
+                <li><a href='http://stream.mrhaki.com'>Livestream</a></li>
+                <li><a href='http://www.mrhaki.com/about/'>About</a></li>
             </ul>
         </nav>
 
         <b:section class='main-header' id='main-header' showaddelement='no'>
-            <b:widget id='CustomSearch1' locked='false' title='Search This Blog' type='CustomSearch'>
-                <b:includable id='main'>
+<b:widget id='CustomSearch1' locked='false' title='Search This Blog' type='CustomSearch'>
+<b:includable id='main'>
                     <div class='widget-content'>
                       <div expr:id='data:widget.instanceId + &quot;_form&quot;'>
                         <span class='cse-status'><data:loadingMsg/></span>
@@ -147,19 +211,18 @@
 
                     <b:include name='quickedit'/>
                 </b:includable>
-            </b:widget>
-        </b:section>
+</b:widget>
+</b:section>
 
     </header>
 
-    <div id="body_content">
+    <div id='body_content'>
 
-        <div id="main_content">
+        <div id='main_content'>
 
         <b:section class='main' id='main' showaddelement='no'>
-
-            <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
-                <b:includable id='nextprev'>
+<b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+<b:includable id='nextprev'>
                   <div class='blog-pager' id='blog-pager'>
                     <b:if cond='data:newerPageUrl'>
                       <span id='blog-pager-newer-link'>
@@ -184,7 +247,7 @@
                   </div>
                   <div class='clear'/>
                 </b:includable>
-                <b:includable id='shareButtons' var='post'>
+<b:includable id='shareButtons' var='post'>
                   <a class='share-button sb-email' expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg' target='_blank'>
                     <span class='share-button-link-text'><data:top.emailThisMsg/></span></a>
                   <a class='share-button sb-blog' expr:href='data:post.sharePostUrl + &quot;&amp;target=blog&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=270,width=475\&quot;); return false;&quot;' expr:title='data:top.blogThisMsg' target='_blank'>
@@ -196,7 +259,188 @@
                   <a class='share-button sb-buzz' expr:href='data:post.sharePostUrl + &quot;&amp;target=buzz&quot;' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=415,width=690\&quot;); return false;&quot;' expr:title='data:top.shareToBuzzMsg' target='_blank'>
                     <span class='share-button-link-text'><data:top.shareToBuzzMsg/></span></a>
                 </b:includable>
-                <b:includable id='backlinks' var='post'>
+<b:includable id='threaded_comment_js' var='post'>
+  <script async='async' expr:src='data:post.commentSrc' type='text/javascript'/>
+
+  <script type='text/javascript'>
+    (function() {
+      var items = <data:post.commentJso/>;
+      var msgs = <data:post.commentMsgs/>;
+      var config = <data:post.commentConfig/>;
+
+// <![CDATA[
+      var cursor = null;
+      if (items && items.length > 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        if (entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '<span class="deleted-comment">' + entry.content.$t + '</span>';
+            }
+          }
+        }
+        return entry.content.$t;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data && data.feed && data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author && entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid && pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&v=2&orderby=published&reverse=false&max-results=50';
+          if (cursor) {
+            url += '&published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length < 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              && comment.author.name == config.authorName
+              && comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox && (commentId !== replyParent)) {
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog && window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog && window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]>
+  </script>
+</b:includable>
+<b:includable id='backlinks' var='post'>
                   <a name='links'/><h4><data:post.backlinksLabel/></h4>
                   <b:if cond='data:post.numBacklinks != 0'>
                     <dl class='comments-block' id='comments-block'>
@@ -222,8 +466,26 @@
                     <a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &quot;_backlinks-create-link&quot;' target='_blank'><data:post.createLinkLabel/></a>
                   </p>
                 </b:includable>
+<b:includable id='mobile-main' var='top'>
+    <!-- posts -->
+    <div class='blog-posts hfeed'>
 
-                <b:includable id='post' var='post'>
+      <b:include data='top' name='status-message'/>
+
+      <b:if cond='data:blog.pageType == &quot;index&quot;'>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-index-post'/>
+        </b:loop>
+      <b:else/>
+        <b:loop values='data:posts' var='post'>
+          <b:include data='post' name='mobile-post'/>
+        </b:loop>
+      </b:if>
+    </div>
+
+   <b:include name='mobile-nextprev'/>
+</b:includable>
+<b:includable id='post' var='post'>
                   <div class='post hentry'>
                     <a expr:name='data:post.id'/>
                     <b:if cond='data:post.title'>
@@ -246,20 +508,23 @@
                         <p><data:post.body/></p>
                         <b:if cond='data:post.hasJumpLink'>
                         <div class='jump-link'>
-                        <a expr:href='data:post.url + "#more"'><data:post.jumpText/></a>
+                        <a expr:href='data:post.url + &quot;#more&quot;'><data:post.jumpText/></a>
                         </div>
-                        </b:if >
+                        </b:if>
                         <div style='clear: both;'/>
                     </div>
 
-                    <div id="social-sharing-buttons" class="clearfix">
-                        <div id="twitter-widget-button" class="social-button">
-                            <a class='twitter-share-button' data-url='data:post.link' data-count='horizontal' data-via='mrhaki' expr:data-text='data:post.title' expr:data-url='data:post.url' href='http://twitter.com/share' rel='nofollow'>Tweet</a>
+                    <div class='clearfix' id='social-sharing-buttons'>
+                        <div class='social-button' id='twitter-widget-button'>
+                            <a class='twitter-share-button' data-count='horizontal' data-url='data:post.link' data-via='mrhaki' expr:data-text='data:post.title' expr:data-url='data:post.url' href='http://twitter.com/share' rel='nofollow'>Tweet</a>
                             <script src='http://platform.twitter.com/widgets.js' type='text/javascript'>
                             </script>
                         </div>
-                        <div id="google-plus-widget-button" class="social-button">
-                            <g:plusone size="medium" expr:href="data:post.url"></g:plusone>
+                        <div class='social-button' id='google-plus-widget-button'>
+                            <g:plusone expr:href='data:post.url' size='medium'/>
+                        </div>
+                        <div id="flattr-widget-button" class="social-button">
+                          <a class="FlattrButton" style="display:none;" expr:href='data:post.url' expr:title='data:post.title'>Flattr</a>
                         </div>
                     </div>
 
@@ -316,13 +581,13 @@
                         </div>
 
                         <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                            <div class="related-posts" expr:rel="data:post.id">
+                            <div class='related-posts' expr:rel='data:post.id'>
                                 Loading related posts...
                             </div>
                         </b:if>
 
                         <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                            <div class='widget' id="blog-item-labels">
+                            <div class='widget' id='blog-item-labels'>
                                 <ul id='blog-item-label-series'>
                                 </ul>
                                 <div class='clear'/>
@@ -342,8 +607,18 @@
 
                   </div>
                 </b:includable>
-
-                <b:includable id='status-message'>
+<b:includable id='comment_picker' var='post'>
+  <b:if cond='data:post.commentSource == 1'>
+    <b:include data='post' name='iframe_comments'/>
+  <b:else/>
+    <b:if cond='data:post.showThreadedComments'>
+      <b:include data='post' name='threaded_comments'/>
+    <b:else/>
+      <b:include data='post' name='comments'/>
+    </b:if>
+  </b:if>
+</b:includable>
+<b:includable id='status-message'>
                   <b:if cond='data:navMessage'>
                   <div class='status-msg-wrap'>
                     <div class='status-msg-body'>
@@ -358,8 +633,7 @@
                   <div style='clear: both;'/>
                   </b:if>
                 </b:includable>
-
-                <b:includable id='comment-form' var='post'>
+<b:includable id='comment-form' var='post'>
                   <div class='comment-form'>
                     <a name='comment-form'/>
                     <b:if cond='data:mobile'>
@@ -389,14 +663,52 @@
                     </script>
                   </div>
                 </b:includable>
-                <b:includable id='backlinkDeleteIcon' var='backlink'>
+<b:includable id='threaded_comments' var='post'>
+  <div class='comments' id='comments'>
+    <a name='comments'/>
+    <h4><data:post.commentLabelFull/>:</h4>
+
+    <div class='comments-content'>
+      <b:if cond='data:post.embedCommentForm'>
+        <b:include data='post' name='threaded_comment_js'/>
+      </b:if>
+      <div id='comment-holder'>
+         <data:post.commentHtml/>
+      </div>
+    </div>
+
+    <p class='comment-footer'>
+      <b:if cond='data:post.allowNewComments'>
+        <b:include data='post' name='threaded-comment-form'/>
+      <b:else/>
+        <data:post.noNewCommentsText/>
+      </b:if>
+    </p>
+
+    <b:if cond='data:showCmtPopup'>
+      <div id='comment-popup'>
+        <iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'>
+        </iframe>
+      </div>
+    </b:if>
+
+    <div id='backlinks-container'>
+    <div expr:id='data:widget.instanceId + &quot;_backlinks-container&quot;'>
+       <b:if cond='data:post.showBacklinks'>
+         <b:include data='post' name='backlinks'/>
+       </b:if>
+    </div>
+    </div>
+  </div>
+</b:includable>
+<b:includable id='backlinkDeleteIcon' var='backlink'>
                   <span expr:class='&quot;item-control &quot; + data:backlink.adminClass'>
                     <a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'>
                       <img src='//www.blogger.com/img/icon_delete13.gif'/>
                     </a>
                   </span>
                 </b:includable>
-                <b:includable id='mobile-nextprev'>
+<b:includable id='mobile-nextprev'>
                   <div class='blog-pager' id='blog-pager'>
                     <b:if cond='data:newerPageUrl'>
                       <div class='mobile-link-button' id='blog-pager-newer-link'>
@@ -421,7 +733,106 @@
                   </div>
                   <div class='clear'/>
                 </b:includable>
-                <b:includable id='postQuickEdit' var='post'>
+<b:includable id='mobile-post' var='post'>
+  <div class='date-outer'>
+    <b:if cond='data:post.dateHeader'>
+      <h2 class='date-header'><span><data:post.dateHeader/></span></h2>
+    </b:if>
+    <div class='date-posts'>
+      <div class='post-outer'>
+
+        <div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+          <a expr:name='data:post.id'/>
+          <b:if cond='data:post.title'>
+            <h3 class='post-title entry-title' itemprop='name'>
+              <b:if cond='data:post.link'>
+                <a expr:href='data:post.link'><data:post.title/></a>
+              <b:else/>
+                <b:if cond='data:post.url'>
+                  <b:if cond='data:blog.url != data:post.url'>
+                    <a expr:href='data:post.url'><data:post.title/></a>
+                  <b:else/>
+                    <data:post.title/>
+                  </b:if>
+                <b:else/>
+                  <data:post.title/>
+                </b:if>
+              </b:if>
+            </h3>
+          </b:if>
+
+          <div class='post-header'>
+            <div class='post-header-line-1'/>
+          </div>
+
+          <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+            <data:post.body/>
+            <div style='clear: both;'/> <!-- clear for photos floats -->
+          </div>
+
+          <div class='post-footer'>
+            <div class='post-footer-line post-footer-line-1'>
+              <span class='post-author vcard'>
+                <b:if cond='data:top.showAuthor'>
+                  <b:if cond='data:post.authorProfileUrl'>
+                    <span class='fn'>
+                      <a expr:href='data:post.authorProfileUrl' itemprop='author' rel='author' title='author profile'>
+                        <data:post.author/>
+                      </a>
+                    </span>
+                  <b:else/>
+                    <span class='fn'><data:post.author/></span>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-timestamp'>
+                <b:if cond='data:top.showTimestamp'>
+                  <data:top.timestampLabel/>
+                  <b:if cond='data:post.url'>
+                    <a class='timestamp-link' expr:href='data:post.url' itemprop='url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
+                  </b:if>
+                </b:if>
+              </span>
+
+              <span class='post-comment-link'>
+                <b:if cond='data:blog.pageType != &quot;item&quot;'>
+                  <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+                    <b:if cond='data:post.allowComments'>
+                      <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+                        <data:post.commentLabelFull/>:
+                      </a>
+                    </b:if>
+                  </b:if>
+                </b:if>
+              </span>
+            </div>
+
+            <div class='post-footer-line post-footer-line-2'>
+              <b:if cond='data:top.showMobileShare'>
+                <div class='mobile-link-button goog-inline-block' id='mobile-share-button'>
+                  <a href='javascript:void(0);'><data:shareMsg/></a>
+                </div>
+              </b:if>
+              <b:if cond='data:top.showDummy'>
+                <div class='goog-inline-block dummy-container'><data:post.dummyTag/></div>
+              </b:if>
+            </div>
+
+          </div>
+        </div>
+
+        <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+        <b:if cond='data:blog.pageType == &quot;item&quot;'>
+          <b:include data='post' name='comment_picker'/>
+        </b:if>
+      </div>
+    </div>
+  </div>
+</b:includable>
+<b:includable id='postQuickEdit' var='post'>
                   <b:if cond='data:post.editUrl'>
                     <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
                       <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
@@ -430,7 +841,7 @@
                     </span>
                   </b:if>
                 </b:includable>
-                <b:includable id='main' var='top'>
+<b:includable id='main' var='top'>
                   <!-- posts -->
                   <div class='blog-posts hfeed'>
                     <b:include data='top' name='status-message'/>
@@ -482,7 +893,7 @@
                     </script>
                   </b:if>
                 </b:includable>
-                <b:includable id='commentDeleteIcon' var='comment'>
+<b:includable id='commentDeleteIcon' var='comment'>
                   <span expr:class='&quot;item-control &quot; + data:comment.adminClass'>
                     <b:if cond='data:showCmtPopup'>
                       <div class='goog-toggle-button'>
@@ -495,7 +906,7 @@
                     </b:if>
                   </span>
                 </b:includable>
-                <b:includable id='feedLinks'>
+<b:includable id='feedLinks'>
                   <b:if cond='data:blog.pageType != &quot;item&quot;'> <!-- Blog feed links -->
                     <b:if cond='data:feedLinks'>
                       <div class='blog-feeds'>
@@ -515,7 +926,28 @@
                     </div>
                   </b:if>
                 </b:includable>
-                <b:includable id='mobile-index-post' var='post'>
+<b:includable id='threaded-comment-form' var='post'>
+  <div class='comment-form'>
+    <a name='comment-form'/>
+    <b:if cond='data:mobile'>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/>
+    <b:else/>
+      <p><data:blogCommentMessage/></p>
+      <data:blogTeamBlogMessage/>
+      <a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/>
+      <iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/>
+    </b:if>
+    <data:post.friendConnectJs/>
+    <data:post.cmtfpIframe/>
+    <script type='text/javascript'>
+      BLOG_CMT_createIframe(&#39;<data:post.appRpcRelayPath/>&#39;, &#39;<data:post.communityId/>&#39;);
+    </script>
+  </div>
+</b:includable>
+<b:includable id='mobile-index-post' var='post'>
                   <b:if cond='data:post.dateHeader'>
                     <div class='mobile-index-date'>
                       <div class='date-header'>
@@ -565,7 +997,18 @@
                     </div>
                   </div>
                 </b:includable>
-                <b:includable id='feedLinksBody' var='links'>
+<b:includable id='iframe_comments' var='post'>
+
+  <b:if cond='data:post.allowComments'>
+    <script expr:src='data:post.commentSrc' type='text/javascript'/>
+    <div class='cmt_iframe_holder'/>
+
+    <b:if cond='data:post.embedCommentForm == &quot;false&quot;'>
+      <a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><data:postCommentMsg/></a>
+    </b:if>
+  </b:if>
+</b:includable>
+<b:includable id='feedLinksBody' var='links'>
                   <div class='feed-links'>
                   <data:feedLinksMsg/>
                   <b:loop values='data:links' var='f'>
@@ -573,7 +1016,7 @@
                   </b:loop>
                   </div>
                 </b:includable>
-                <b:includable id='comments' var='post'>
+<b:includable id='comments' var='post'>
                   <div class='comments' id='comments'>
                     <a name='comments'/>
                     <b:if cond='data:post.allowComments'>
@@ -678,52 +1121,52 @@
                     </div>
                   </div>
                 </b:includable>
-            </b:widget>
-        </b:section>
+</b:widget>
+</b:section>
 
         </div>
 
     </div>
 
-    <footer id="blogger" class="clearfix">
+    <footer class='clearfix' id='blogger'>
 
-        <nav id="footer_links">
+        <nav id='footer_links'>
             <h2>Links</h2>
             <ul>
-                <li><a href="http://www.mrhaki.com/">Website</a></li>
-                <li><a href="http://mrhaki.blogspot.com">Blog</a></li>
-                <li><a href="http://github.com/mrhaki">Github</a></li>
-                <li><a href="http://stream.mrhaki.com">Livestream</a></li>
-                <li><a href="http://www.mrhaki.com/about/">About</a></li>
+                <li><a href='http://www.mrhaki.com/'>Website</a></li>
+                <li><a href='http://mrhaki.blogspot.com'>Blog</a></li>
+                <li><a href='http://github.com/mrhaki'>Github</a></li>
+                <li><a href='http://stream.mrhaki.com'>Livestream</a></li>
+                <li><a href='http://www.mrhaki.com/about/'>About</a></li>
             </ul>
         </nav>
-        <nav id="friend_links">
+        <nav id='friend_links'>
             <h2>Link to friends</h2>
             <ul>
-                <li><a href="http://www.etsy.com/shop/BeadsByKC?ref=pr_shop">Beads by KC</a></li>
-                <li><a href="http://www.kralencreatie.nl">KralenCreatie</a></li>
-                <li><a href="http://www.pixeldam.net">Pixeldam</a></li>
-                <li><a href="http://www.x-panded.com/">Xpanded</a></li>
-                <li><a href="http://www.drbob42.com/">DrBob42</a></li>
-                <li><a href="http://www.jdriven.com/"><img src="http://www.mrhaki.com/images/jdriven.png" width="173" height="53" alt="JDriven Logo" title="JDriven Logo"/></a></li>
+                <li><a href='http://www.etsy.com/shop/BeadsByKC?ref=pr_shop'>Beads by KC</a></li>
+                <li><a href='http://www.kralencreatie.nl'>KralenCreatie</a></li>
+                <li><a href='http://www.pixeldam.net'>Pixeldam</a></li>
+                <li><a href='http://www.x-panded.com/'>Xpanded</a></li>
+                <li><a href='http://www.drbob42.com/'>DrBob42</a></li>
+                <li><a href='http://blog.jdriven.com/'>JDriven Blog</a></li>
+                <li><a href='http://www.jdriven.com/'><img alt='JDriven Logo' height='53' src='http://www.mrhaki.com/images/jdriven.png' title='JDriven Logo' width='173'/></a></li>
             </ul>
         </nav>
-        <nav id="connect_links">
+        <nav id='connect_links'>
             <h2>Connect</h2>
             <ul>
-                <li><a href="http://www.twitter.com/mrhaki">Twitter</a></li>
-                <li><a href="http://gplus.to/mrhaki">Google+</a></li>
-                <li><a href="http://nl.linkedin.com/in/mrhaki">LinkedIn</a></li>
-                <li><a href="http://www.facebook.com/mrhaki">Facebook</a></li>
-                <li><a href="http://www.delicious.com/mrhaki">Delicious</a></li>
-                <li><a href="http://www.mrhaki.com/about/mrhaki.vcf">Contact</a></li>
+                <li><a href='http://www.twitter.com/mrhaki'>Twitter</a></li>
+                <li><a href='http://gplus.to/mrhaki'>Google+</a></li>
+                <li><a href='http://nl.linkedin.com/in/mrhaki'>LinkedIn</a></li>
+                <li><a href='http://www.facebook.com/mrhaki'>Facebook</a></li>
+                <li><a href='http://www.delicious.com/mrhaki'>Delicious</a></li>
+                <li><a href='http://www.mrhaki.com/about/mrhaki.vcf'>Contact</a></li>
             </ul>
         </nav>
 
         <b:section class='footer-widgets' id='footer-widgets' preferred='yes'>
-
-            <b:widget id='Label1' locked='false' title='Labels' type='Label'>
-                <b:includable id='main'>
+<b:widget id='Label1' locked='false' title='Labels' type='Label'>
+<b:includable id='main'>
                   <b:if cond='data:title'>
                     <h2><data:title/></h2>
                   </b:if>
@@ -760,120 +1203,115 @@
                     <b:include name='quickedit'/>
                   </div>
                 </b:includable>
-            </b:widget>
+</b:widget>
+<b:widget id='Followers1' locked='false' title='Followers' type='Followers'>
+<b:includable id='main'>
+  <b:if cond='data:title != &quot;&quot;'>
+    <b:if cond='data:codeSnippet != &quot;&quot;'>
+      <h2 class='title'><data:title/></h2>
+    <b:else/>
+      <b:if cond='data:totalFollowerCount != &quot;&quot;'>
+        <h2 class='title'><data:title/> (<data:totalFollowerCount/>)</h2>
+      </b:if>
+    </b:if>  
+  </b:if>
+  <div class='widget-content'>
+    <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
+      <b:if cond='data:codeSnippet != &quot;&quot;'>
+        <div style='margin-right:2px;'>
+          <data:codeSnippet/>
+        </div>
+      <b:else/>
+        <b:if cond='data:totalFollowerCount == &quot;&quot;'>
+          <span class='item-control following-not-admin'>
+            <b><data:failureSnippet/></b>
+          </span>
+          <span class='item-control blog-admin'>
+            <b><data:adminFailureSnippet/></b>
+          </span>
+        <b:else/>
+          <b:if cond='data:followingLinkPresent'>
+            <div class='follow-this profile-link item-control following-follow-this'>
+              <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
+                <data:followThisMessage/>
+              </a>
+            </div>
+            <div class='follow-this profile-link item-control following-stop-following-this'>
+              <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
+                <data:stopFollowingMessage/>
+              </a>
+            </div>
+          </b:if>
+  
+          <div class='followers-grid'>
+            <b:if cond='data:totalFollowerCount == 0'>
+              <div class='profile-link item-control following-follow-this'>
+                <data:emptyFollowersMessage/>
+              </div>
+            </b:if>
+            <!--
+            Relies on the js written out in navbar.gxp
+            -->
+            <b:loop values='data:followers' var='follower'>
+              <div class='follower'>
+                <a expr:href='data:follower.profileUrl' expr:title='data:follower.displayName' rel='nofollow'>
+                <img class='follower-img' expr:alt='data:follower.displayName' expr:height='data:follower.imageHeight' expr:onerror='&quot;this.onerror=null;this.src=\&quot;&quot; + data:anonFollowerImageUrl + &quot;\&quot;;&quot;' expr:onload='&quot;setAttributeOnload(this, \&quot;src\&quot;, \&quot;&quot; + data:follower.imageUrl + &quot;\&quot;)&quot;' expr:width='data:follower.imageWidth' src='http://img1.blogblog.com/img/blank.gif'/>
+                </a>
+              </div>
+            </b:loop>
+            <div class='clear'/>
+          </div>
+  
+          <div class='followers-canvas profile-link'>
+            <data:followersFooterMessage/>
+            <span class='item-control following-not-admin'>
+              <a expr:href='data:followersUri'>
+                <data:viewAllMessage/>
+              </a>
+            </span>
+            <span class='item-control blog-admin'>
+              <a expr:href='data:manageFollowersUri'>
+                <data:manageFollowersMessage/>
+              </a>
+            </span>
+          </div>
+          </b:if>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </div>
+</b:includable>
+</b:widget>
+</b:section>
 
-            <b:widget id='Followers1' locked='false' title='Followers' type='Followers'>
-                <b:includable id='main'>
-                  <b:if cond='data:title != &quot;&quot;'>
-                    <b:if cond='data:codeSnippet != &quot;&quot;'>
-                      <h2 class='title'><data:title/></h2>
-                    <b:else/>
-                      <b:if cond='data:totalFollowerCount != &quot;&quot;'>
-                        <h2 class='title'><data:title/> (<data:totalFollowerCount/>)</h2>
-                      </b:if>
-                    </b:if>
-                  </b:if>
-                  <div class='widget-content'>
-                    <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
-                      <b:if cond='data:codeSnippet != &quot;&quot;'>
-                        <div style='margin-right:2px;'>
-                          <data:codeSnippet/>
-                        </div>
-                      <b:else/>
-                        <b:if cond='data:totalFollowerCount == &quot;&quot;'>
-                          <span class='item-control following-not-admin'>
-                            <b><data:failureSnippet/></b>
-                          </span>
-                          <span class='item-control blog-admin'>
-                            <b><data:adminFailureSnippet/></b>
-                          </span>
-                        <b:else/>
-                          <b:if cond='data:followingLinkPresent'>
-                            <div class='follow-this profile-link item-control following-follow-this'>
-                              <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
-                                <data:followThisMessage/>
-                              </a>
-                            </div>
-                            <div class='follow-this profile-link item-control following-stop-following-this'>
-                              <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
-                                <data:stopFollowingMessage/>
-                              </a>
-                            </div>
-                          </b:if>
+        <div class='clearfix'/>
 
-                          <div class='followers-grid'>
-                            <b:if cond='data:totalFollowerCount == 0'>
-                              <div class='profile-link item-control following-follow-this'>
-                                <data:emptyFollowersMessage/>
-                              </div>
-                            </b:if>
-                            <!--
-                            Relies on the js written out in navbar.gxp
-                            -->
-                            <b:loop values='data:followers' var='follower'>
-                              <div class='follower'>
-                                <a expr:href='data:follower.profileUrl' expr:title='data:follower.displayName' rel='nofollow'>
-                                <img class='follower-img' expr:alt='data:follower.displayName' expr:height='data:follower.imageHeight' expr:onerror='&quot;this.onerror=null;this.src=\&quot;&quot; + data:anonFollowerImageUrl + &quot;\&quot;;&quot;' expr:onload='&quot;setAttributeOnload(this, \&quot;src\&quot;, \&quot;&quot; + data:follower.imageUrl + &quot;\&quot;)&quot;' expr:width='data:follower.imageWidth' src='http://img1.blogblog.com/img/blank.gif'/>
-                                </a>
-                              </div>
-                            </b:loop>
-                            <div class='clear'/>
-                          </div>
-
-                          <div class='followers-canvas profile-link'>
-                            <data:followersFooterMessage/>
-                            <span class='item-control following-not-admin'>
-                              <a expr:href='data:followersUri'>
-                                <data:viewAllMessage/>
-                              </a>
-                            </span>
-                            <span class='item-control blog-admin'>
-                              <a expr:href='data:manageFollowersUri'>
-                                <data:manageFollowersMessage/>
-                              </a>
-                            </span>
-                          </div>
-                          </b:if>
-                      </b:if>
-                    </div>
-                    <b:include name='quickedit'/>
-                  </div>
-                </b:includable>
-            </b:widget>
-
-        </b:section>
-
-        <div class="clearfix"></div>
-
-        <p id="copyright">
+        <p id='copyright'>
             &amp;copy; 2011
-            <a href="http://iam.mrhaki.com">Hubert A. Klein Ikkink</a>
+            <a href='http://iam.mrhaki.com'>Hubert A. Klein Ikkink</a>
         </p>
-        <p id="subscribe-feed">
-            <a href="http://feeds.feedburner.com/mrhaki" rel="alternate"
-                type="application/rss+xml"><img alt="" style="vertical-align:middle;border:0"
-                    src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png"/></a>
-            <a href="http://feeds.feedburner.com/mrhaki" rel="alternate"
-                type="application/rss+xml">Subscribe in a reader</a>
+        <p id='subscribe-feed'>
+            <a href='http://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'><img alt='' src='http://www.feedburner.com/fb/images/pub/feed-icon16x16.png' style='vertical-align:middle;border:0'/></a>
+            <a href='http://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'>Subscribe in a reader</a>
         </p>
 
     </footer>
 
-    <script language="javascript" src="http://www.mrhaki.com/js/syntax/shCore.js"></script>
-    <script language="javascript" src="http://www.mrhaki.com/js/syntax/shLegacy.js"></script>
-    <script language="javascript" src="http://www.mrhaki.com/js/syntax/shBrushJava.js"></script>
-    <script language="javascript" src="http://www.mrhaki.com/js/syntax/shBrushXml.js"></script>
-    <script language="javascript" src="http://www.mrhaki.com/js/syntax/shBrushJScript.js"></script>
-    <script language="javascript" src="http://www.mrhaki.com/js/syntax/shBrushGroovy.js"></script>
-    <script language="javascript" src="http://www.mrhaki.com/js/syntax/shBrushPlain.js"></script>
-    <script language="javascript" src="http://www.mrhaki.com/js/syntax/shBrushBash.js"></script>
-    <script language="javascript" src="http://www.mrhaki.com/js/syntax/shBrushSql.js"></script>
+    <script language='javascript' src='http://www.mrhaki.com/js/syntax/shCore.js'/>
+    <script language='javascript' src='http://www.mrhaki.com/js/syntax/shLegacy.js'/>
+    <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushJava.js'/>
+    <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushXml.js'/>
+    <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushJScript.js'/>
+    <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushGroovy.js'/>
+    <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushPlain.js'/>
+    <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushBash.js'/>
+    <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushSql.js'/>
 
-    <script language="javascript">
+    <script language='javascript'>
     SyntaxHighlighter.config.bloggerMode = true;
     SyntaxHighlighter.config.clipboardSwf = null;
-    SyntaxHighlighter.defaults['first-line'] = 0;
-    SyntaxHighlighter.defaults['auto-links'] = false;
+    SyntaxHighlighter.defaults[&#39;first-line&#39;] = 0;
+    SyntaxHighlighter.defaults[&#39;auto-links&#39;] = false;
     SyntaxHighlighter.all();
     </script>
 
