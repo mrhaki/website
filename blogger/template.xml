@@ -1138,7 +1138,7 @@ head.appendChild(script);
                 <li><a href='http://github.com/mrhaki'>Github</a></li>
                 <li><a href='http://stream.mrhaki.com'>Livestream</a></li>
                 <li><a href='http://www.mrhaki.com/about/'>About</a></li>
-                <li><a href="http://www.packtpub.com/gradle-effective-implementation-guide/book"><img src="http://www.mrhaki.com/images/8109OS_mockupcover_normal.jpg" id="book-cover"/></a></li>
+                <li><a href='http://www.packtpub.com/gradle-effective-implementation-guide/book'><img src='http://www.mrhaki.com/images/8109OS_mockupcover_normal.jpg' id='book-cover'/></a></li>
             </ul>
         </nav>
         <nav id='friend_links'>
