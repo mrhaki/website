@@ -51,9 +51,11 @@ footer a { text-decoration: none; }
 footer a:hover { text-decoration: underline; }
 #footer_links { width: 144px; }
 #friend_links { width: 228px; }
-#friend_links ul { border-bottom: none; }
+#footer_links ul, #friend_links ul { border-bottom: none; }
 #connect_links { width: 228px; margin: 0; }
 footer nav { float: left; margin-right: 24px; }
+#jdriven-logo { width: 144px;}
+#book-cover { width: 144px;}
 #copyright { margin-top: 24px; margin-bottom: 0px; }
 #copyright a { text-decoration: underline; }
 

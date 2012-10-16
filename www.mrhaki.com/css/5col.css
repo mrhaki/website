@@ -13,8 +13,11 @@
         -webkit-text-size-adjust: 100%;
     }
 
-    #footer_links { width: 60px; }
-    #connect_links, #friend_links { width: 144px; }
+    #headernav ul li a { font-size: 89%; }
+
+    #footer_links { width: 144px; }
+    #connect_links { width: 60px; }
+    #friend_links, #jdriven-logo { width: 144px; }
     #connect ul { margin: 10px 0; }
     #connect li { height: 60px; }
     #connect li p.description { display: none; }
