@@ -1214,7 +1214,7 @@ head.appendChild(script);
       <b:if cond='data:totalFollowerCount != &quot;&quot;'>
         <h2 class='title'><data:title/> (<data:totalFollowerCount/>)</h2>
       </b:if>
-    </b:if>  
+    </b:if>
   </b:if>
   <div class='widget-content'>
     <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
@@ -1243,7 +1243,7 @@ head.appendChild(script);
               </a>
             </div>
           </b:if>
-  
+
           <div class='followers-grid'>
             <b:if cond='data:totalFollowerCount == 0'>
               <div class='profile-link item-control following-follow-this'>
@@ -1262,7 +1262,7 @@ head.appendChild(script);
             </b:loop>
             <div class='clear'/>
           </div>
-  
+
           <div class='followers-canvas profile-link'>
             <data:followersFooterMessage/>
             <span class='item-control following-not-admin'>
@@ -1288,7 +1288,7 @@ head.appendChild(script);
         <div class='clearfix'/>
 
         <p id='copyright'>
-            &amp;copy; 2011
+            &amp;copy; 2008 - 2013
             <a href='http://iam.mrhaki.com'>Hubert A. Klein Ikkink</a>
         </p>
         <p id='subscribe-feed'>
