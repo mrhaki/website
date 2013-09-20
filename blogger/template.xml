@@ -588,8 +588,12 @@
                                     </div>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&amp;bc1=F6F6F6&amp;IS2=1&amp;nou=1&amp;bg1=F6F6F6&amp;fc1=333333&amp;lc1=333333&amp;t=mrhakicom-20&amp;o=1&amp;p=8&amp;l=as1&amp;m=amazon&amp;f=ifr&amp;ref=qf_sp_asin_til&amp;asins=1849518106" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+                                        <iframe width="160" height="400" src="https://leanpub.com/groovy-goodness-notebook/embed" frameborder="0" allowtransparency="true"></iframe>
                                     </b:if>
+
+                                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                                        <br />
+<SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?rt=tf_mfw&amp;ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822/US/mrhakicom-20/8001/0ea20d9d-76f0-42d8-a11b-650b20cc38f8"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?rt=tf_mfw&amp;ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fmrhakicom-20%2F8001%2F0ea20d9d-76f0-42d8-a11b-650b20cc38f8&amp;Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>                                    </b:if>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
                                         <div class='widget' id='blog-item-labels'>
@@ -1150,6 +1154,7 @@
                     <li><a href='http://github.com/mrhaki'>Github</a></li>
                     <li><a href='http://stream.mrhaki.com'>Livestream</a></li>
                     <li><a href='http://www.mrhaki.com/about/'>About</a></li>
+                    <li><a href="http://www.leanpub.com/groovy-goodness-notebook"><img src="http://titlepages.leanpub.com/groovy-goodness-notebook/small" /></a></li>
                     <li><a href="http://www.amazon.com/gp/product/1849518106/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1849518106&amp;linkCode=as2&amp;tag=mrhakicom-20"><img border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&amp;ASIN=1849518106&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=mrhakicom-20" /></a><img src="http://www.assoc-amazon.com/e/ir?t=mrhakicom-20&amp;l=as2&amp;o=1&amp;a=1849518106" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
                     </li>
                 </ul>
