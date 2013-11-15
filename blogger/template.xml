@@ -17,6 +17,11 @@
             <meta expr:content='data:blog.title' property='og:site_name'/>
         </b:if>
         <meta content='mrhaki' property='fb:admins'/>
+        <meta name="twitter:site" content="@mrhaki" />
+        <meta name="twitter:creator" content="@mrhaki" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:description" content="A blog about Groovy, Grails, Gradle and other cool developer subjects."/>
+        <meta name="twitter:title" expr:content='data:blog.title'/> 
 
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
