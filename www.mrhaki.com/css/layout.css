@@ -3,7 +3,6 @@
 	width: 744px; 
 	text-align: left; /* Reset text-align after body text-align: center */
 	position: relative;
-	background-image: url(file:///D|/home/hki/data/mrhaki.com/website/images/background-line.gif);
 }
 #leftcontent {
 	width: 186px; /* boxmodel: 186 - 1 (border) = 185 */;

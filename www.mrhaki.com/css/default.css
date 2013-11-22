@@ -17,7 +17,7 @@
     60px  144px  228px  312px  396px  480px  564px  648px	*/
 
 body {
-   background: #f6f6f6 url('/images/bg_lightgrey.png');
+   background: #fff;
    padding: 20px 60px 0;
    margin: 0px auto;
    width: 648px;
@@ -32,7 +32,7 @@ a { color: #333; text-decoration-style: dashed; }
 
 li { margin-left: 20px; }
 
-#body_content { background: #fff; padding: 20px; border: 1px solid #ededed; }
+#body_content { background: #fff; padding: 0px; }
 
 header { position: relative; height: 100px; }
 #header_logo { position: absolute; top: 0; left: 0; }
@@ -44,7 +44,7 @@ header { position: relative; height: 100px; }
 #headernav li a:hover { border-bottom: 3px solid #aaa; padding-bottom: 3px; }
 
 footer { margin-top: 8px; font-size: 13px; line-height: 18px; }
-footer h3, footer h2 { font-weight: bold; font-size: 16px; margin: 8px 0 0 0; text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px; }
+footer h3, footer h2 { font-weight: normal; letter-spacing: 95%; font-size: 16px; margin: 8px 0 0 0; text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px; }
 footer ul { list-style: none; border-bottom: 1px solid #d9d9d9; }
 footer li { border-top: 1px solid #d9d9d9; margin: 0; padding: 4px 0; }
 footer a { text-decoration: none; }
@@ -63,10 +63,10 @@ footer nav { float: left; margin-right: 24px; }
     ------------------	*/
 
 .gigantic { font-size: 82px; line-height: 78px; letter-spacing: -1px; }
-.huge, h1 { font-size: 44px; line-height: 52px; letter-spacing: -1px; }
-.large, h2 { font-size: 26px; line-height: 36px; margin-bottom: 16px; }
-.big, h3 { font-size: 20px; line-height: 26px; }
-.normal, body { font: 16px/24px Helvetica, Arial, sans-serif; }
+.huge, h1 { font-weight: lighter; font-size: 44px; line-height: 52px; letter-spacing: -1px; font-family: "Helvetica Neue UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.large, h2 { font-weight: lighter; font-size: 26px; line-height: 36px; letter-spacing: -1px; margin-bottom: 16px; font-family: "Helvetica Neue UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.big, h3 { font-weight: lighter; font-size: 20px; line-height: 26px; font-family: "Helvetica Neue UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.normal, body { font: 16px/26px Helvetica, Arial, sans-serif; }
 .small { font-size: 13px; line-height: 18px; }
 code, pre { font: 16px/24px Monaco, Consolas, monospace; }
 
@@ -101,7 +101,7 @@ border: 3px solid #d97802; }
 
 /* Blog styles
    ----------- */
-#activities h2.date-header, .blog-posts h2.date-header { font-size: 16px; line-height: 18px; margin-bottom: 8px; color: #d4d0c8; }
+#activities h2.date-header, .blog-posts h2.date-header { font-weight: normal; font-size: 16px; line-height: 18px; margin-bottom: 8px; color: #d4d0c8; font-family: "Helvetica Neue UltraLight", Helvetica, "Arial Narrow", Arial, sans-serif; }
 h3.post-title { font-size: 26px; margin-bottom: 16px; }
 h3.post-title a { text-decoration: none; }
 h3.post-title a:hover { text-decoration: underline; }
@@ -111,7 +111,6 @@ td.gsc-input input.gsc-input { font-size: 16px; border-color: #d9d9d9; backgroun
 .CustomSearch { margin-left: 312px; padding-top: 40px; text-align: right; }
 td.gsc-search-button input.gsc-search-button { margin-left: 8px; }
 .post.hentry { margin-bottom: 40px; }
-.post-footer, .comments { background-color: #f6f6f6; }
 .post-footer { font-size: 13px; line-height: 18px; }
 div.comment-form { width: 100%; max-width: 100%; }
 #blog-item-label-series, ul.related-posts, ul.related-posts li { list-style: none; }
