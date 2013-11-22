@@ -1,5 +1,6 @@
-.syntaxhighlighter {
-    background-color: #E7E5DC !important;
+.syntaxhighlighter {    
+    /* background-color: #E7E5DC !important; */
+    
 }
 div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
 
@@ -16,13 +17,13 @@ div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
 }
 
 /* Gutter line numbers */
-.syntaxhighlighter .line .number {
-    color: #5C5C5C !important;
+.syntaxhighlighter .line .number {    
+    color: rgb(128, 128, 128) !important;
 }
 
 /* Add border to the lines */
-.syntaxhighlighter .line .content {
-    border-left: 3px solid rgb(119, 119, 119) !important;
+.syntaxhighlighter .line .content {    
+    border-left: 1px solid rgb(128, 128, 128) !important;
     color: #000 !important;
 }
 
@@ -36,8 +37,8 @@ div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
 }
 
 /* Second line */
-.syntaxhighlighter .line.alt2 .content {
-    background-color: #F8F8F8 !important;
+.syntaxhighlighter .line.alt2 .content {    
+    /* background-color: #F8F8F8 !important; */
 }
 
 .syntaxhighlighter .line .content .block {
@@ -54,9 +55,9 @@ div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
     border: 0 !important;
 }
 
-.syntaxhighlighter .toolbar {
-    background-color: #F8F8F8 !important;
-    border: #E7E5DC solid 1px !important;
+.syntaxhighlighter .toolbar {    
+    /* background-color: #F8F8F8 !important; */
+    /* border: #E7E5DC solid 1px !important; */
 }
 
 .syntaxhighlighter .toolbar a {
