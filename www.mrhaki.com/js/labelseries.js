@@ -7,8 +7,8 @@ if (/^Groovy Goodness:.*$/.test(blogitemTitle)) {
     blogitemLabel = "Gradle:Goodness";
 } else if (/^Grails Goodness:.*$/.test(blogitemTitle)) {
     blogitemLabel = "Grails:Goodness";
-} else if (/^Awesome Asciidoc:.*$/.test(blogitemTitle)) {
-    blogitemLabel = "Awesome:Asciidoc";
+} else if (/^Awesome Asciidoctor:.*$/.test(blogitemTitle)) {
+    blogitemLabel = "Awesome:Asciidoctor";
 } else if (/^Spocklight:.*$/.test(blogitemTitle)) {
     blogitemLabel = "Spocklight";
 }
