@@ -68,7 +68,19 @@ footer nav { float: left; margin-right: 24px; }
 .big, h3 { font-weight: lighter; font-size: 20px; line-height: 26px; font-family: "Helvetica Neue UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 .normal, body { font: 16px/26px Helvetica, Arial, sans-serif; }
 .small { font-size: 13px; line-height: 18px; }
-code, pre { font: 16px/24px Monaco, Consolas, monospace; }
+code, pre { font: 16px/24px Menlo, Monaco, "Liberation Mono", Consolas, monospace; }
+code { font-weight: normal; color: #3b3b3b; }
+
+*:not(pre) > code {
+    font-size: 0.9375em;
+    padding: 1px 4px;
+    white-space: nowrap;
+    background-color: #eff1f1;
+    border: 1px solid #d4d9d9;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    text-shadow: none;
+}
 
 /* Clear fix */
 .clearfix:after {
