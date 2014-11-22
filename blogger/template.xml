@@ -1180,7 +1180,6 @@ head.appendChild(script);
                 <ul>
                     <li><a href='http://www.facebook.com/droomkoekjes'>Droomkoekjes</a></li>
                     <li><a href='http://www.etsy.com/shop/BeadsByKC?ref=pr_shop'>Beads by KC</a></li>
-                    <li><a href='http://www.kralencreatie.nl'>KralenCreatie</a></li>
                     <li><a href='http://blog.jdriven.com/'>JDriven Blog</a></li>
                     <li><a href='http://www.pixeldam.net'>Pixeldam</a></li>
                     <li><a href='http://www.x-panded.com/'>Xpanded</a></li>
@@ -1324,7 +1323,7 @@ head.appendChild(script);
             <div class='clearfix'/>
 
             <p id='copyright'>
-                &amp;copy; 2008-2013
+                &amp;copy; 2008-2014
                 <a href='http://iam.mrhaki.com'>Hubert A. Klein Ikkink</a>
             </p>
             <p id='subscribe-feed'>
@@ -1344,6 +1343,8 @@ head.appendChild(script);
         <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushBash.js'/>
         <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushSql.js'/>
         <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushCss.js'/>
+        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushAsciidoc.js'/>
+
 
         <script language='javascript'>
             SyntaxHighlighter.config.bloggerMode = true;

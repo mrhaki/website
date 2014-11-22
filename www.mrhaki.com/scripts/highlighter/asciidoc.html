@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Test Asciidoc syntax</title>
+
+<script language='javascript' src='shCore.js'></script>
+<script language='javascript' src='shLegacy.js'></script>
+<script language='javascript' src='shBrushJava.js'></script>
+<script language='javascript' src='shBrushAsciidoc.js'></script>
+
+
+<link rel="stylesheet" href="SyntaxHighlighter.css">
+<link href='../../css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
+<link href='../../css/shThemeBlackWhite.css' rel='stylesheet' type='text/css'/>
+
+
+</head>
+<body>
+<h1>Asciidoc</h1>
+
+<pre class="brush:adoc;">
+= Sample title
+
+:icons: font
+
+// With a comment
+//With a comment
+
+== Level 2
+
+.Title list
+* And a list
+* with items
+
+.Table with relative column widths (1,3)
+[cols="1,3"]
+|===
+| Name | Description
+
+| Asciidoctor
+| Awesome way to write documentation
+
+|=== 
+
+////
+Simple
+////
+
+NOTE: pay attention.
+
+
+[TIP]
+====
+Simple tip
+====
+
+[source,groovy]
+----
+package test;
+----
+
+include::{sourcedir}/test
+
+
+icon:tags[role="blue"] ruby, asciidoctor
+
+</pre>
+
+<h1>Java</h1>
+
+<pre class="brush:java;">
+package test;
+
+// Simple test class.
+class TestJavaWorks {
+    
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+    }
+}
+</pre>
+
+<script>
+SyntaxHighlighter.config.bloggerMode = true;
+SyntaxHighlighter.config.clipboardSwf = null;
+SyntaxHighlighter.defaults["first-line"] = 0;
+SyntaxHighlighter.defaults["auto-links"] = false;
+SyntaxHighlighter.all();
+</script
+
+</body>
+</html>
