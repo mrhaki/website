@@ -49,4 +49,4 @@ SyntaxHighlighter.brushes.Asciidoc = function()
 };
 
 SyntaxHighlighter.brushes.Asciidoc.prototype = new SyntaxHighlighter.Highlighter();
-SyntaxHighlighter.brushes.Asciidoc.aliases = ['asciidoc', 'adoc'];
+SyntaxHighlighter.brushes.Asciidoc.aliases = ['asciidoc', 'adoc', 'asciidoctor'];
