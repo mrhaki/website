@@ -66,7 +66,7 @@ footer nav { float: left; margin-right: 24px; }
 .huge, h1 { font-weight: lighter; font-size: 44px; line-height: 52px; letter-spacing: -1px; font-family: "Helvetica Neue UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 .large, h2 { font-weight: lighter; font-size: 26px; line-height: 36px; letter-spacing: -1px; margin-bottom: 16px; font-family: "Helvetica Neue UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 .big, h3 { font-weight: lighter; font-size: 20px; line-height: 26px; font-family: "Helvetica Neue UltraLight", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-.normal, body { font: 16px/26px Helvetica, Arial, sans-serif; }
+.normal, body { font: 16px/28px "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; }
 .small { font-size: 13px; line-height: 18px; }
 code, pre { font: 16px/24px Menlo, Monaco, "Liberation Mono", Consolas, monospace; }
 code { font-weight: normal; color: #3b3b3b; }
