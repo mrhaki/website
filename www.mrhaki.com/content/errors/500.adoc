@@ -1,0 +1,9 @@
+= An error has occurred
+:jbake-type: page
+
+== An error has occurred
+
+Somehow an error has occurred on the site and the page you have requested cannot be shown.
+
+You can try to request the page again
+or you can go to the +++<a href="/">home page</a>+++ and browse the site from there.

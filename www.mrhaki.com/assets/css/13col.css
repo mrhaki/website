@@ -1,0 +1,22 @@
+/*	13-column layout
+    60 px columns, 24 px gutters, 72 px margins, 1212 px total (extra space for scrollbars)
+    ---------------------------------------------------------------------------------------
+    1     2      3      4      5      6      7      8      9      10     11     12     13
+    60px  144px  228px  312px  396px  480px  564px  648px  732px  816px  900px  984px  1068px	*/
+
+@media only screen and (min-width: 1212px) {
+
+    body { padding: 26px 72px 0; width: 1068px; }
+
+    .CustomSearch { margin-left: 732px; }
+    #footer_links { width: 312px; }
+    #friend_links { width: 396px; }
+    #connect_links { width: 312px; }
+    ul.connect li { width: 130px; height: 95px; }
+    #blogger #footer_links { width: 144px; }
+    #blogger #friend_links { width: 228px; }
+    #blogger #connect_links { width: 144px; margin-right: 24px; }
+    .Label { margin-right: 24px; width: 228px; }
+    .Followers { margin-right: 0px; margin-top: 0px; width: 228px;  }
+
+}

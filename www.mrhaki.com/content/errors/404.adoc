@@ -1,0 +1,9 @@
+= Page cannot be found
+:jbake-type: page
+
+== Page cannot be found
+
+The page you have requested cannot be found.
+
+You can go to the +++<a href="/">home page</a>+++ and try to find the page you are looking for. +
+Otherwise you can try the links at the bottom or the top of this page.
