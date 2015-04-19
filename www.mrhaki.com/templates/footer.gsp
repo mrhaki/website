@@ -48,6 +48,8 @@
         <p id="copyright">
             &copy; 2008 - ${new Date().format('yyyy')}
             <a href="http://www.mrhaki.com">Hubert A. Klein Ikkink</a>
+            | 
+            Baked with <a href="http://jbake.org">JBake ${version}</a>
         </p>
     </footer>
 
