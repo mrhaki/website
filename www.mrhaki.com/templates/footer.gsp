@@ -7,11 +7,6 @@
                 <li><a href="http://github.com/mrhaki">Github</a></li>
                 <li><a href="http://stream.mrhaki.com">Livestream</a></li>
                 <li><a href="/about/">About</a></li>
-                <li><a href="http://www.leanpub.com/groovy-goodness-notebook"><img src="http://titlepages.leanpub.com/groovy-goodness-notebook/small" /></a></li>
-                <li><a href="http://www.leanpub.com/grails-goodness-notebook"><img src="http://titlepages.leanpub.com/grails-goodness-notebook/small"/></a></li>
-                <li><a href="http://www.leanpub.com/gradle-goodness-notebook"><img src="http://titlepages.leanpub.com/gradle-goodness-notebook/small"/></a></li>
-                <li><a href='http://www.leanpub.com/spockframeworknotebook'><img src='http://titlepages.leanpub.com/spockframeworknotebook/small'/></a></li>
-                <li><a href="http://www.amazon.com/gp/product/1849518106/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1849518106&amp;linkCode=as2&amp;tag=mrhakicom-20"><img border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&amp;ASIN=1849518106&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=mrhakicom-20" /></a><img src="http://www.assoc-amazon.com/e/ir?t=mrhakicom-20&amp;l=as2&amp;o=1&amp;a=1849518106" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></li>
             </ul>
         </nav>
         <nav id="friend_links">
