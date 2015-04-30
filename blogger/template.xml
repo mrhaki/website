@@ -93,7 +93,7 @@
         gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
           if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
             gapi.iframes.getContext().openChild({
-                url: &#39;https://www.blogger.com/navbar.g?targetBlogID\0756671019398434141469\46blogName\75Messages+from+mrhaki\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75SILVER\46layoutType\75LAYOUTS\46searchRoot\75http://mrhaki.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://mrhaki.blogspot.com/\46blogFollowUrl\75https://plus.google.com/116304108087638220732\46vt\75-8033786472953828463&#39;,
+                url: &#39;https://draft.blogger.com/navbar.g?targetBlogID\0756671019398434141469\46blogName\75Messages+from+mrhaki\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75SILVER\46layoutType\75LAYOUTS\46searchRoot\75http://mrhaki.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://mrhaki.blogspot.com/\46blogFollowUrl\75https://plus.google.com/116304108087638220732\46vt\75-8033786472953828463&#39;,
                 where: document.getElementById(&quot;navbar-iframe-container&quot;),
                 id: &quot;navbar-iframe&quot;
             });
@@ -129,8 +129,8 @@ head.appendChild(script);
             <nav id='headernav'>
                 <ul>
                     <li><a href='http://mrhaki.blogspot.com'>Blog</a></li>
+                    <li><a href='http://www.mrhaki.com/books.html'>Books</a></li>
                     <li><a href='http://github.com/mrhaki'>Github</a></li>
-                    <li><a href='http://stream.mrhaki.com'>Livestream</a></li>
                     <li><a href='http://www.mrhaki.com/about/'>About</a></li>
                 </ul>
             </nav>
@@ -1171,15 +1171,10 @@ head.appendChild(script);
                 <ul>
                     <li><a href='http://www.mrhaki.com/'>Website</a></li>
                     <li><a href='http://mrhaki.blogspot.com'>Blog</a></li>
+                    <li><a href='http://www.mrhaki.com/books.html'>Books</a></li>
                     <li><a href='http://github.com/mrhaki'>Github</a></li>
                     <li><a href='http://stream.mrhaki.com'>Livestream</a></li>
                     <li><a href='http://www.mrhaki.com/about/'>About</a></li>
-                    <li><a href='http://www.leanpub.com/groovy-goodness-notebook'><img src='http://titlepages.leanpub.com/groovy-goodness-notebook/small'/></a></li>
-                    <li><a href='http://www.leanpub.com/grails-goodness-notebook'><img src='http://titlepages.leanpub.com/grails-goodness-notebook/small'/></a></li>
-                    <li><a href='http://www.leanpub.com/gradle-goodness-notebook'><img src='http://titlepages.leanpub.com/gradle-goodness-notebook/small'/></a></li>
-                    <li><a href='http://www.leanpub.com/spockframeworknotebook'><img src='http://titlepages.leanpub.com/spockframeworknotebook/small'/></a></li>
-                    <li><a href='http://www.amazon.com/gp/product/1849518106/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1849518106&amp;linkCode=as2&amp;tag=mrhakicom-20'><img border='0' src='http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&amp;ASIN=1849518106&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=mrhakicom-20'/></a><img alt='' border='0' height='1' src='http://www.assoc-amazon.com/e/ir?t=mrhakicom-20&amp;l=as2&amp;o=1&amp;a=1849518106' style='border:none !important; margin:0px !important;' width='1'/>
-                    </li>
                 </ul>
             </nav>
             <nav id='friend_links'>
@@ -1249,14 +1244,8 @@ head.appendChild(script);
               </b:widget>
               <b:widget id='Followers1' locked='false' title='Followers' type='Followers'>
                 <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <b:if cond='data:codeSnippet != &quot;&quot;'>
-      <h2 class='title'><data:title/></h2>
-    <b:else/>
-      <b:if cond='data:totalFollowerCount != &quot;&quot;'>
-        <h2 class='title'><data:title/> (<data:totalFollowerCount/>)</h2>
-      </b:if>
-    </b:if>  
+  <b:if cond='data:title != &quot;&quot; and data:codeSnippet != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
   </b:if>
   <div class='widget-content'>
     <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
@@ -1264,61 +1253,6 @@ head.appendChild(script);
         <div style='margin-right:2px;'>
           <data:codeSnippet/>
         </div>
-      <b:else/>
-        <b:if cond='data:totalFollowerCount == &quot;&quot;'>
-          <span class='item-control following-not-admin'>
-            <b><data:failureSnippet/></b>
-          </span>
-          <span class='item-control blog-admin'>
-            <b><data:adminFailureSnippet/></b>
-          </span>
-        <b:else/>
-          <b:if cond='data:followingLinkPresent'>
-            <div class='follow-this profile-link item-control following-follow-this'>
-              <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
-                <data:followThisMessage/>
-              </a>
-            </div>
-            <div class='follow-this profile-link item-control following-stop-following-this'>
-              <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
-                <data:stopFollowingMessage/>
-              </a>
-            </div>
-          </b:if>
-  
-          <div class='followers-grid'>
-            <b:if cond='data:totalFollowerCount == 0'>
-              <div class='profile-link item-control following-follow-this'>
-                <data:emptyFollowersMessage/>
-              </div>
-            </b:if>
-            <!--
-            Relies on the js written out in navbar.gxp
-            -->
-            <b:loop values='data:followers' var='follower'>
-              <div class='follower'>
-                <a expr:href='data:follower.profileUrl' expr:title='data:follower.displayName' rel='nofollow'>
-                <img class='follower-img' expr:alt='data:follower.displayName' expr:height='data:follower.imageHeight' expr:onerror='&quot;this.onerror=null;this.src=\&quot;&quot; + data:anonFollowerImageUrl + &quot;\&quot;;&quot;' expr:onload='&quot;setAttributeOnload(this, \&quot;src\&quot;, \&quot;&quot; + data:follower.imageUrl + &quot;\&quot;)&quot;' expr:width='data:follower.imageWidth' src='http://img1.blogblog.com/img/blank.gif'/>
-                </a>
-              </div>
-            </b:loop>
-            <div class='clear'/>
-          </div>
-  
-          <div class='followers-canvas profile-link'>
-            <data:followersFooterMessage/>
-            <span class='item-control following-not-admin'>
-              <a expr:href='data:followersUri'>
-                <data:viewAllMessage/>
-              </a>
-            </span>
-            <span class='item-control blog-admin'>
-              <a expr:href='data:manageFollowersUri'>
-                <data:manageFollowersMessage/>
-              </a>
-            </span>
-          </div>
-          </b:if>
       </b:if>
     </div>
     <b:include name='quickedit'/>
