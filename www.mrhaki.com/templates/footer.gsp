@@ -3,6 +3,7 @@
             <h3>Links</h3>
             <ul>
                 <li><a href="http://mrhaki.blogspot.com/ncr">Blog</a></li>
+                <li><a href="http://www.mrhaki.com/books.html">Books</a></li>
                 <li><a href="http://github.com/mrhaki">Github</a></li>
                 <li><a href="http://stream.mrhaki.com">Livestream</a></li>
                 <li><a href="/about/">About</a></li>
