@@ -93,7 +93,7 @@
         gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
           if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
             gapi.iframes.getContext().openChild({
-                url: &#39;https://draft.blogger.com/navbar.g?targetBlogID\0756671019398434141469\46blogName\75Messages+from+mrhaki\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75SILVER\46layoutType\75LAYOUTS\46searchRoot\75http://mrhaki.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://mrhaki.blogspot.com/\46blogFollowUrl\75https://plus.google.com/116304108087638220732\46vt\75-8033786472953828463&#39;,
+                url: &#39;https://draft.blogger.com/navbar.g?targetBlogID\0756671019398434141469\46blogName\75Messages+from+mrhaki\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75SILVER\46layoutType\75LAYOUTS\46searchRoot\75//mrhaki.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://mrhaki.blogspot.com/\46blogFollowUrl\75https://plus.google.com/116304108087638220732\46vt\0751937495586192183779&#39;,
                 where: document.getElementById(&quot;navbar-iframe-container&quot;),
                 id: &quot;navbar-iframe&quot;
             });
@@ -228,10 +228,12 @@ head.appendChild(script);
                                     </b:if>
                                     <b:include data='post' name='post'/>
                                     <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
-                                        <b:include data='post' name='comments'/>
+                                        
+                                        <div class='cmt_iframe_holder' expr:data-href='data:post.canonicalUrl' expr:data-viewtype='data:post.viewType'/>
                                     </b:if>
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <b:include data='post' name='comments'/>
+                                        
+                                        <div class='cmt_iframe_holder' expr:data-href='data:post.canonicalUrl' expr:data-viewtype='data:post.viewType'/>
                                     </b:if>
                                     <b:if cond='data:post.includeAd'>
                                         <b:if cond='data:post.isFirstPost'>
@@ -1264,8 +1266,8 @@ head.appendChild(script);
             <div class='clearfix'/>
 
             <p id='copyright'>
-                &amp;copy; 2008-2014
-                <a href='http://iam.mrhaki.com'>Hubert A. Klein Ikkink</a>
+                &amp;copy; 2008-2015
+                <a href='http://www.mrhaki.com'>Hubert A. Klein Ikkink</a>
             </p>
             <p id='subscribe-feed'>
                 <a href='http://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'><img alt='' src='http://www.feedburner.com/fb/images/pub/feed-icon16x16.png' style='vertical-align:middle;border:0'/></a>
