@@ -21,7 +21,7 @@
         <meta content='@mrhaki' name='twitter:creator'/>
         <meta content='summary' name='twitter:card'/>
         <meta content='A blog about Groovy, Grails, Gradle and other cool developer subjects.' name='twitter:description'/>
-        <meta expr:content='data:blog.title' name='twitter:title'/> 
+        <meta expr:content='data:blog.title' name='twitter:title'/>
 
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -228,11 +228,11 @@ head.appendChild(script);
                                     </b:if>
                                     <b:include data='post' name='post'/>
                                     <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
-                                        
+
                                         <div class='cmt_iframe_holder' expr:data-href='data:post.canonicalUrl' expr:data-viewtype='data:post.viewType'/>
                                     </b:if>
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        
+
                                         <div class='cmt_iframe_holder' expr:data-href='data:post.canonicalUrl' expr:data-viewtype='data:post.viewType'/>
                                     </b:if>
                                     <b:if cond='data:post.includeAd'>
@@ -850,10 +850,6 @@ head.appendChild(script);
                                             </tr>
                                         </table>
                                     </b:if>
-
-                                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <br/>
-<SCRIPT charset='utf-8' src='http://ws.amazon.com/widgets/q?rt=tf_mfw&amp;ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822/US/mrhakicom-20/8001/0ea20d9d-76f0-42d8-a11b-650b20cc38f8' type='text/javascript'> </SCRIPT> <NOSCRIPT><A HREF='http://ws.amazon.com/widgets/q?rt=tf_mfw&amp;ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fmrhakicom-20%2F8001%2F0ea20d9d-76f0-42d8-a11b-650b20cc38f8&amp;Operation=NoScript'>Amazon.com Widgets</A></NOSCRIPT>                                    </b:if>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
                                         <div class='widget' id='blog-item-labels'>
