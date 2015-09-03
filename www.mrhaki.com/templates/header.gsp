@@ -11,6 +11,8 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css">
+
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/resets.css"/>
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/default.css"/>
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/13col.css"/>
@@ -44,6 +46,3 @@
             </ul>
         </nav>
     </header>
-
-
-
