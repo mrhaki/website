@@ -14,7 +14,7 @@ The following Groovy code shows this:
 [source,role=code-homepage]
 ----
 assert ['Hubert', 'Alexander', 'Klein', 'Ikkink'].inject('mr') { nickname, name -> 
-    nickname += name[0].toLowerCase() 
+    nickname + name[0].toLowerCase() 
 } == 'mrhaki'
 ----
 
