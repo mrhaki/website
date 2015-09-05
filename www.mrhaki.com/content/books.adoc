@@ -5,6 +5,14 @@
 
 The last couple of years I've worked on different books. On this page is a list of all the books I have published. Some of the books are published on http://www.leanpub.com[Leanpub]. You can directory go to my https://leanpub.com/u/mrhaki[author page].
 
+== Gradle Dependency Management
+
+pass:[<a href="http://www.amazon.com/gp/product/1784392782/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1784392782&linkCode=as2&tag=mrhakicom-20&linkId=6P6KJVCF4XCQQ7WW"><img border="0" align="left" class="photo" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1784392782&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mrhakicom-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=mrhakicom-20&l=as2&o=1&a=1784392782" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />] In 2015 I wrote a book specifically about dependency management in Gradle for Java:
+pass:[<a href="http://www.amazon.com/gp/product/1784392782/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1784392782&linkCode=as2&tag=mrhakicom-20&linkId=EEJMARHQS2NDBWZP">Gradle Dependency Management</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=mrhakicom-20&l=as2&o=1&a=1784392782" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />].
+Gradle Dependency Management defines dependencies for your Java-based project and customizes how they are resolved. You will learn how to configure the publication of artifacts to different repositories. Packed with plenty of code samples, you will understand how to define the repositories that contain dependencies. Following this, you will learn how to customize the dependency resolution process in Gradle. +
+If you work on Java projects, use Gradle as a build automation tool, and you use dependencies in your project, this is the book for you. Additionally, if you want to deploy your project artifacts as dependencies for other developers using Gradle, you've found the right book.
+
+
 == Gradle Effective Implementation Guide
 
 pass:[<a href="http://www.amazon.com/gp/product/1849518106/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1849518106&amp;linkCode=as2&amp;tag=mrhakicom-20"><img align="left" class="photo" border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&amp;ASIN=1849518106&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=mrhakicom-20" /></a><img src="http://www.assoc-amazon.com/e/ir?t=mrhakicom-20&amp;l=as2&amp;o=1&amp;a=1849518106" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />]In 2012 I have written the book
