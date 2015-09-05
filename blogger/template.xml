@@ -27,6 +27,8 @@
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css"/>
+
         <link href='http://www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
         <link href='http://www.mrhaki.com/css/default.css' media='all' rel='stylesheet'/>
         <link href='http://www.mrhaki.com/css/13col.css' media='all' rel='stylesheet'/>
