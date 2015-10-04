@@ -27,7 +27,7 @@
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css"/>
+      <link href='//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css' rel='stylesheet'/>
 
         <link href='http://www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
         <link href='http://www.mrhaki.com/css/default.css' media='all' rel='stylesheet'/>
@@ -95,7 +95,7 @@
         gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
           if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
             gapi.iframes.getContext().openChild({
-                url: &#39;https://draft.blogger.com/navbar.g?targetBlogID\0756671019398434141469\46blogName\75Messages+from+mrhaki\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75SILVER\46layoutType\75LAYOUTS\46searchRoot\75//mrhaki.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://mrhaki.blogspot.com/\46blogFollowUrl\75https://plus.google.com/116304108087638220732\46vt\0751937495586192183779&#39;,
+                url: &#39;https://draft.blogger.com/navbar.g?targetBlogID\0756671019398434141469\46blogName\75Messages+from+mrhaki\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75SILVER\46layoutType\75LAYOUTS\46searchRoot\75//mrhaki.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://mrhaki.blogspot.com/\46vt\0751937495586192183779&#39;,
                 where: document.getElementById(&quot;navbar-iframe-container&quot;),
                 id: &quot;navbar-iframe&quot;
             });
@@ -864,17 +864,11 @@ head.appendChild(script);
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
                                         <div class='widget' id='blog-item-labels'>
-                                            <ul id='blog-item-label-series'>
+                                            <ul class='post-label-series' expr:rel='data:post.title'>
                                             </ul>
                                             <div class='clear'/>
+                                            <!--Loading posts with same label...-->
                                         </div>
-
-                                        <script>
-                                            var blogitemTitle = &quot;<data:post.title/>&quot;;
-                                            var blogitemId = &quot;<data:post.id/>&quot;;
-                                        </script>
-
-                                        <script src='http://www.mrhaki.com/js/labelseries.js' type='text/javascript'> </script>
                                     </b:if>
 
                                 </div>
@@ -1296,7 +1290,10 @@ head.appendChild(script);
         </script>
 
         <script>
-            $(document).ready(function() { blogger_extras.related(); });
+            $(document).ready(function() {
+                blogger_extras.related();
+                blogger_extras.labelSeries();
+            });
         </script>
     </body>
 </html>
