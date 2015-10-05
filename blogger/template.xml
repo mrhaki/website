@@ -854,7 +854,7 @@ head.appendChild(script);
                                     </b:if>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <div class='widget' id='blog-item-labels'>
+                                        <div class='widget' id='blog-item-related'>
                                             <ul class='related-posts' expr:rel='data:post.id'>
                                             </ul>
                                             <div class='clear'/>
