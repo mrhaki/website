@@ -24,7 +24,7 @@
 
     <meta name="viewport" content="width=device-width; initial-scale=1"/>
     <!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
     <script src="${content.rootpath ?: ''}js/google-analytics.js"></script>
 </head>
 

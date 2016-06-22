@@ -3,7 +3,7 @@
             <h3>Links</h3>
             <ul>
                 <li><a href="http://mrhaki.blogspot.com/ncr">Blog</a></li>
-                <li><a href="http://www.mrhaki.com/books.html">Books</a></li>
+                <li><a href="/books.html">Books</a></li>
                 <li><a href="http://github.com/mrhaki">Github</a></li>
                 <li><a href="http://stream.mrhaki.com">Livestream</a></li>
                 <li><a href="/about/">About</a></li>
@@ -19,7 +19,7 @@
                 <li><a href='http://www.pixeldam.net'>Pixeldam</a></li>
                 <li><a href='http://www.x-panded.com/'>Xpanded</a></li>
                 <li><a href='http://www.drbob42.com/'>DrBob42</a></li>
-                <li><a href='http://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='http://www.mrhaki.com/images/jdriven.png' title='JDriven Logo'/></a></li>
+                <li><a href='http://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='/images/jdriven.png' title='JDriven Logo'/></a></li>
             </ul>
         </nav>
         <nav id="connect_links">
@@ -31,7 +31,7 @@
                 <li><a href="http://nl.linkedin.com/in/mrhaki">LinkedIn</a></li>
                 <li><a href="http://www.facebook.com/mrhaki">Facebook</a></li>
                 <li><a href="http://www.delicious.com/mrhaki">Delicious</a></li>
-                <li><a href="http://www.mrhaki.com/about/mrhaki.vcf">Contact</a></li>
+                <li><a href="/about/mrhaki.vcf">Contact</a></li>
             </ul>
         </nav>
         <div class="clearfix"></div>
@@ -43,8 +43,8 @@
         <div class="clearfix"></div>
         <p id="copyright">
             &copy; 2008 - ${new Date().format('yyyy')}
-            <a href="http://www.mrhaki.com">Hubert A. Klein Ikkink</a>
-            | 
+            <a href="/">Hubert A. Klein Ikkink</a>
+            |
             Baked with <a href="http://jbake.org">JBake ${version}</a>
         </p>
     </footer>

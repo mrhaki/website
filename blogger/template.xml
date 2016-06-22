@@ -29,15 +29,15 @@
 
       <link href='//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css' rel='stylesheet'/>
 
-        <link href='http://www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
-        <link href='http://www.mrhaki.com/css/default.css' media='all' rel='stylesheet'/>
-        <link href='http://www.mrhaki.com/css/13col.css' media='all' rel='stylesheet'/>
-        <link href='http://www.mrhaki.com/css/3col.css' media='all' rel='stylesheet'/>
-        <link href='http://www.mrhaki.com/css/5col.css' media='all' rel='stylesheet'/>
-        <link href='http://www.mrhaki.com/css/iphone4.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/default.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/13col.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/3col.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/5col.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/iphone4.css' media='all' rel='stylesheet'/>
 
-        <link href='http://www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
-        <link href='http://www.mrhaki.com/css/shThemeBlackWhite.css' rel='stylesheet' type='text/css'/>
+        <link href='//www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
+        <link href='//www.mrhaki.com/css/shThemeBlackWhite.css' rel='stylesheet' type='text/css'/>
 
         <b:skin><![CDATA[.label-size-5, .label-size-4, .label-size-3, .label-size-2, .label-size-1 { font-weight: normal; font-size: 100%; opacity: 1.0; }
 .label-size-5 { font-weight: bolder; }
@@ -48,15 +48,15 @@
         <!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
         <meta content='width=device-width; initial-scale=1' name='viewport'/>
 
-        <link href='http://www.mrhaki.com/favicon.png' rel='shortcut icon'/>
-        <link href='http://www.mrhaki.com/favicon.png' rel='icon' type='image/png'/>
-        <link href='http://www.mrhaki.com/favicon.png' rel='icon' type='image/vnd.microsoft.icon'/>
+        <link href='https://www.mrhaki.com/favicon.png' rel='shortcut icon'/>
+        <link href='https://www.mrhaki.com/favicon.png' rel='icon' type='image/png'/>
+        <link href='https://www.mrhaki.com/favicon.png' rel='icon' type='image/vnd.microsoft.icon'/>
 
-        <script src='http://www.google.com/jsapi' type='text/javascript'> </script>
-        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'> </script>
-        <script src='http://www.mrhaki.com/js/google-analytics-blogger.js'/>
-        <script src='http://www.mrhaki.com/related-posts/blogger-extras.js'/>
-        <script src='http://apis.google.com/js/plusone.js' type='text/javascript'/>
+        <script src='https://www.google.com/jsapi' type='text/javascript'> </script>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'> </script>
+        <script src='https://www.mrhaki.com/js/google-analytics-blogger.js'/>
+        <script src='https://www.mrhaki.com/related-posts/blogger-extras.js'/>
+        <script src='https://apis.google.com/js/plusone.js' type='text/javascript'/>
 
         <script type='text/javascript'>
             /* <![CDATA[ */
@@ -78,7 +78,7 @@
 
     <body>
         <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'>
-          <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar'>
+          <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar' visible='true'>
             <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
@@ -92,16 +92,16 @@
 &lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-        gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
-          if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
-            gapi.iframes.getContext().openChild({
-                url: &#39;https://draft.blogger.com/navbar.g?targetBlogID\0756671019398434141469\46blogName\75Messages+from+mrhaki\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75SILVER\46layoutType\75LAYOUTS\46searchRoot\75//mrhaki.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://mrhaki.blogspot.com/\46vt\0751937495586192183779&#39;,
-                where: document.getElementById(&quot;navbar-iframe-container&quot;),
-                id: &quot;navbar-iframe&quot;
-            });
-          }
-        });
-      &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
+        if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d6671019398434141469\x26blogName\x3dMessages+from+mrhaki\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dSILVER\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://mrhaki.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://mrhaki.blogspot.com/\x26vt\x3d6554773902926511325&#39;,
+              where: document.getElementById(&quot;navbar-iframe-container&quot;),
+              id: &quot;navbar-iframe&quot;
+          });
+        }
+      });
+    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
 (function() {
 var script = document.createElement(&#39;script&#39;);
 script.type = &#39;text/javascript&#39;;
@@ -138,7 +138,7 @@ head.appendChild(script);
             </nav>
 
             <b:section class='main-header' id='main-header' showaddelement='no'>
-              <b:widget id='CustomSearch1' locked='false' title='Search This Blog' type='CustomSearch'>
+              <b:widget id='CustomSearch1' locked='false' title='Search This Blog' type='CustomSearch' visible='true'>
                 <b:includable id='main'>
                         <div class='widget-content'>
                             <div expr:id='data:widget.instanceId + &quot;_form&quot;'>
@@ -217,7 +217,7 @@ head.appendChild(script);
             <div id='main_content'>
 
                 <b:section class='main' id='main' showaddelement='no'>
-                  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+                  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1' visible='true'>
                     <b:includable id='main' var='top'>
                             <!-- posts -->
                             <div class='blog-posts hfeed'>
@@ -260,7 +260,7 @@ head.appendChild(script);
                             <b:include name='feedLinks'/>
 
                             <b:if cond='data:top.showStars'>
-                                <script src='http://www.google.com/jsapi' type='text/javascript'/>
+                                <script src='https://www.google.com/jsapi' type='text/javascript'/>
                                 <script type='text/javascript'>
                                     google.load(&quot;annotations&quot;, &quot;1&quot;, {&quot;locale&quot;: &quot;<data:top.languageCode/>&quot;});
                                     function initialize() {
@@ -768,14 +768,14 @@ head.appendChild(script);
                                 <div class='clearfix' id='social-sharing-buttons'>
                                     <div class='social-button' id='twitter-widget-button'>
                                         <a class='twitter-share-button' data-count='horizontal' data-url='data:post.link' data-via='mrhaki' expr:data-text='data:post.title' expr:data-url='data:post.url' href='http://twitter.com/share' rel='nofollow'>Tweet</a>
-                                        <script src='http://platform.twitter.com/widgets.js' type='text/javascript'>
+                                        <script src='https://platform.twitter.com/widgets.js' type='text/javascript'>
                                         </script>
                                     </div>
                                     <div class='social-button' id='google-plus-widget-button'>
                                         <g:plusone expr:href='data:post.url' size='medium'/>
                                     </div>
                                     <div class='social-button' id='flattr-widget-button'>
-                                        <a class='FlattrButton' expr:href='data:post.url' expr:title='data:post.title' style='display:none;'>Flattr</a>
+                                        <!--a class='FlattrButton' expr:href='data:post.url' expr:title='data:post.title' style='display:none;'>Flattr</a-->
                                     </div>
                                 </div>
 
@@ -854,7 +854,7 @@ head.appendChild(script);
                                     </b:if>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <div class='widget' id='blog-item-related'>
+                                        <div class='widget' id='blog-item-labels'>
                                             <ul class='related-posts' expr:rel='data:post.id'>
                                             </ul>
                                             <div class='clear'/>
@@ -1197,7 +1197,46 @@ head.appendChild(script);
             </nav>
 
             <b:section class='footer-widgets' id='footer-widgets' preferred='yes'>
-              <b:widget id='Label1' locked='false' title='Labels' type='Label'>
+              <b:widget id='HTML1' locked='false' title='Disqus for Messages from mrhaki' type='HTML' visible='true'>
+                <b:includable id='main'>
+            <script type='text/javascript'>
+                var disqus_shortname = &#39;mrhakiblogspot&#39;;
+                var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
+                if (!disqus_blogger_current_url.length) {
+                    disqus_blogger_current_url = &quot;<data:blog.url/>&quot;;
+                }
+                var disqus_blogger_homepage_url = &quot;<data:blog.homepageUrl/>&quot;;
+                var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUrl/>&quot;;
+            </script>
+            <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                <style type='text/css'>
+                    #comments {display:none;}
+                </style>
+                <script type='text/javascript'>
+                    (function() {
+                        var bloggerjs = document.createElement(&#39;script&#39;);
+                        bloggerjs.type = &#39;text/javascript&#39;;
+                        bloggerjs.async = true;
+                        bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_item.js&#39;;
+                        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
+                    })();
+                </script>
+            </b:if>
+                <style type='text/css'>
+                    .post-comment-link { visibility: hidden; }
+                </style>
+                <script type='text/javascript'>
+                (function() {
+                    var bloggerjs = document.createElement(&#39;script&#39;);
+                    bloggerjs.type = &#39;text/javascript&#39;;
+                    bloggerjs.async = true;
+                    bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_index.js&#39;;
+                    (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
+                })();
+                </script>
+        </b:includable>
+              </b:widget>
+              <b:widget id='Label1' locked='false' title='Labels' type='Label' visible='true'>
                 <b:includable id='main'>
                         <b:if cond='data:title'>
                             <h2><data:title/></h2>
@@ -1236,7 +1275,7 @@ head.appendChild(script);
                         </div>
                     </b:includable>
               </b:widget>
-              <b:widget id='Followers1' locked='false' title='Followers' type='Followers'>
+              <b:widget id='Followers1' locked='false' title='Followers' type='Followers' visible='true'>
                 <b:includable id='main'>
   <b:if cond='data:title != &quot;&quot; and data:codeSnippet != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
