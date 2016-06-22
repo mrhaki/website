@@ -3,7 +3,7 @@
 <html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
     <head>
         <meta charset='utf-8'/>
-        <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/>
+        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE; chrome=1" />
 
         <b:include data='blog' name='all-head-content'/>
 
@@ -871,6 +871,13 @@ head.appendChild(script);
                                         </div>
                                     </b:if>
 
+                                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                                        <div class="comments" id="comments">
+                                            <a name="comments"></a>
+                                       </div>
+                                    </b:if>
+
+
                                 </div>
 
                             </div>
@@ -911,6 +918,7 @@ head.appendChild(script);
                                 <div style='clear: both;'/>
                             </b:if>
                         </b:includable>
+
                     <b:includable id='threaded-comment-form' var='post'>
                             <div class='comment-form'>
                                 <a name='comment-form'/>
@@ -1197,45 +1205,47 @@ head.appendChild(script);
             </nav>
 
             <b:section class='footer-widgets' id='footer-widgets' preferred='yes'>
-              <b:widget id='HTML1' locked='false' title='Disqus for Messages from mrhaki' type='HTML' visible='true'>
-                <b:includable id='main'>
-            <script type='text/javascript'>
-                var disqus_shortname = &#39;mrhakiblogspot&#39;;
-                var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
-                if (!disqus_blogger_current_url.length) {
-                    disqus_blogger_current_url = &quot;<data:blog.url/>&quot;;
-                }
-                var disqus_blogger_homepage_url = &quot;<data:blog.homepageUrl/>&quot;;
-                var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUrl/>&quot;;
-            </script>
-            <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                <style type='text/css'>
-                    #comments {display:none;}
-                </style>
-                <script type='text/javascript'>
-                    (function() {
-                        var bloggerjs = document.createElement(&#39;script&#39;);
-                        bloggerjs.type = &#39;text/javascript&#39;;
-                        bloggerjs.async = true;
-                        bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_item.js&#39;;
-                        (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
-                    })();
-                </script>
-            </b:if>
-                <style type='text/css'>
-                    .post-comment-link { visibility: hidden; }
-                </style>
-                <script type='text/javascript'>
-                (function() {
-                    var bloggerjs = document.createElement(&#39;script&#39;);
-                    bloggerjs.type = &#39;text/javascript&#39;;
-                    bloggerjs.async = true;
-                    bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_index.js&#39;;
-                    (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
-                })();
-                </script>
-        </b:includable>
-              </b:widget>
+
+                <b:widget id='HTML1' locked='false' mobile='yes' title='Disqus' type='HTML'>
+                      <b:includable id='main'>
+                  <script type='text/javascript'>
+                      var disqus_shortname = &#39;mrhaki-blogspot&#39;;
+                      var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
+                      if (!disqus_blogger_current_url.length) {
+                          disqus_blogger_current_url = &quot;<data:blog.url/>&quot;;
+                      }
+                      var disqus_blogger_homepage_url = &quot;<data:blog.homepageUrl/>&quot;;
+                      var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUrl/>&quot;;
+                  </script>
+                  <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                      <style type='text/css'>
+                          #comments {display:none;}
+                      </style>
+                      <script type='text/javascript'>
+                          (function() {
+                              var bloggerjs = document.createElement(&#39;script&#39;);
+                              bloggerjs.type = &#39;text/javascript&#39;;
+                              bloggerjs.async = true;
+                              bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_item.js&#39;;
+                              (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
+                          })();
+                      </script>
+                  </b:if>
+                      <style type='text/css'>
+                          .post-comment-link { visibility: hidden; }
+                      </style>
+                      <script type='text/javascript'>
+                      (function() {
+                          var bloggerjs = document.createElement(&#39;script&#39;);
+                          bloggerjs.type = &#39;text/javascript&#39;;
+                          bloggerjs.async = true;
+                          bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_index.js&#39;;
+                          (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
+                      })();
+                      </script>
+                </b:includable>
+                </b:widget>
+
               <b:widget id='Label1' locked='false' title='Labels' type='Label' visible='true'>
                 <b:includable id='main'>
                         <b:if cond='data:title'>
@@ -1275,29 +1285,12 @@ head.appendChild(script);
                         </div>
                     </b:includable>
               </b:widget>
-              <b:widget id='Followers1' locked='false' title='Followers' type='Followers' visible='true'>
-                <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot; and data:codeSnippet != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
-      <b:if cond='data:codeSnippet != &quot;&quot;'>
-        <div style='margin-right:2px;'>
-          <data:codeSnippet/>
-        </div>
-      </b:if>
-    </div>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-              </b:widget>
             </b:section>
 
             <div class='clearfix'/>
 
             <p id='copyright'>
-                &amp;copy; 2008-2015
+                &amp;copy; 2008-2016
                 <a href='http://www.mrhaki.com'>Hubert A. Klein Ikkink</a>
             </p>
             <p id='subscribe-feed'>
