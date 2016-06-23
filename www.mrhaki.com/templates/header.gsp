@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE; chrome=1" />
 
     <title>${content.title}</title>
 
@@ -12,6 +12,9 @@
     <![endif]-->
 
     <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/resets.css"/>
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/default.css"/>
@@ -22,7 +25,7 @@
 
     <link rel="shortcut icon" href="${content.rootpath ?: ''}favicon.ico">
 
-    <meta name="viewport" content="width=device-width; initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
     <script src="${content.rootpath ?: ''}js/google-analytics.js"></script>

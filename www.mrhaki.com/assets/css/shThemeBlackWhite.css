@@ -1,6 +1,6 @@
-.syntaxhighlighter {    
+.syntaxhighlighter {
     /* background-color: #E7E5DC !important; */
-    
+
 }
 div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
 
@@ -17,12 +17,12 @@ div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
 }
 
 /* Gutter line numbers */
-.syntaxhighlighter .line .number {    
+.syntaxhighlighter .line .number {
     color: rgb(128, 128, 128) !important;
 }
 
 /* Add border to the lines */
-.syntaxhighlighter .line .content {    
+.syntaxhighlighter .line .content {
     border-left: 1px solid rgb(128, 128, 128) !important;
     color: #000 !important;
 }
@@ -37,7 +37,7 @@ div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
 }
 
 /* Second line */
-.syntaxhighlighter .line.alt2 .content {    
+.syntaxhighlighter .line.alt2 .content {
     /* background-color: #F8F8F8 !important; */
 }
 
@@ -55,7 +55,7 @@ div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
     border: 0 !important;
 }
 
-.syntaxhighlighter .toolbar {    
+.syntaxhighlighter .toolbar {
     /* background-color: #F8F8F8 !important; */
     /* border: #E7E5DC solid 1px !important; */
 }
@@ -83,11 +83,11 @@ div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
 
 .syntaxhighlighter .string,
 .syntaxhighlighter .string a {
-    color: rgb(0, 128, 0) !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .syntaxhighlighter .keyword {
-    color: rgb(0, 0, 128) !important;
+    color: rgb(0, 0, 0) !important;
     font-weight: bold !important;
 }
 
@@ -100,11 +100,11 @@ div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
 }
 
 .syntaxhighlighter .value {
-    color: rgb(0, 0, 255) !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .syntaxhighlighter .functions {
-    color: rgb(0, 0, 128) !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .syntaxhighlighter .constants {
