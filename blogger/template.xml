@@ -29,7 +29,7 @@
 
         <link href='//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css' rel='stylesheet'/>
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"></link>
 
         <link href='//www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
@@ -1297,7 +1297,7 @@ head.appendChild(script);
         <script language='javascript'>
             SyntaxHighlighter.config.bloggerMode = true;
             SyntaxHighlighter.config.clipboardSwf = null;
-            SyntaxHighlighter.defaults[&#39;first-line&#39;] = 0;
+            SyntaxHighlighter.defaults[&#39;first-line&#39;] = -1;
             SyntaxHighlighter.defaults[&#39;auto-links&#39;] = false;
             SyntaxHighlighter.all();
         </script>
@@ -1308,5 +1308,6 @@ head.appendChild(script);
                 blogger_extras.labelSeries();
             });
         </script>
+        <script id="dsq-count-scr" src="//mrhaki-blogspot.disqus.com/count.js" async="true"></script>
     </body>
 </html>

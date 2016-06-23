@@ -2,7 +2,14 @@
     /* background-color: #E7E5DC !important; */
 
 }
-div.syntaxhighlighter { margin: 2em 0 1em 0 !important; }
+div.syntaxhighlighter { margin: 1em 0 1em 0 !important; }
+
+.syntaxhighlighter table td.gutter .line { color: rgb(128, 128, 128); }
+.syntaxhighlighter .toolbar a { display: none !important; }
+
+.syntaxhighlighter .gutter .line {
+    border-right: 1px solid rgb(128, 128, 128) !important;
+}
 
 /* Highlighed line number */
 .syntaxhighlighter .line.highlighted .number {

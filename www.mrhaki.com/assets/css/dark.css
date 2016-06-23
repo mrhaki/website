@@ -1,0 +1,8 @@
+body {
+    background-color: #292c36;
+    color: #fff; font-weight: 300;
+}
+
+#body_content { background-color: inherit;}
+
+a { color: #fff; }
