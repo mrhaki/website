@@ -13,10 +13,10 @@
     #friend_links { width: 396px; }
     #connect_links { width: 312px; }
     ul.connect li { width: 130px; height: 95px; }
-    #blogger #footer_links { width: 144px; }
+    #blogger #footer_links { width: 228px; }
     #blogger #friend_links { width: 228px; }
-    #blogger #connect_links { width: 144px; margin-right: 24px; }
-    .Label { margin-right: 24px; width: 228px; }
+    #blogger #connect_links { width: 228px; margin-right: 24px; }
+    .Label { margin-right: 24px; width: 288px; }
     .Followers { margin-right: 0px; margin-top: 0px; width: 228px;  }
 
 }

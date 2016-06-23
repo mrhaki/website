@@ -27,7 +27,10 @@
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 
-      <link href='//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css' rel='stylesheet'/>
+        <link href='//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css' rel='stylesheet'/>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"></link>
 
         <link href='//www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
         <link href='//www.mrhaki.com/css/default.css' media='all' rel='stylesheet'/>
@@ -46,7 +49,7 @@
     ]]></b:skin>
 
         <!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
-        <meta content='width=device-width; initial-scale=1' name='viewport'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <link href='https://www.mrhaki.com/favicon.png' rel='shortcut icon'/>
         <link href='https://www.mrhaki.com/favicon.png' rel='icon' type='image/png'/>
@@ -125,7 +128,7 @@ head.appendChild(script);
         <header>
             <div id='header_logo'>
                 <a href='http://www.mrhaki.com/'>
-                    <img alt='Logo haki' height='64' src='http://www.mrhaki.com/images/haki-logo-black-64.png' title='Logo haki' width='64'/>
+                    <img alt='Logo haki' height='64' src='https://www.mrhaki.com/images/haki-logo-black-64.png' title='Logo haki' width='64'/>
                 </a>
             </div>
             <nav id='headernav'>
@@ -798,7 +801,7 @@ head.appendChild(script);
                                         <span class='post-comment-link'>
                                             <b:if cond='data:blog.pageType != &quot;item&quot;'>
                                                 <b:if cond='data:post.allowComments'>
-                                                    <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
+                                                    <a class='comment-link link-label' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
                                                 </b:if>
                                             </b:if>
                                         </span>
@@ -822,7 +825,7 @@ head.appendChild(script);
                                             <b:if cond='data:post.labels'>
                                                 <data:postLabelsLabel/>
                                                 <b:loop values='data:post.labels' var='label'>
-                                                    <a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>
+                                                    <a expr:href='data:label.url' rel='tag' class="tag-link link-label"><data:label.name/></a>
                                                 </b:loop>
                                             </b:if>
                                         </span>
@@ -830,28 +833,6 @@ head.appendChild(script);
 
                                     <div class='post-footer-line post-footer-line-3'>
                                     </div>
-
-                                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <table border='0' cellpadding='0' cellspacing='0'>
-                                            <tr>
-                                                <td>
-                                        <iframe allowtransparency='true' frameborder='0' height='450' src='https://leanpub.com/groovy-goodness-notebook/embed' width='160'/>
-                                                </td>
-                                                <td>
-                                        <iframe allowtransparency='true' frameborder='0' height='450' src='https://leanpub.com/grails-goodness-notebook/embed' width='160'/>
-                                                </td>
-                                                <td>
-                                        <iframe allowtransparency='true' frameborder='0' height='450' src='https://leanpub.com/gradle-goodness-notebook/embed' width='160'/>
-                                                </td>
-                                                <td>
-                                                    <iframe allowtransparency='true' frameborder='0' height='450' src='https://leanpub.com/b/groovygrails-goodness-notebooks/embed' width='160'/>
-                                                </td>
-                                                <td>
-                                                    <iframe allowtransparency='true' frameborder='0' height='450' src='https://leanpub.com/b/groovyandgradlegoodnessnotebooks/embed' width='160'/>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </b:if>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
                                         <div class='widget' id='blog-item-labels'>
@@ -872,6 +853,7 @@ head.appendChild(script);
                                     </b:if>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                                        <a name="disqus_thread"></a>
                                         <div class="comments" id="comments">
                                             <a name="comments"></a>
                                        </div>
@@ -1183,7 +1165,6 @@ head.appendChild(script);
                 <h2>Link to friends</h2>
                 <ul>
                     <li><a href='http://www.facebook.com/droomkoekjes'>Droomkoekjes</a></li>
-                    <li><a href='http://www.etsy.com/shop/BeadsByKC?ref=pr_shop'>Beads by KC</a></li>
                     <li><a href='http://blog.jdriven.com/'>JDriven Blog</a></li>
                     <li><a href='http://www.pixeldam.net'>Pixeldam</a></li>
                     <li><a href='http://www.x-panded.com/'>Xpanded</a></li>
