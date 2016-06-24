@@ -11,6 +11,7 @@
         width: 310px;
         -webkit-text-size-adjust: 100%;
     }
+    p { text-align: left; }
 
     header { height: 140px; }
     #headernav ul { float: none; list-style: none; }
@@ -26,4 +27,3 @@
 
     .syntaxhighlighter .toolbar { display: none; }
 }
-
