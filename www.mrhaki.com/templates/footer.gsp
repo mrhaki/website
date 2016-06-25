@@ -3,9 +3,9 @@
             <h3>Links</h3>
             <ul>
                 <li><a href="http://mrhaki.blogspot.com/ncr">Blog</a></li>
-                <li><a href="/books.html">Books</a></li>
+                <li><a href="${content.rootpath ?: ''}books.html">Books</a></li>
                 <li><a href="http://github.com/mrhaki">Github</a></li>
-                <li><a href="/about/">About</a></li>
+                <li><a href="${content.rootpath ?: ''}about/">About</a></li>
             </ul>
         </nav>
         <nav id="friend_links">
@@ -47,6 +47,16 @@
             Baked with <a href="http://jbake.org">JBake ${version}</a>
         </p>
     </footer>
+
+    <script language='javascript' src='${content.rootpath ?: ''}js/syntax/shCore.js'></script>
+    <script language='javascript' src='${content.rootpath ?: ''}js/syntax/shLegacy.js'/></script>
+    <script language='javascript' src='${content.rootpath ?: ''}js/syntax/shBrushGroovy.js'/></script>
+    <script language='javascript'>
+        SyntaxHighlighter.config.clipboardSwf = null;
+        SyntaxHighlighter.defaults['first-line'] = 0;
+        SyntaxHighlighter.defaults['auto-links'] = false;
+        SyntaxHighlighter.all();
+    </script>
 
 </body>
 

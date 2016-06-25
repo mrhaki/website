@@ -11,12 +11,13 @@ To make things easier I just picked the first letters of my firstname and surnam
 and came up with haki. So there you have it, now I am known as Mr. Haki or mrhaki for short.
 The following Groovy code shows this:
 
-[source,role=code-homepage]
-----
+++++
+<pre class="brush:groovy;light:true">
 assert ['Hubert', 'Alexander', 'Klein', 'Ikkink'].inject('mr') { nickname, name ->
     nickname + name[0].toLowerCase()
 } == 'mrhaki'
-----
+</pre>
+++++
 
 In 2009 I started writing blog posts about Groovy with the name
 http://mrhaki.blogspot.com/search/label/Groovy%3AGoodness[Groovy Goodness].

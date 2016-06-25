@@ -22,6 +22,10 @@
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/3col.css"/>
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/5col.css"/>
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/iphone4.css"/>
+    <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/dark.css"/>
+
+    <link href='${content.rootpath ?: ''}css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
+    <link href='${content.rootpath ?: ''}css/shThemeDark.css' rel='stylesheet' type='text/css'/>
 
     <link rel="shortcut icon" href="${content.rootpath ?: ''}favicon.ico">
 

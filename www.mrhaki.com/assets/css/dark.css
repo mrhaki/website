@@ -1,8 +1,19 @@
 body {
     background-color: #292c36;
-    color: #fff; font-weight: 300;
+    color: #ebebeb; font-weight: 300;
 }
 
 #body_content { background-color: inherit;}
 
-a { color: #fff; }
+.syntaxhighlighter  code {   color: #afafaf !important; }
+code, a { color: #ebebeb; }
+
+h3.post-title a, h3.entry-title a, h3, h2 { color: #C97C48; }
+
+::selection { background: #4A6E9F; }
+::-moz-selection { background: #4A6E9F; }
+
+.syntaxhighlighter { padding: 1em 0 1em 0 ;}
+.syntaxhighlighter .toolbar a { display: none !important; }
+
+.related-posts a, .post-label-series a { text-decoration: none; }

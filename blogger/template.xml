@@ -38,9 +38,10 @@
         <link href='//www.mrhaki.com/css/3col.css' media='all' rel='stylesheet'/>
         <link href='//www.mrhaki.com/css/5col.css' media='all' rel='stylesheet'/>
         <link href='//www.mrhaki.com/css/iphone4.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/dark.css' media='all' rel='stylesheet'/>
 
         <link href='//www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
-        <link href='//www.mrhaki.com/css/shThemeBlackWhite.css' rel='stylesheet' type='text/css'/>
+        <link href='//www.mrhaki.com/css/shThemeDark.css' rel='stylesheet' type='text/css'/>
 
         <b:skin><![CDATA[.label-size-5, .label-size-4, .label-size-3, .label-size-2, .label-size-1 { font-weight: normal; font-size: 100%; opacity: 1.0; }
 .label-size-5 { font-weight: bolder; }
@@ -1281,23 +1282,23 @@ head.appendChild(script);
 
         </footer>
 
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shCore.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shLegacy.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushJava.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushXml.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushJScript.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushGroovy.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushPlain.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushBash.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushSql.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushCss.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushAsciidoc.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shCore.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shLegacy.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushJava.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushXml.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushJScript.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushGroovy.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushPlain.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushBash.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushSql.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushCss.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushAsciidoc.js'/>
 
 
         <script language='javascript'>
             SyntaxHighlighter.config.bloggerMode = true;
             SyntaxHighlighter.config.clipboardSwf = null;
-            SyntaxHighlighter.defaults[&#39;first-line&#39;] = -1;
+            SyntaxHighlighter.defaults[&#39;first-line&#39;] = 0;
             SyntaxHighlighter.defaults[&#39;auto-links&#39;] = false;
             SyntaxHighlighter.all();
         </script>
