@@ -14,6 +14,9 @@ h3.post-title a, h3.entry-title a, h3, h2 { color: #C97C48; }
 ::-moz-selection { background: #4A6E9F; }
 
 .syntaxhighlighter { padding: 1em 0 1em 0 ;}
-.syntaxhighlighter .toolbar a { display: none !important; }
 
 .related-posts a, .post-label-series a { text-decoration: none; }
+
+a.home-link { background: none; padding-left: 0;}
+a.blog-pager-older-link { background: none; padding-left: 0;}
+a.blog-pager-newer-link { background: none; padding-right: 0;}

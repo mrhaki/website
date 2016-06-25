@@ -1,3 +1,6 @@
+.syntaxhighlighter .toolbar { display: none !important; }
+.syntaxhighlighter { padding: 1em 0 1em 0 ;}
+
 .syntaxhighlighter {
     /* background-color: #E7E5DC !important; */
 
