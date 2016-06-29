@@ -45,6 +45,10 @@
             <a href="/">Hubert A. Klein Ikkink</a>
             |
             Baked with <a href="http://jbake.org">JBake ${version}</a>
+            |
+            <a href="#" class="changecolor" title="dark-color">Dark theme</a>
+            |
+            <a href="#" class="changecolor" title="light-color">Light theme</a>
         </p>
     </footer>
 
@@ -56,6 +60,12 @@
         SyntaxHighlighter.defaults['first-line'] = 0;
         SyntaxHighlighter.defaults['auto-links'] = false;
         SyntaxHighlighter.all();
+    </script>
+
+    <script type="text/javascript">
+    \$(document).ready(function(){
+        \$(".changecolor").switchstylesheet( { seperator:"color"} );
+    });
     </script>
 
 </body>

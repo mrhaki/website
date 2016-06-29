@@ -39,10 +39,11 @@
         <link href='//www.mrhaki.com/css/3col.css' media='all' rel='stylesheet'/>
         <link href='//www.mrhaki.com/css/5col.css' media='all' rel='stylesheet'/>
         <link href='//www.mrhaki.com/css/iphone4.css' media='all' rel='stylesheet'/>
-        <link href='//www.mrhaki.com/css/dark.css' media='all' rel='stylesheet'/>
 
         <link href='//www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
-        <link href='//www.mrhaki.com/css/shThemeDark.css' rel='stylesheet' type='text/css'/>
+
+        <link href='//www.mrhaki.com/css/dark.css' media='all' rel='alternate stylesheet' title="dark-color"/>
+        <link href='//www.mrhaki.com/css/light.css' media='all' rel='alternate stylesheet' title="light-color"/>
 
         <b:skin><![CDATA[.label-size-5, .label-size-4, .label-size-3, .label-size-2, .label-size-1 { font-weight: normal; font-size: 100%; opacity: 1.0; }
 .label-size-5 { font-weight: bolder; }
@@ -59,8 +60,9 @@
 
         <script src='https://www.google.com/jsapi' type='text/javascript'> </script>
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'> </script>
-        <script src='https://www.mrhaki.com/js/google-analytics-blogger.js'/>
-        <script src='https://www.mrhaki.com/related-posts/blogger-extras.js'/>
+        <script src="//www.mrhaki.com/js/switchstylesheet.js"></script>
+        <script src='//www.mrhaki.com/js/google-analytics-blogger.js'/>
+        <script src='//www.mrhaki.com/related-posts/blogger-extras.js'/>
         <script src='https://apis.google.com/js/plusone.js' type='text/javascript'/>
 
         <script type='text/javascript'>
@@ -150,65 +152,6 @@ head.appendChild(script);
                                 <span class='cse-status'><data:loadingMsg/></span>
                             </div>
                         </div>
-
-                        <!-- override gsearch.css -->
-                        <style type='text/css'>
-                            #uds-searchControl .gs-result .gs-title,
-                            #uds-searchControl .gs-result .gs-title *,
-                            #uds-searchControl .gsc-results .gsc-trailing-more-results,
-                            #uds-searchControl .gsc-results .gsc-trailing-more-results * {
-                                /*color: #333;*/
-                            }
-
-                            #uds-searchControl .gs-result .gs-title a:visited,
-                            #uds-searchControl .gs-result .gs-title a:visited * {
-                                color: #333;
-                            }
-
-                            #uds-searchControl .gs-relativePublishedDate,
-                            #uds-searchControl .gs-publishedDate {
-                                color: #333;
-                            }
-
-                            #uds-searchControl .gs-result a.gs-visibleUrl,
-                            #uds-searchControl .gs-result .gs-visibleUrl {
-                                color: #333;
-                            }
-
-                            #uds-searchControl .gsc-results {
-                                border-color: #d9d9d9;
-                                background-color: #f6f6f6;
-                            }
-
-                            #uds-searchControl .gsc-tabhActive {
-                                border-color: #d9d9d9;
-                                border-top-color: #aaa;
-                                background-color: #f6f6f6;
-                                color: #333;
-                            }
-
-                            #uds-searchControl .gsc-tabhInactive {
-                                border-color: #d9d9d9;
-                                background-color: transparent;
-                                color: #333;
-                            }
-
-                            #uds-searchClearResults {
-                                border-color: #d9d9d9;
-                            }
-
-                            #uds-searchClearResults:hover {
-                                border-color: #d9d9d9;
-                            }
-
-                            #uds-searchControl .gsc-cursor-page {
-                                color: #333;
-                            }
-
-                            #uds-searchControl .gsc-cursor-current-page {
-                                color: #333;
-                            }
-                        </style>
 
                         <b:include name='quickedit'/>
                     </b:includable>
@@ -798,6 +741,19 @@ head.appendChild(script);
                                                 <span class='fn'><data:post.author/></span>
                                             </b:if>
                                         </span>
+                                        <span class='post-icons'>
+                                            <!-- email post links -->
+                                            <b:if cond='data:post.emailPostUrl'>
+                                                <span class='item-action'>
+                                                    <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
+                                                        <img alt='' class='icon-action' src='http://www.blogger.com/img/icon18_email.gif'/>
+                                                    </a>
+                                                </span>
+                                            </b:if>
+
+                                            <!-- quickedit pencil -->
+                                            <b:include data='post' name='postQuickEdit'/>
+                                        </span>
                                         <span class='post-timestamp'>
                                             <b:if cond='data:top.showTimestamp'>
                                                 <data:top.timestampLabel/>
@@ -812,19 +768,6 @@ head.appendChild(script);
                                                     <a class='comment-link link-label' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
                                                 </b:if>
                                             </b:if>
-                                        </span>
-                                        <span class='post-icons'>
-                                            <!-- email post links -->
-                                            <b:if cond='data:post.emailPostUrl'>
-                                                <span class='item-action'>
-                                                    <a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'>
-                                                        <img alt='' class='icon-action' src='http://www.blogger.com/img/icon18_email.gif'/>
-                                                    </a>
-                                                </span>
-                                            </b:if>
-
-                                            <!-- quickedit pencil -->
-                                            <b:include data='post' name='postQuickEdit'/>
                                         </span>
                                     </div>
 
@@ -843,6 +786,14 @@ head.appendChild(script);
                                     </div>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                                        <a name="disqus_thread"></a>
+                                        <div class="comments" id="comments">
+                                            <a name="comments"></a>
+                                       </div>
+                                    </b:if>
+
+
+                                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
                                         <div class='widget' id='blog-item-labels'>
                                             <ul class='related-posts' expr:rel='data:post.id'>
                                             </ul>
@@ -858,13 +809,6 @@ head.appendChild(script);
                                             <div class='clear'/>
                                             <!--Loading posts with same label...-->
                                         </div>
-                                    </b:if>
-
-                                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <a name="disqus_thread"></a>
-                                        <div class="comments" id="comments">
-                                            <a name="comments"></a>
-                                       </div>
                                     </b:if>
 
 
@@ -1281,6 +1225,11 @@ head.appendChild(script);
             <p id='copyright'>
                 &amp;copy; 2008-2016
                 <a href='http://www.mrhaki.com'>Hubert A. Klein Ikkink</a>
+                |
+                <a href="#" class="changecolor" title="dark-color">Dark theme</a>
+                |
+                <a href="#" class="changecolor" title="light-color">Light theme</a>
+
             </p>
             <p id='subscribe-feed'>
                 <a href='http://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'><img alt='' src='http://www.feedburner.com/fb/images/pub/feed-icon16x16.png' style='vertical-align:middle;border:0'/></a>
@@ -1316,6 +1265,13 @@ head.appendChild(script);
                 blogger_extras.labelSeries();
             });
         </script>
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $(".changecolor").switchstylesheet( { seperator:"color"} );
+        });
+        </script>
+
         <script id="dsq-count-scr" src="//mrhaki-blogspot.disqus.com/count.js" async="true"></script>
     </body>
 </html>

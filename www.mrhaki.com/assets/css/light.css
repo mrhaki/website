@@ -1,0 +1,180 @@
+body {
+    background: #fff;
+    color: #444; font-weight: 300;
+}
+
+#body_content { background-color: inherit;}
+
+.syntaxhighlighter  code {   color: #444 !important; }
+code, a { color: #444; }
+
+h3.post-title a, h3.entry-title a, h3, h2 { color: #000; }
+
+::selection { background: rgb(255, 255, 0); }
+::-moz-selection { background: rgb(255, 255, 0); }
+
+.syntaxhighlighter { padding: 1em 0 1em 0 ;}
+
+.related-posts a, .post-label-series a { text-decoration: none; }
+
+a.home-link { background: none; padding-left: 0;}
+a.blog-pager-older-link { background: none; padding-left: 0;}
+a.blog-pager-newer-link { background: none; padding-right: 0;}
+
+#uds-searchControl,
+#uds-searchControl a,
+#uds-searchControl .gs-publishedDate,
+#uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-result .gs-title a:visited,
+#uds-searchControl .gsc-cursor-page,
+#uds-searchControl .gsc-cursor-current-page,
+#uds-searchControl .gs-result .gs-title,
+#uds-searchControl .gs-result .gs-title *,
+#uds-searchControl .gsc-tabHeader.gsc-tabhActive,
+#uds-searchControl .gsc-tabHeader.gsc-tabhActive,
+#uds-searchControl .gs-result .gs-visibleUrl { color: #444; }
+#uds-searchControl .gsc-tabHeader.gsc-tabhInactive { border: none; background-color: transparent; }
+#uds-searchControl .gsc-results { border-style: none !important; border-bottom: 1px solid; }
+
+
+.syntaxhighlighter .toolbar { display: none !important; }
+.syntaxhighlighter { padding: 1em 0 1em 0 ;}
+
+.syntaxhighlighter {
+    /* background-color: #E7E5DC !important; */
+
+}
+div.syntaxhighlighter { margin: 1em 0 1em 0 !important; }
+
+.syntaxhighlighter table td.gutter .line { color: rgb(128, 128, 128); }
+.syntaxhighlighter .toolbar a { display: none !important; }
+
+.syntaxhighlighter .gutter .line {
+    border-right: 1px solid rgb(128, 128, 128) !important;
+}
+
+/* Highlighed line number */
+.syntaxhighlighter .line.highlighted .number {
+    background-color: rgb(204, 204, 255) !important;
+    color: black !important;
+}
+
+/* Highlighed line */
+.syntaxhighlighter .line.highlighted.alt1 .content,
+.syntaxhighlighter .line.highlighted.alt2 .content {
+    background-color: rgb(204, 204, 255) !important;
+}
+
+/* Gutter line numbers */
+.syntaxhighlighter .line .number {
+    color: rgb(128, 128, 128) !important;
+}
+
+/* Add border to the lines */
+.syntaxhighlighter .line .content {
+    border-left: 1px solid rgb(128, 128, 128) !important;
+    color: #000 !important;
+}
+
+.syntaxhighlighter.printing .line .content {
+    border: 0 !important;
+}
+
+/* First line */
+.syntaxhighlighter .line.alt1 .content {
+    background-color: #fff !important;
+}
+
+/* Second line */
+.syntaxhighlighter .line.alt2 .content {
+    /* background-color: #F8F8F8 !important; */
+}
+
+.syntaxhighlighter .line .content .block {
+    background: url(wrapping.png) 0 1.1em no-repeat !important;
+}
+
+.syntaxhighlighter .ruler {
+    color: silver !important;
+    background-color: #F8F8F8 !important;
+    border-left: 3px solid #ffba4c !important;
+}
+
+.syntaxhighlighter.nogutter .ruler {
+    border: 0 !important;
+}
+
+.syntaxhighlighter .toolbar {
+    /* background-color: #F8F8F8 !important; */
+    /* border: #E7E5DC solid 1px !important; */
+}
+
+.syntaxhighlighter .toolbar a {
+    color: #a0a0a0 !important;
+}
+
+.syntaxhighlighter .toolbar a:hover {
+    color: red !important;
+}
+
+/************************************
+ * Actual syntax highlighter colors.
+ ************************************/
+.syntaxhighlighter .plain,
+.syntaxhighlighter .plain a {
+    color: #000 !important;
+}
+
+.syntaxhighlighter .comments,
+.syntaxhighlighter .comments a {
+    color: rgb(128, 128, 128) !important;
+}
+
+.syntaxhighlighter .string,
+.syntaxhighlighter .string a {
+    color: rgb(0, 0, 0) !important;
+}
+
+.syntaxhighlighter .keyword {
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold !important;
+}
+
+.syntaxhighlighter .preprocessor {
+    color: gray !important;
+}
+
+.syntaxhighlighter .variable {
+    color: rgb(102, 14, 122) !important;
+}
+
+.syntaxhighlighter .value {
+    color: rgb(0, 0, 0) !important;
+}
+
+.syntaxhighlighter .functions {
+    color: rgb(0, 0, 0) !important;
+}
+
+.syntaxhighlighter .constants {
+    color: rgb(102, 14, 122) !important;
+}
+
+.syntaxhighlighter .script {
+    background-color: yellow !important;
+}
+
+.syntaxhighlighter .color1,
+.syntaxhighlighter .color1 a {
+    color: #808080 !important;
+}
+
+.syntaxhighlighter .color2,
+.syntaxhighlighter .color2 a {
+    color: #ff1493 !important;
+}
+
+.syntaxhighlighter .color3,
+.syntaxhighlighter .color3 a {
+    color: red !important;
+}

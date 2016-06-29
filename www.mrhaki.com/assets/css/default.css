@@ -161,6 +161,7 @@ a.link-label, a.disqus-blogger-comment-link {
     vertical-align: baseline;
     border-radius: .25em;
 }
+/*a.disqus-blogger-comment-link { display:none;}*/
 
 td.gutter div.line.number0.index0.alt1.break:after { content: '0'; }
 
