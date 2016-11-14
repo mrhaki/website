@@ -5,18 +5,30 @@
 
 The last couple of years I've worked on different books. On this page is a list of all the books I have published. Some of the books are published on http://www.leanpub.com[Leanpub]. You can directly go to my https://leanpub.com/u/mrhaki[author page].
 
+== Gradle Effective Implementation Guide (Second edition)
+
+pass:[<a href="https://www.packtpub.com/web-development/gradle-effective-implementations-guide-second-edition"><img align="left" class="photo" width="130" border="0" src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/4974OS_3796_Gradle%20Effective%20Implementations%20Guide,%20Second%20Edition.jpg" /></a>]In 2016 I have written the book
+pass:[<a href="https://www.packtpub.com/web-development/gradle-effective-implementations-guide-second-edition">Gradle Effective Implementation Guide Second Edition</a>]
+for Packt Publishing.
+The book is a great introduction and reference for using Gradle.
+The Gradle build language is explained with hands on code and practical applications.
+You learn how to apply Gradle in your Java, Scala or Groovy projects, integrate with your favorite
+IDE and how to integrate with well-known continuous integration servers. +
+You will quickly learn the basics of Gradle, how to write tasks, work with files and how to use write build scripts using the Groovy DSL. Then as you develop you will be shown how to use Gradle for Java projects. Compile, package, test and deploy your applications with ease. When you’ve mastered the simple, move on to the sublime and integrate your code with continuous integration servers and IDEs. By the end of the "Gradle Effective Implementation Guide" you will be able to use Gradle in your daily development. Writing tasks, applying plugins and creating build logic will be second nature.
+
+
 == Gradle Dependency Management
 
-pass:[<a href="http://www.amazon.com/gp/product/1784392782/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1784392782&linkCode=as2&tag=mrhakicom-20&linkId=6P6KJVCF4XCQQ7WW"><img border="0" align="left" class="photo" src="http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1784392782&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=mrhakicom-20" ></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=mrhakicom-20&l=as2&o=1&a=1784392782" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />]In 2015 I wrote a book specifically about dependency management in Gradle for Java:
-pass:[<a href="http://www.amazon.com/gp/product/1784392782/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1784392782&linkCode=as2&tag=mrhakicom-20&linkId=EEJMARHQS2NDBWZP">Gradle Dependency Management</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=mrhakicom-20&l=as2&o=1&a=1784392782" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />].
+pass:[<a href="https://www.packtpub.com/application-development/gradle-dependency-management"><img border="0" align="left" class="photo" width="130" src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/4974OS_3796_Gradle%20Effective%20Implementations%20Guide,%20Second%20Edition.jpg" ></a>]In 2015 I wrote a book specifically about dependency management in Gradle for Java:
+pass:[<a href="https://www.packtpub.com/application-development/gradle-dependency-management">Gradle Dependency Management</a>].
 Gradle Dependency Management defines dependencies for your Java-based project and customizes how they are resolved. You will learn how to configure the publication of artifacts to different repositories. Packed with plenty of code samples, you will understand how to define the repositories that contain dependencies. Following this, you will learn how to customize the dependency resolution process in Gradle.
 If you work on Java projects, use Gradle as a build automation tool, and you use dependencies in your project, this is the book for you. Additionally, if you want to deploy your project artifacts as dependencies for other developers using Gradle, you've found the right book.
 
 
 == Gradle Effective Implementation Guide
 
-pass:[<a href="http://www.amazon.com/gp/product/1849518106/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1849518106&amp;linkCode=as2&amp;tag=mrhakicom-20"><img align="left" class="photo" border="0" src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&amp;ASIN=1849518106&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=mrhakicom-20" /></a><img src="http://www.assoc-amazon.com/e/ir?t=mrhakicom-20&amp;l=as2&amp;o=1&amp;a=1849518106" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />]In 2012 I have written the book
-pass:[<a href="http://www.amazon.com/gp/product/1849518106/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1849518106&linkCode=as2&tag=mrhakicom-20">Gradle Effective Implementation Guide</a><img src="http://www.assoc-amazon.com/e/ir?t=mrhakicom-20&l=as2&o=1&a=1849518106" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />]
+pass:[<a href="https://www.packtpub.com/application-development/gradle-effective-implementation-guide"><img align="left" class="photo" width="130" border="0" src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/8109OS_mockupcover_normal.jpg" /></a>]In 2012 I have written the book
+pass:[<a href="https://www.packtpub.com/application-development/gradle-effective-implementation-guide">Gradle Effective Implementation Guide</a>]
 for Packt Publishing.
 The book is a great introduction and reference for using Gradle.
 The Gradle build language is explained with hands on code and practical applications.
@@ -27,18 +39,30 @@ Start with the foundations and work your way through hands on examples to build 
 == Groovy Goodness Notebook
 
 pass:[<a href="http://www.leanpub.com/groovy-goodness-notebook"><img align="left" class="photo" src="http://titlepages.leanpub.com/groovy-goodness-notebook/small" /></a>] In 2013 I have bundled the Groovy Goodness blog posts into a single electronic publication: Groovy Goodness Notebook. The book contains the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Groovy. Features are explained with a lot of code, so it is very practical. +
-The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Groovy Goodness blog posts will be added to the book and those updates are free if you have bought the book.
+The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Groovy Goodness blog posts will be added to the book and those updates are free if you have bought the book. +
+The book is also available in https://leanpub.com/b/groovygrails-goodness-notebooks[a bundle] with the Grails Goodness Notebook. +
+The book is also available in https://leanpub.com/b/groovyandgradlegoodnessnotebooks[a bundle] with the Gradle Goodness Notebook. +
+The book is also available in https://leanpub.com/b/groovygrailsgradlegoodnessnotebooks[a bundle] with the Grails Goodness Notebook and Gradle Goodness Notebook.
+
 
 == Grails Goodness Notebook
 
 pass:[<a href="http://www.leanpub.com/grails-goodness-notebook"><img align="left" class="photo" src="http://titlepages.leanpub.com/grails-goodness-notebook/small" /></a>] In 2014 I have bundled the Grails Goodness blog posts into a single electronic publication: Grails Goodness Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Grails instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Grails. Features are explained with a lot of code, so it is very practical. +
-The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Grails Goodness blog posts will be added to the book and those updates are free if you have bought the book.
+The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Grails Goodness blog posts will be added to the book and those updates are free if you have bought the book. +
+The book is also available in https://leanpub.com/b/groovygrails-goodness-notebooks[a bundle] with the Groovy Goodness Notebook. +
+The book is also available in https://leanpub.com/b/groovygrailsgradlegoodnessnotebooks[a bundle] with the Groovy Goodness Notebook and Gradle Goodness Notebook.
 
 == Gradle Goodness Notebook
 
 pass:[<a href="http://www.leanpub.com/gradle-goodness-notebook"><img align="left" class="photo" src="http://titlepages.leanpub.com/gradle-goodness-notebook/small" /></a>] In 2015 I have bundled the Gradle Goodness blog posts into a single electronic publication: Gradle Goodness Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Gradle. Features are explained with a lot of code, so it is very practical. +
 The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Gradle Goodness blog posts will be added to the book and those updates are free if you have bought the book. +
-The book is also available in https://leanpub.com/b/groovyandgradlegoodnessnotebooks[a bundle] with the Groovy Goodness Notebook.
+The book is also available in https://leanpub.com/b/groovyandgradlegoodnessnotebooks[a bundle] with the Groovy Goodness Notebook. +
+The book is also available in https://leanpub.com/b/groovygrailsgradlegoodnessnotebooks[a bundle] with the Groovy Goodness Notebook and Grails Goodness Notebook.
+
+== Ratpacked Notebook
+
+pass:[<a href="http://www.leanpub.com/ratpacked-notebook"><img align="left" class="photo" src="http://titlepages.leanpub.com/ratpacked-notebook/small" /></a>] In 2016 I have bundled the Ratpacked blog posts into a single electronic publication: Ratpacked Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Ratpack. Features are explained with a lot of code, so it is very practical. +
+The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Ratpaced blog posts will be added to the book and those updates are free if you have bought the book.
 
 == Spocklight Notebook
 
