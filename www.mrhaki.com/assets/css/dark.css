@@ -61,6 +61,10 @@ a.blog-pager-newer-link { background: none; padding-right: 0;}
   background-color: #1d2026 !important;
   color: #afafaf !important;
 }
+.syntaxhighlighter .plain,
+.syntaxhighlighter .plain a {
+    color: #afafaf !important;
+}
 .syntaxhighlighter .line.alt1 {
   background-color: #1d2026 !important;
 }
@@ -117,9 +121,11 @@ a.blog-pager-newer-link { background: none; padding-right: 0;}
   color: #696854 !important;
 }
 .syntaxhighlighter .string, .syntaxhighlighter .string a {
+    color: #afafaf !important;
 }
 .syntaxhighlighter .keyword {
   font-weight: bold !important;
+  color: #afafaf !important;
 }
 .syntaxhighlighter .preprocessor {
   color: #435a5f !important;

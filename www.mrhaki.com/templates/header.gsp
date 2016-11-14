@@ -25,6 +25,7 @@
 
     <link href='${content.rootpath ?: ''}css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
 
+    <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/light.css" />
     <link rel="alternate stylesheet" media="all" href="${content.rootpath ?: ''}css/dark.css" title="dark-color"/>
     <link rel="alternate stylesheet" media="all" href="${content.rootpath ?: ''}css/light.css" title="light-color"/>
 

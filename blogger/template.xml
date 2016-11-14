@@ -42,6 +42,7 @@
 
         <link href='//www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
 
+        <link href='//www.mrhaki.com/css/light.css' media='all' rel='stylesheet'/>
         <link href='//www.mrhaki.com/css/dark.css' media='all' rel='alternate stylesheet' title="dark-color"/>
         <link href='//www.mrhaki.com/css/light.css' media='all' rel='alternate stylesheet' title="light-color"/>
 
