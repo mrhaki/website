@@ -19,7 +19,7 @@ You will quickly learn the basics of Gradle, how to write tasks, work with files
 
 == Gradle Dependency Management
 
-pass:[<a href="https://www.packtpub.com/application-development/gradle-dependency-management"><img border="0" align="left" class="photo" width="130" src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/4974OS_3796_Gradle%20Effective%20Implementations%20Guide,%20Second%20Edition.jpg" ></a>]In 2015 I wrote a book specifically about dependency management in Gradle for Java:
+pass:[<a href="https://www.packtpub.com/application-development/gradle-dependency-management"><img border="0" align="left" class="photo" width="130" src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/2789OS_Gradle%20Dependency%20Management.jpg" ></a>]In 2015 I wrote a book specifically about dependency management in Gradle for Java:
 pass:[<a href="https://www.packtpub.com/application-development/gradle-dependency-management">Gradle Dependency Management</a>].
 Gradle Dependency Management defines dependencies for your Java-based project and customizes how they are resolved. You will learn how to configure the publication of artifacts to different repositories. Packed with plenty of code samples, you will understand how to define the repositories that contain dependencies. Following this, you will learn how to customize the dependency resolution process in Gradle.
 If you work on Java projects, use Gradle as a build automation tool, and you use dependencies in your project, this is the book for you. Additionally, if you want to deploy your project artifacts as dependencies for other developers using Gradle, you've found the right book.
