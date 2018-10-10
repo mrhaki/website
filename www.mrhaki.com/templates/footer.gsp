@@ -15,9 +15,9 @@
                 <!--<li><a href='http://www.etsy.com/shop/BeadsByKC?ref=pr_shop'>Beads by KC</a></li> -->
                 <!--<li><a href='http://www.kralencreatie.nl'>KralenCreatie</a></li> -->
                 <li><a href='http://blog.jdriven.com/'>JDriven Blog</a></li>
-                <li><a href='http://www.pixeldam.net'>Pixeldam</a></li>
-                <li><a href='http://www.x-panded.com/'>Xpanded</a></li>
-                <li><a href='http://www.drbob42.com/'>DrBob42</a></li>
+                <!-- <li><a href='http://www.pixeldam.net'>Pixeldam</a></li>
+                <li><a href='http://www.x-panded.com/'>Xpanded</a></li> -->
+                <!-- <li><a href='http://www.drbob42.com/'>DrBob42</a></li> -->
                 <li><a href='http://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='/images/jdriven.png' title='JDriven Logo'/></a></li>
             </ul>
         </nav>
