@@ -27,7 +27,7 @@ body {
 ::selection { background: rgb(255, 255, 0); }
 ::-moz-selection { background: rgb(255, 255, 0); }
 
-p { margin-bottom: 20px; text-align: justify;}
+p { margin-bottom: 20px; text-align: left;}
 a { color: #333; text-decoration-style: dashed; }
 
 li { margin-left: 20px; }
@@ -69,6 +69,8 @@ footer nav { float: left; margin-right: 24px; }
 .small { font-size: 13px; line-height: 18px; }
 code, pre { font: 16px/24px Hack, Menlo, Monaco, "Liberation Mono", Consolas, monospace; }
 code { font-weight: normal; color: #444; }
+
+div.paragraph, div.post-body.entry-content { font-family: "Merriweather", serif; }
 
 *:not(pre) > code {
     white-space: nowrap;
