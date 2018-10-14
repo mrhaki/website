@@ -44,12 +44,11 @@
   vertical-align: baseline !important;
   width: auto !important;
   box-sizing: content-box !important;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+  font-family: Hack, Menlo, Monaco, "Liberation Mono", "Andale Mono", "Ubuntu Mono", Consolas, monospace !important;
   font-weight: normal !important;
   font-style: normal !important;
   font-size: 1em !important;
-  min-height: inherit !important;
-  min-height: auto !important;
+  min-height: 1.5em !important;
 }
 
 .syntaxhighlighter {
