@@ -15,6 +15,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata">
 
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/resets.css"/>
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/default.css"/>

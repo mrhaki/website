@@ -12,7 +12,7 @@ and came up with haki. So there you have it, now I am known as Mr. Haki or mrhak
 The following Groovy code shows this:
 
 ++++
-<pre class="brush:groovy;light:true">
+<pre class="brush:groovy;light:true;">
 assert ['Hubert', 'Alexander', 'Klein', 'Ikkink'].inject('mr') { nickname, name ->
     nickname + name[0].toLowerCase()
 } == 'mrhaki'
