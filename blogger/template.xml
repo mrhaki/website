@@ -3,7 +3,7 @@
 <html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
     <head>
         <meta charset='utf-8'/>
-        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE; chrome=1" />
+        <meta content='IE=9; IE=8; IE=7; IE=EDGE; chrome=1' http-equiv='X-UA-Compatible'/>
 
         <b:include data='blog' name='all-head-content'/>
 
@@ -13,25 +13,26 @@
             <title><data:blog.pageName/> - <data:blog.title/></title>
             <meta expr:content='data:blog.pageName' property='og:title'/>
             <meta content='article' property='og:type'/>
-            <meta content='http://www.mrhaki.com/images/jdriven-photo.png' property='og:image'/>
+            <meta content='https://www.mrhaki.com/images/jdriven-photo.png' property='og:image'/>
             <meta expr:content='data:blog.title' property='og:site_name'/>
         </b:if>
         <meta content='mrhaki' property='fb:admins'/>
         <meta content='@mrhaki' name='twitter:site'/>
         <meta content='@mrhaki' name='twitter:creator'/>
         <meta content='summary' name='twitter:card'/>
-        <meta content='A blog about Groovy, Grails, Gradle and other cool developer subjects.' name='twitter:description'/>
+        <meta content='A blog about Groovy, Gradle, Asciidoctor, Micronaut and other cool developer subjects.' name='twitter:description'/>
         <meta expr:content='data:blog.title' name='twitter:title'/>
 
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <script src="https://use.fontawesome.com/f4056f4b57.js"></script>
+        <script src='https://use.fontawesome.com/f4056f4b57.js'/>
 
         <link href='//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css' rel='stylesheet'/>
 
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"></link>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet'/>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet'/>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata"/>
 
         <link href='//www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
         <link href='//www.mrhaki.com/css/default.css' media='all' rel='stylesheet'/>
@@ -43,8 +44,8 @@
         <link href='//www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
 
         <link href='//www.mrhaki.com/css/light.css' media='all' rel='stylesheet'/>
-        <link href='//www.mrhaki.com/css/dark.css' media='all' rel='alternate stylesheet' title="dark-color"/>
-        <link href='//www.mrhaki.com/css/light.css' media='all' rel='alternate stylesheet' title="light-color"/>
+        <link href='//www.mrhaki.com/css/dark.css' media='all' rel='alternate stylesheet' title='dark-color'/>
+        <link href='//www.mrhaki.com/css/light.css' media='all' rel='alternate stylesheet' title='light-color'/>
 
         <b:skin><![CDATA[.label-size-5, .label-size-4, .label-size-3, .label-size-2, .label-size-1 { font-weight: normal; font-size: 100%; opacity: 1.0; }
 .label-size-5 { font-weight: bolder; }
@@ -53,7 +54,7 @@
     ]]></b:skin>
 
         <!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
 
         <link href='https://www.mrhaki.com/favicon.png' rel='shortcut icon'/>
         <link href='https://www.mrhaki.com/favicon.png' rel='icon' type='image/png'/>
@@ -61,7 +62,7 @@
 
         <script src='https://www.google.com/jsapi' type='text/javascript'> </script>
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'> </script>
-        <script src="//www.mrhaki.com/js/switchstylesheet.js"></script>
+        <script src='//www.mrhaki.com/js/switchstylesheet.js'/>
         <script src='//www.mrhaki.com/js/google-analytics-blogger.js'/>
         <script src='//www.mrhaki.com/related-posts/blogger-extras.js'/>
         <script src='https://apis.google.com/js/plusone.js' type='text/javascript'/>
@@ -86,7 +87,7 @@
 
     <body>
         <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'>
-          <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar' visible='true'>
+          <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar'>
             <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
@@ -103,7 +104,7 @@
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
           gapi.iframes.getContext().openChild({
-              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d6671019398434141469\x26blogName\x3dMessages+from+mrhaki\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dSILVER\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://mrhaki.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://mrhaki.blogspot.com/\x26vt\x3d6554773902926511325&#39;,
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d6671019398434141469\x26blogName\x3dMessages+from+mrhaki\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://mrhaki.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttps://mrhaki.blogspot.com/\x26vt\x3d6554773902926511325&#39;,
               where: document.getElementById(&quot;navbar-iframe-container&quot;),
               id: &quot;navbar-iframe&quot;
           });
@@ -138,26 +139,14 @@ head.appendChild(script);
             </div>
             <nav id='headernav'>
                 <ul>
-                    <li><a href='http://mrhaki.blogspot.com'>Blog</a></li>
-                    <li><a href='http://www.mrhaki.com/books.html'>Books</a></li>
-                    <li><a href='http://github.com/mrhaki'>Github</a></li>
-                    <li><a href='http://www.mrhaki.com/about/'>About</a></li>
+                    <li><a href='https://mrhaki.blogspot.com'>Blog</a></li>
+                    <li><a href='https://www.mrhaki.com/books.html'>Books</a></li>
+                    <li><a href='https://github.com/mrhaki'>Github</a></li>
+                    <li><a href='https://www.mrhaki.com/about/'>About</a></li>
                 </ul>
             </nav>
 
-            <b:section class='main-header' id='main-header' showaddelement='no'>
-              <b:widget id='CustomSearch1' locked='false' title='Search This Blog' type='CustomSearch' visible='true'>
-                <b:includable id='main'>
-                        <div class='widget-content'>
-                            <div expr:id='data:widget.instanceId + &quot;_form&quot;'>
-                                <span class='cse-status'><data:loadingMsg/></span>
-                            </div>
-                        </div>
-
-                        <b:include name='quickedit'/>
-                    </b:includable>
-              </b:widget>
-            </b:section>
+            <b:section class='main-header' id='main-header' showaddelement='no'/>
 
         </header>
 
@@ -166,7 +155,29 @@ head.appendChild(script);
             <div id='main_content'>
 
                 <b:section class='main' id='main' showaddelement='no'>
-                  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1' visible='true'>
+                  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
+                    <b:widget-settings>
+                      <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+                      <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+                      <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+                      <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+                      <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+                      <b:widget-setting name='showAuthor'>true</b:widget-setting>
+                      <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+                      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+                      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+                      <b:widget-setting name='showLabels'>true</b:widget-setting>
+                      <b:widget-setting name='showLocation'>false</b:widget-setting>
+                      <b:widget-setting name='postLabelsLabel'>Tags:</b:widget-setting>
+                      <b:widget-setting name='showTimestamp'>false</b:widget-setting>
+                      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+                      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+                      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+                      <b:widget-setting name='showReactions'>false</b:widget-setting>
+                    </b:widget-settings>
                     <b:includable id='main' var='top'>
                             <!-- posts -->
                             <div class='blog-posts hfeed'>
@@ -541,19 +552,19 @@ head.appendChild(script);
                                 <b:if cond='data:newerPageUrl'>
                                     <div class='mobile-link-button' id='blog-pager-newer-link'>
                                         <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
-                                        <span class="fa fa-arrow-right"></span>
+                                        <span class='fa fa-arrow-right'/>
                                     </div>
                                 </b:if>
 
                                 <b:if cond='data:olderPageUrl'>
                                     <div class='mobile-link-button' id='blog-pager-older-link'>
-                                        <span class="fa fa-arrow-left"></span>
+                                        <span class='fa fa-arrow-left'/>
                                         <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
                                     </div>
                                 </b:if>
 
                                 <div class='mobile-link-button' id='blog-pager-home-link'>
-                                    <span class="fa fa-home"></span>
+                                    <span class='fa fa-home'/>
                                     <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
                                 </div>
 
@@ -668,18 +679,18 @@ head.appendChild(script);
                                 <b:if cond='data:newerPageUrl'>
                                     <span id='blog-pager-newer-link'>
                                         <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
-                                        <span class="fa fa-arrow-right"></span>
+                                        <span class='fa fa-arrow-right'/>
                                     </span>
                                 </b:if>
 
                                 <b:if cond='data:olderPageUrl'>
                                     <span id='blog-pager-older-link'>
-                                        <span class="fa fa-arrow-left"></span>
+                                        <span class='fa fa-arrow-left'/>
                                         <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
                                     </span>
                                 </b:if>
 
-                                <span class="fa fa-home"></span>
+                                <span class='fa fa-home'/>
                                 <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
 
                                 <b:if cond='data:mobileLinkUrl'>
@@ -777,7 +788,7 @@ head.appendChild(script);
                                             <b:if cond='data:post.labels'>
                                                 <data:postLabelsLabel/>
                                                 <b:loop values='data:post.labels' var='label'>
-                                                    <a expr:href='data:label.url' rel='tag' class="tag-link link-label"><data:label.name/></a>
+                                                    <a class='tag-link link-label' expr:href='data:label.url' rel='tag'><data:label.name/></a>
                                                 </b:loop>
                                             </b:if>
                                         </span>
@@ -787,9 +798,9 @@ head.appendChild(script);
                                     </div>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <a name="disqus_thread"></a>
-                                        <div class="comments" id="comments">
-                                            <a name="comments"></a>
+                                        <a name='disqus_thread'/>
+                                        <div class='comments' id='comments'>
+                                            <a name='comments'/>
                                        </div>
                                     </b:if>
 
@@ -853,7 +864,6 @@ head.appendChild(script);
                                 <div style='clear: both;'/>
                             </b:if>
                         </b:includable>
-
                     <b:includable id='threaded-comment-form' var='post'>
                             <div class='comment-form'>
                                 <a name='comment-form'/>
@@ -1106,42 +1116,38 @@ head.appendChild(script);
             <nav id='footer_links'>
                 <h2>Links</h2>
                 <ul>
-                    <li><a href='http://www.mrhaki.com/'>Website</a></li>
-                    <li><a href='http://mrhaki.blogspot.com'>Blog</a></li>
-                    <li><a href='http://www.mrhaki.com/books.html'>Books</a></li>
-                    <li><a href='http://github.com/mrhaki'>Github</a></li>
-                    <li><a href='http://stream.mrhaki.com'>Livestream</a></li>
-                    <li><a href='http://www.mrhaki.com/about/'>About</a></li>
+                    <li><a href='https://www.mrhaki.com/'>Website</a></li>
+                    <li><a href='https://mrhaki.blogspot.com'>Blog</a></li>
+                    <li><a href='https://www.mrhaki.com/books.html'>Books</a></li>
+                    <li><a href='https://github.com/mrhaki'>Github</a></li>
+                    <li><a href='https://www.mrhaki.com/about/'>About</a></li>
                 </ul>
             </nav>
             <nav id='friend_links'>
                 <h2>Link to friends</h2>
                 <ul>
-                    <li><a href='http://www.facebook.com/droomkoekjes'>Droomkoekjes</a></li>
-                    <li><a href='http://blog.jdriven.com/'>JDriven Blog</a></li>
-                    <li><a href='http://www.pixeldam.net'>Pixeldam</a></li>
-                    <li><a href='http://www.x-panded.com/'>Xpanded</a></li>
-                    <li><a href='http://www.drbob42.com/'>DrBob42</a></li>
-                    <li><a href='http://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='http://www.mrhaki.com/images/jdriven.png' title='JDriven Logo'/></a></li>
+                    <li><a href='https://www.facebook.com/droomkoekjes'>Droomkoekjes</a></li>
+                    <li><a href='https://blog.jdriven.com/'>JDriven Blog</a></li>
+                    <li><a href='https://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='http://www.mrhaki.com/images/jdriven.png' title='JDriven Logo'/></a></li>
                 </ul>
             </nav>
             <nav id='connect_links'>
                 <h2>Connect</h2>
                 <ul>
-                    <li><a href='http://www.twitter.com/mrhaki'>Twitter</a></li>
+                    <li><a href='https://www.twitter.com/mrhaki'>Twitter</a></li>
                     <!--li><a href='http://gplus.to/mrhaki'>Google+</a></li-->
                     <li><a href='https://plus.google.com/116304108087638220732?rel=author'>Google+</a></li>
-                    <li><a href='http://nl.linkedin.com/in/mrhaki'>LinkedIn</a></li>
-                    <li><a href='http://www.facebook.com/mrhaki'>Facebook</a></li>
-                    <li><a href='http://www.delicious.com/mrhaki'>Delicious</a></li>
-                    <li><a href='http://www.mrhaki.com/about/mrhaki.vcf'>Contact</a></li>
+                    <li><a href='https://nl.linkedin.com/in/mrhaki'>LinkedIn</a></li>
+                    <li><a href='https://www.mrhaki.com/about/mrhaki.vcf'>Contact</a></li>
                 </ul>
             </nav>
 
             <b:section class='footer-widgets' id='footer-widgets' preferred='yes'>
-
-                <b:widget id='HTML1' locked='false' mobile='yes' title='Disqus' type='HTML'>
-                      <b:includable id='main'>
+              <b:widget id='HTML1' locked='false' mobile='yes' title='Disqus' type='HTML' version='1'>
+                <b:widget-settings>
+                  <b:widget-setting name='content'/>
+                </b:widget-settings>
+                <b:includable id='main'>
                   <script type='text/javascript'>
                       var disqus_shortname = &#39;mrhaki-blogspot&#39;;
                       var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
@@ -1178,9 +1184,15 @@ head.appendChild(script);
                       })();
                       </script>
                 </b:includable>
-                </b:widget>
-
-              <b:widget id='Label1' locked='false' title='Labels' type='Label' visible='true'>
+              </b:widget>
+              <b:widget id='Label1' locked='false' title='Labels' type='Label'>
+                <b:widget-settings>
+                  <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+                  <b:widget-setting name='display'>LIST</b:widget-setting>
+                  <b:widget-setting name='selectedLabelsList'>Apache Camel,Asciidoc,Asciidoctor,Awesome:Asciidoctor,Cocoon,Git,Google App Egine,Google Guava,Gradle,Gradle:Goodness,Grails,Grails:Goodness,Griffon:Goodness,Groovy,Groovy:Goodness,IntelliJ IDEA,Java,Maven,Maven2,Micronaut,Micronaut:Mastery,NetBeans,OSX,PlantUML,PlantUML:Pleasantness,RESTful webservices,Ratpack,Ratpacked,Spock,Spock:Spotlight,Spring,Spring 3,Spring 4,Spring Boot,Spring Cloud,Spring:Sweets,Tomcat,XSLT,Yahoo Pipes</b:widget-setting>
+                  <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
+                  <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
+                </b:widget-settings>
                 <b:includable id='main'>
                         <b:if cond='data:title'>
                             <h2><data:title/></h2>
@@ -1224,17 +1236,17 @@ head.appendChild(script);
             <div class='clearfix'/>
 
             <p id='copyright'>
-                &amp;copy; 2008-2016
+                &amp;copy; 2008-2018
                 <a href='http://www.mrhaki.com'>Hubert A. Klein Ikkink</a>
                 |
-                <a href="#" class="changecolor" title="dark-color">Dark theme</a>
+                <a class='changecolor' href='#' title='dark-color'>Dark theme</a>
                 |
-                <a href="#" class="changecolor" title="light-color">Light theme</a>
+                <a class='changecolor' href='#' title='light-color'>Light theme</a>
 
             </p>
             <p id='subscribe-feed'>
-                <a href='http://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'><img alt='' src='http://www.feedburner.com/fb/images/pub/feed-icon16x16.png' style='vertical-align:middle;border:0'/></a>
-                <a href='http://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'>Subscribe in a reader</a>
+                <a href='https://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'><img alt='' src='http://www.feedburner.com/fb/images/pub/feed-icon16x16.png' style='vertical-align:middle;border:0'/></a>
+                <a href='https://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'>Subscribe in a reader</a>
             </p>
 
         </footer>
@@ -1267,12 +1279,12 @@ head.appendChild(script);
             });
         </script>
 
-        <script type="text/javascript">
+        <script type='text/javascript'>
         $(document).ready(function(){
-            $(".changecolor").switchstylesheet( { seperator:"color"} );
+            $(&quot;.changecolor&quot;).switchstylesheet( { seperator:&quot;color&quot;} );
         });
         </script>
 
-        <script id="dsq-count-scr" src="//mrhaki-blogspot.disqus.com/count.js" async="true"></script>
+        <script async='true' id='dsq-count-scr' src='//mrhaki-blogspot.disqus.com/count.js'/>
     </body>
 </html>
