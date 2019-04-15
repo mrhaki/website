@@ -32,7 +32,7 @@
 
         <link href='//fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet'/>
         <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet'/>
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata"/>
+        <link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata' rel='stylesheet' type='text/css'/>
 
         <link href='//www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
         <link href='//www.mrhaki.com/css/default.css' media='all' rel='stylesheet'/>
@@ -133,7 +133,7 @@ head.appendChild(script);
 
         <header>
             <div id='header_logo'>
-                <a href='http://www.mrhaki.com/'>
+                <a href='https://www.mrhaki.com/'>
                     <img alt='Logo haki' height='64' src='https://www.mrhaki.com/images/haki-logo-black-64.png' title='Logo haki' width='64'/>
                 </a>
             </div>
@@ -146,7 +146,38 @@ head.appendChild(script);
                 </ul>
             </nav>
 
-            <b:section class='main-header' id='main-header' showaddelement='no'/>
+            <b:section class='main-header' id='main-header' showaddelement='no'>
+              <b:widget id='BlogSearch1' locked='false' title='Search' type='BlogSearch'>
+                <b:includable id='main'>
+    <!-- only display title if it's non-empty -->
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2 class='title'><data:title/></h2>
+    </b:if>
+
+    <div class='widget-content'>
+      <div expr:id='data:widget.instanceId + &quot;_form&quot;'>
+        <form class='gsc-search-box' expr:action='data:blog.searchUrl'>
+          <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+          <table cellpadding='0' cellspacing='0' class='gsc-search-box'>
+            <tbody>
+              <tr>
+                <td class='gsc-input'>
+                  <input autocomplete='off' class='gsc-input' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q' size='10' title='search' type='text'/>
+                </td>
+                <td class='gsc-search-button'>
+                  <input class='gsc-search-button' expr:value='data:messages.search' title='search' type='submit'/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
+
+    <b:include name='quickedit'/>
+  </b:includable>
+              </b:widget>
+            </b:section>
 
         </header>
 
@@ -163,6 +194,7 @@ head.appendChild(script);
                       <b:widget-setting name='showCommentLink'>false</b:widget-setting>
                       <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
                       <b:widget-setting name='showAuthor'>true</b:widget-setting>
+                      <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
                       <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
                       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>

@@ -120,7 +120,8 @@ h3.post-title a:hover { text-decoration: underline; }
 .blog-posts h2, #blog-items-labels h2 { font-size: 20px; margin-bottom: 0px; }
 .gsc-branding { display: none; }
 td.gsc-input input.gsc-input { font-size: 16px; border-color: #d9d9d9; background-color: #f6f6f6; }
-.CustomSearch { margin-left: 312px; padding-top: 40px; text-align: right; }
+.BlogSearch { position:absolute; width: 314px; top:40px; right: 0; }
+.BlogSearch > h2.title { display: none; }
 td.gsc-search-button input.gsc-search-button { margin-left: 8px; }
 .post.hentry { margin-bottom: 40px; }
 .post-footer { font-size: 13px; line-height: 18px; }
