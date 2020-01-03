@@ -1262,7 +1262,7 @@ head.appendChild(script);
             <div class='clearfix'/>
 
             <p id='copyright'>
-                &amp;copy; 2008-2018
+                &amp;copy; 2008-2020
                 <a href='http://www.mrhaki.com'>Hubert A. Klein Ikkink</a>
                 |
                 <a class='changecolor' href='#' title='dark-color'>Dark theme</a>
@@ -1288,7 +1288,7 @@ head.appendChild(script);
         <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushSql.js'/>
         <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushCss.js'/>
         <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushAsciidoc.js'/>
-
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushClojure.js'/>
 
         <script language='javascript'>
             SyntaxHighlighter.config.bloggerMode = true;

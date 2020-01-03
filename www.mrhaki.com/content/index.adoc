@@ -17,6 +17,18 @@ assert ['Hubert', 'Alexander', 'Klein', 'Ikkink'].inject('mr') { nickname, name 
 </pre>
 ++++
 
+Or in Clojure code:
+
+++++
+<pre class="brush:clojure;light:true;">
+(assert
+  (= "mrhaki"
+     (reduce (fn [nickname name] (str nickname (clojure.string/lower-case (first name))))
+             "mr"
+             ["Hubert" "Alexander" "Klein" "Ikkink"])))
+</pre>
+++++
+
 In 2009 I started writing blog posts about Groovy with the name http://mrhaki.blogspot.com/search/label/Groovy%3AGoodness[Groovy Goodness].
 These posts contain small snippets of code explaining core and exotic features of the Groovy language.
-During the years I wrote about subjects like Grails, Gradle, Spock and Asciidoctor.
+During the years I wrote about subjects like Grails, Micronaut, Gradle, Spock and Asciidoctor.

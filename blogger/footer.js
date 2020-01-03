@@ -6,6 +6,8 @@
 <script language="javascript" src="http://www.mrhaki.com/scripts/highlighter/shBrushGroovy.js"></script>
 <script language="javascript" src="http://www.mrhaki.com/scripts/highlighter/shBrushPlain.js"></script>
 <script language="javascript" src="http://www.mrhaki.com/scripts/highlighter/shBrushBash.js"></script>
+<script language="javascript" src="http://www.mrhaki.com/scripts/highlighter/shBrushClojure.js"></script>
+
 
 <script language="javascript">
 SyntaxHighlighter.config.bloggerMode = true;
