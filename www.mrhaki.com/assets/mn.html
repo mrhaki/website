@@ -442,30 +442,55 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
 <li><a href="#_software_requirements">Software requirements</a></li>
+<li><a href="#_introduction">Introduction</a>
+<ul class="sectlevel2">
+<li><a href="#_who_makes_micronaut">Who makes Micronaut</a></li>
+<li><a href="#_reactive_microservices">Reactive microservices</a></li>
+<li><a href="#_tries_to_be">Tries to be</a></li>
+<li><a href="#_dependency_injection">Dependency Injection</a></li>
+<li><a href="#_http_server">HTTP Server</a></li>
+<li><a href="#_controller">Controller</a></li>
+<li><a href="#_request_binding">Request binding</a></li>
+<li><a href="#_reactive_responses">Reactive responses</a></li>
+<li><a href="#_non_reactive_responses">Non-reactive responses</a></li>
+<li><a href="#_http_client">HTTP Client</a></li>
+<li><a href="#_testing">Testing</a></li>
+<li><a href="#_cloud_native_features">Cloud native features</a></li>
+<li><a href="#_cloud_native_features_2">Cloud native features</a></li>
+<li><a href="#_serverless">Serverless</a></li>
+<li><a href="#_message_driven_microservices">Message driven microservices</a></li>
+<li><a href="#_command_line_applications">Command line applications</a></li>
+<li><a href="#_micronaut_for_spring">Micronaut for Spring</a></li>
+<li><a href="#_configurations">Configurations</a></li>
+<li><a href="#_configurations_2">Configurations</a></li>
+</ul>
+</li>
+<li><a href="#_resources">Resources</a></li>
+<li><a href="#_troubleshooting">Troubleshooting</a></li>
 <li><a href="#_install_micronaut_cli">Install Micronaut CLI</a>
 <ul class="sectlevel2">
 <li><a href="#_using_sdkman_linux_macos_cygwin">Using SDKMAN! (Linux, MacOS, Cygwin)</a></li>
 <li><a href="#_download_zip_file_windows">Download ZIP file (Windows)</a></li>
 </ul>
 </li>
-<li><a href="#_resources">Resources</a></li>
 <li><a href="#_using_cli">Using CLI</a></li>
 <li><a href="#_server_application">Server application</a>
 <ul class="sectlevel2">
+<li><a href="#_docker">Docker</a></li>
 <li><a href="#_to_be_reactive_or_not_to_be_reactive">To be reactive or not to be reactive?</a></li>
 <li><a href="#_json">JSON</a></li>
 <li><a href="#_url_path_variables">URL path variables</a></li>
 <li><a href="#_server_sent_events">Server-sent events</a></li>
 </ul>
 </li>
-<li><a href="#_dependency_injection">Dependency injection</a></li>
-<li><a href="#_testing">Testing</a></li>
+<li><a href="#_dependency_injection_2">Dependency injection</a></li>
+<li><a href="#_testing_2">Testing</a></li>
 <li><a href="#_configuration">Configuration</a>
 <ul class="sectlevel2">
 <li><a href="#_use_configuration_values">Use configuration values</a></li>
 </ul>
 </li>
-<li><a href="#_http_client">HTTP Client</a>
+<li><a href="#_http_client_2">HTTP Client</a>
 <ul class="sectlevel2">
 <li><a href="#_low_level_client">Low-level client</a></li>
 <li><a href="#_declarative_client">Declarative client</a></li>
@@ -527,6 +552,412 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
+<h2 id="_introduction">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>We start with a small introduction based on a presentation about Micronaut.
+To skip the introduction and start directly with the workshop we can go to <a href="#_install_micronaut_cli">Install Micronaut CLI</a>.</p>
+</div>
+<div class="paragraph">
+<p>Micronaut is a JVM framework for building scalable, performant applications using <strong>Java</strong>, <strong>Groovy</strong> or <strong>Kotlin</strong>.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>An efficient compile-time dependency-injection container</p>
+</li>
+<li>
+<p>A reactive HTTP server &amp; client based on Netty</p>
+</li>
+<li>
+<p>A suite of cloud-native features to boost developer productivity when building microservice systems.</p>
+</li>
+<li>
+<p>Apache License v2</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_who_makes_micronaut">Who makes Micronaut</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>From creators of Grails</p>
+</li>
+<li>
+<p>Open source</p>
+</li>
+<li>
+<p>Developers paid by OCI</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reactive_microservices">Reactive microservices</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Any Reactive Streams implementation:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>RxJava 2.x</p>
+</li>
+<li>
+<p>Reactor 3.x</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Plain old <code>java.util.concurrent.CompletableFuture</code></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_tries_to_be">Tries to be</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Small in heap size</p>
+</li>
+<li>
+<p>Fast in startup</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_dependency_injection">Dependency Injection</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Compile-time: no reflection, no runtime proxies</p>
+</li>
+<li>
+<p>JSR-330 (<code>javax.inject</code>) or Spring-like</p>
+</li>
+<li>
+<p>Annotation processors for Java</p>
+</li>
+<li>
+<p>AST transformations for Groovy</p>
+</li>
+<li>
+<p>Conditional</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_http_server">HTTP Server</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java">package jdriven;
+
+import io.micronaut.runtime.Micronaut;
+
+public class Application {
+
+    public static void main(String[] args) {
+        Micronaut.run(Application.class);
+    }
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_controller">Controller</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java">package jdriven;
+
+import io.reactivex.Single;
+import io.micronaut.http.MediaType;
+import io.micronaut.http.annotation.Controller;
+import io.micronaut.http.annotation.Get;
+
+@Controller("/hello")
+public class HelloController {
+
+    @Get(value = "/", produces = MediaType.TEXT_PLAIN)
+    public Single&lt;String&gt; index() {
+        return Single.just("Hello JDriven!");
+    }
+
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_request_binding">Request binding</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Body</p>
+</li>
+<li>
+<p>Cookies</p>
+</li>
+<li>
+<p>Headers</p>
+</li>
+<li>
+<p>Parameters</p>
+</li>
+<li>
+<p>Path variables</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_reactive_responses">Reactive responses</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Type that implements <code>org.reactivestreams.Publisher</code></p>
+</li>
+<li>
+<p>A <code>CompletableFuture</code> instance</p>
+</li>
+<li>
+<p>An <code>io.micronaut.http.HttpResponse</code> instance wrapping reactive type</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_non_reactive_responses">Non-reactive responses</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Any implementation of <code>CharSequence</code></p>
+</li>
+<li>
+<p>POJO</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_http_client">HTTP Client</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java">package jdriven;
+
+import io.micronaut.http.annotation.Get;
+import io.micronaut.http.client.Client;
+import io.reactivex.Single;
+
+@Client("/hello")
+public interface HelloClient {
+
+    @Get("/")
+    Single&lt;String&gt; hello();
+
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_testing">Testing</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java">package jdriven;
+
+import io.micronaut.context.ApplicationContext;
+import io.micronaut.runtime.server.EmbeddedServer;
+import io.micronaut.test.annotation.MicronautTest;
+
+import org.junit.jupiter.api.Test;
+
+import javax.inject.Inject;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@MicronautTest
+public class HelloControllerTest {
+
+    @Inject
+    EmbeddedServer embeddedServer;
+
+    @Test
+    public void testHello() {
+        try(RxHttpClient client = embeddedServer.getApplicationContext().createBean(RxHttpClient.class, embeddedServer.getURL())) {
+            assertEquals("Hello JDriven!", client.hello().blockingGet());
+        }
+    }
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_cloud_native_features">Cloud native features</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Distributed configuration: Consul, AWS Parameter Store</p>
+</li>
+<li>
+<p>Service discovery: Consul, Eureka, Kubernetes, AWS Route 53</p>
+</li>
+<li>
+<p>Client-side load balancing, optional Netflix Ribbon</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_cloud_native_features_2">Cloud native features</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Fault tolerant: retry, fallback, circuit breaker, Hystrix support</p>
+</li>
+<li>
+<p>Distributed tracing: Zipkin, Jaeger</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_serverless">Serverless</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java">package jdriven;
+
+import io.micronaut.function.FunctionBean;
+import java.util.function.Supplier;
+
+@FunctionBean("hello-jdriven")
+public class HelloJDrivenFunction implements Supplier&lt;String&gt; {
+
+    @Override
+    public String get() {
+        return "Hello JDriven!";
+    }
+}</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_message_driven_microservices">Message driven microservices</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Kafka producers</p>
+</li>
+<li>
+<p>Kafka consumers</p>
+</li>
+<li>
+<p>Kafka streams</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_command_line_applications">Command line applications</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Based on Picocli</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_micronaut_for_spring">Micronaut for Spring</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Run existing Spring Boot applications as Micronaut</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_configurations">Configurations</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Datasources: Common DBCP, Hikari, Tomcat</p>
+</li>
+<li>
+<p>Hibernate: JPA, GORM</p>
+</li>
+<li>
+<p>Mongo</p>
+</li>
+<li>
+<p>Neo4j</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_configurations_2">Configurations</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Postgres reactive</p>
+</li>
+<li>
+<p>Redis</p>
+</li>
+<li>
+<p>Cassandra</p>
+</li>
+<li>
+<p>RabbitMQ</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_resources">Resources</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The best resource is the <a href="https://docs.micronaut.io/latest/guide/index.html">documentation of Micronaut</a>.</p>
+</li>
+<li>
+<p><a href="http://guides.micronaut.io">Micronaut guides</a></p>
+</li>
+<li>
+<p><a href="http://micronaut.io/documentation.html">Micronaut documentation index</a></p>
+</li>
+<li>
+<p><a href="https://micronaut-projects.github.io/micronaut-spring/latest/guide/index.html">Micronaut for Spring</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_troubleshooting">Troubleshooting</h2>
+<div class="sectionbody">
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Developers using MacOS and experience long waiting times before a Micronaut application is started (from command-line, IDE or tests) should checkout <a href="https://docs.micronaut.io/latest/guide/index.html#problems">common problems</a> section in the Micronaut guide and then especially <em>It is taking much longer to start my application than it should (MacOS)</em>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_install_micronaut_cli">Install Micronaut CLI</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -556,7 +987,7 @@ To install the Micronaut CLI we can use <a href="http://sdkman.io">SDKMAN!</a> o
 <div class="listingblock">
 <div class="content">
 <pre>$ mn --version
-| Micronaut Version: 1.0.3
+| Micronaut Version: 1.1.1
 | JVM Version: 11.0.2</pre>
 </div>
 </div>
@@ -566,7 +997,7 @@ To install the Micronaut CLI we can use <a href="http://sdkman.io">SDKMAN!</a> o
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Download the <a href="https://github.com/micronaut-projects/micronaut-core/releases/download/v1.0.3/micronaut-1.0.3.zip">ZIP</a> file with Micronaut.</p>
+<p>Download the <a href="https://github.com/micronaut-projects/micronaut-core/releases/download/v1.1.1/micronaut-1.1.1.zip">ZIP</a> file with Micronaut.</p>
 </li>
 <li>
 <p>Next we need to extract the contents of the file to a directory on our computer.</p>
@@ -585,40 +1016,10 @@ To install the Micronaut CLI we can use <a href="http://sdkman.io">SDKMAN!</a> o
 <div class="listingblock">
 <div class="content">
 <pre>$ mn --version
-| Micronaut Version: 1.0.3
+| Micronaut Version: 1.1.1
 | JVM Version: 11.0.2</pre>
 </div>
 </div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_resources">Resources</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>The best resource is the <a href="https://docs.micronaut.io/latest/guide/index.html">documentation of Micronaut</a>.</p>
-</li>
-<li>
-<p><a href="http://guides.micronaut.io">Micronaut guides</a></p>
-</li>
-<li>
-<p><a href="http://micronaut.io/documentation.html">Micronaut documentation index</a></p>
-</li>
-</ul>
-</div>
-<div class="admonitionblock important">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-important" title="Important"></i>
-</td>
-<td class="content">
-Developers using MacOS and experience long waiting times before a Micronaut application is started (from command-line, IDE or tests) should checkout <a href="https://docs.micronaut.io/latest/guide/index.html#problems">common problems</a> section in the Micronaut guide and then especially <em>It is taking much longer to start my application than it should (MacOS)</em>.
-</td>
-</tr>
-</table>
 </div>
 </div>
 </div>
@@ -661,12 +1062,16 @@ mn&gt;</pre>
 <pre>mn&gt; list-profiles
 | Available Profiles
 --------------------
-  cli           The cli profile
-  federation    The federation profile
-  function-aws  The function profile for AWS Lambda
-  kafka         The Kafka messaging profile
-  profile       A profile for creating new Micronaut profiles
-  service       The service profile</pre>
+  cli                 The cli profile
+  configuration       The profile for creating the configuration
+  federation          The federation profile
+  function-aws        The function profile for AWS Lambda
+  function-aws-alexa  The function profile for AWS Alexa-Lambda
+  grpc                Profile for Creating GRPC Services
+  kafka               The Kafka messaging profile
+  profile             A profile for creating new Micronaut profiles
+  rabbitmq            The RabbitMQ messaging profile
+  service             The service profile</pre>
 </div>
 </div>
 <div class="admonitionblock tip">
@@ -702,6 +1107,7 @@ The service profile
   create-client         Creates a client interface
   create-controller     Creates a controller and associated test
   create-job            Creates a job with scheduled method
+  create-test           Creates a simple test for the project's testing framework
   create-websocket-client  Creates a Websocket client
   create-websocket-server  Creates a Websocket server
   help                  Prints help information for a specific command
@@ -709,17 +1115,33 @@ The service profile
 | Provided Features:
 --------------------
   annotation-api        Adds Java annotation API
+  application           Facilitates creating an executable JVM application and adds support for creating fat/uber JARs
+  aws-api-gateway       Adds support for AWS API Gateway
+  aws-api-gateway-graal  Creates an AWS API Gateway Proxy Lambda with Graal Native Image
   cassandra             Adds support for Cassandra in the application
   config-consul         Adds support for Distributed Configuration with Consul (https://www.consul.io)
   discovery-consul      Adds support for Service Discovery with Consul (https://www.consul.io)
   discovery-eureka      Adds support for Service Discovery with Eureka
+  elasticsearch         Adds support for Elasticsearch in the application
+  file-watch            Adds automatic restarts and file watch
+  flyway                Adds support for Flyway database migrations (https://flywaydb.org/)
   graal-native-image    Allows Building a Native Image
+  graphql               Adds support for GraphQL in the application
   groovy                Creates a Groovy application
   hibernate-gorm        Adds support for GORM persistence framework
   hibernate-jpa         Adds support for Hibernate/JPA
   http-client           Adds support for creating HTTP clients
   http-server           Adds support for running a Netty server
   java                  Creates a Java application
+  jdbc-dbcp             Configures SQL DataSource instances using Commons DBCP
+  jdbc-hikari           Configures SQL DataSource instances using Hikari Connection Pool
+  jdbc-tomcat           Configures SQL DataSource instances using Tomcat Connection Pool
+  jib                   Adds support for Jib builds
+  jrebel                Adds support for class reloading with JRebel (requires separate JRebel installation)
+  junit                 Adds support for the JUnit 5 testing framework
+  kafka                 Adds support for Kafka
+  kafka-streams         Adds support for Kafka Streams
+  kotlin                Creates a Kotlin application
 ...</pre>
 </div>
 </div>
@@ -961,6 +1383,66 @@ Check the file size of the resulting JAR file. Because Micronaut&#8217;s core is
 </table>
 </div>
 <div class="sect2">
+<h3 id="_docker">Docker</h3>
+<div class="paragraph">
+<p>Inside our project directory we also have a <code>Dockerfile</code> present.
+We can use this to create a Docker image of our application.</p>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+We must have created the JAR file that is the output of the Gradle <code>assemble</code> task in the previous step.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>We run the <code>docker build</code> command to build an image:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ docker build -t hello .
+Sending build context to Docker daemon  63.11MB
+Step 1/4 : FROM adoptopenjdk/openjdk11-openj9:jdk-11.0.1.13-alpine-slim
+jdk-11.0.1.13-alpine-slim: Pulling from adoptopenjdk/openjdk11-openj9
+4fe2ade4980c: Already exists
+1ba2a07c78f2: Pull complete
+944724f145c9: Pull complete
+1cb512dae36f: Pull complete
+Digest: sha256:60718fa9eb6b6bc4ab6fe7f3a9db31b8725fb63ebdda833a43f541c07792ff5c
+Status: Downloaded newer image for adoptopenjdk/openjdk11-openj9:jdk-11.0.1.13-alpine-slim
+ ---&gt; f3f4b8ddca6f
+Step 2/4 : COPY build/libs/*.jar hello.jar
+ ---&gt; a67f10e448e1
+Step 3/4 : EXPOSE 8080
+ ---&gt; Running in ebb182731b9d
+Removing intermediate container ebb182731b9d
+ ---&gt; 4e56bd9f5c65
+Step 4/4 : CMD java  -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Dcom.sun.management.jmxremote -noverify ${JAVA_OPTS} -jar hello.jar
+ ---&gt; Running in d1e8c5432f5a
+Removing intermediate container d1e8c5432f5a
+ ---&gt; 342cf0e99a7e
+Successfully built 342cf0e99a7e
+Successfully tagged hello:latest
+$</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Now we create and run a Docker container based on this image.
+We run the following command to expose our Micronaut application at port <code>8080</code>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ docker run -p 8080:8080 hello
+....</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
 <h3 id="_to_be_reactive_or_not_to_be_reactive">To be reactive or not to be reactive?</h3>
 <div class="paragraph">
 <p>Micronaut supports the Reactive Streams API through third party libraries.
@@ -1043,7 +1525,7 @@ public class Message {
 </div>
 </div>
 <div class="paragraph">
-<p>In our <code>HellController</code> class we create new method that return a <code>Message</code> object.
+<p>In our <code>HelloController</code> class we create a new method that returns a <code>Message</code> object.
 We use the reactive type <code>Single</code> to package our <code>Message</code> object in:</p>
 </div>
 <div class="listingblock">
@@ -1310,7 +1792,7 @@ data: {"text":"Welcome to Micronaut (#5)"}
 </div>
 </div>
 <div class="sect1">
-<h2 id="_dependency_injection">Dependency injection</h2>
+<h2 id="_dependency_injection_2">Dependency injection</h2>
 <div class="sectionbody">
 <div class="admonitionblock tip">
 <table>
@@ -1438,7 +1920,7 @@ public class GreetingFactory {
 </div>
 </div>
 <div class="sect1">
-<h2 id="_testing">Testing</h2>
+<h2 id="_testing_2">Testing</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>To test our application with Micronaut we can use an <code>EmbeddedServer</code> object to start a Micronaut application.
@@ -1458,26 +1940,33 @@ import io.micronaut.context.ApplicationContext;
 import io.micronaut.http.HttpStatus;
 import io.micronaut.http.client.RxHttpClient;
 import io.micronaut.runtime.server.EmbeddedServer;
-import org.junit.Test;
+import io.micronaut.test.annotation.MicronautTest;
 
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import javax.inject.Inject;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@MicronautTest
 public class GreetingControllerTest {
+
+    @Inject
+    EmbeddedServer embeddedServer;
 
     @Test
     public void testIndex() throws Exception {
-        try(EmbeddedServer server = ApplicationContext.run(EmbeddedServer.class)) {
-            try(RxHttpClient client = server.getApplicationContext().createBean(RxHttpClient.class, server.getURL())) {
-                assertEquals(HttpStatus.OK, client.toBlocking().exchange("/greeting").status());
-            }
+        try(RxHttpClient client = embeddedServer.getApplicationContext().createBean(RxHttpClient.class, embeddedServer.getURL())) {
+            assertEquals(HttpStatus.OK, client.toBlocking().exchange("/greeting").status());
         }
     }
 }</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>In the test method an <code>EmbeddedServer</code> is started and a <code>RxHttpClient</code> object is created to invoke the HTTP endpoints of our application.
+<p>In the test class an <code>EmbeddedServer</code> is injected.
+The <code>@MicronautTest</code> annotation allows to inject a <code>EmbeddedServer</code> instance to our test class.
+And in the test method a <code>RxHttpClient</code> object is created to invoke the HTTP endpoints of our application.
 The client object has several methods to send HTTP requests like <code>exchange</code> or <code>retrieve</code> with different options.
 We make the client blocking so we can assert a response in our tests.</p>
 </div>
@@ -1505,21 +1994,26 @@ import io.micronaut.http.HttpResponse;
 import io.micronaut.http.HttpStatus;
 import io.micronaut.http.client.RxHttpClient;
 import io.micronaut.runtime.server.EmbeddedServer;
-import org.junit.Test;
+import io.micronaut.test.annotation.MicronautTest;
 
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import javax.inject.Inject;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@MicronautTest
 public class GreetingControllerTest {
+
+    @Inject
+    EmbeddedServer embeddedServer;
 
     @Test
     public void testIndex() throws Exception {
-        try(EmbeddedServer server = ApplicationContext.run(EmbeddedServer.class)) {
-            try(RxHttpClient client = server.getApplicationContext().createBean(RxHttpClient.class, server.getURL())) {
-                HttpResponse&lt;Message&gt; response = client.toBlocking().exchange("/greeting/JDriven", Message.class);
-                assertEquals(HttpStatus.OK, response.status());
-                assertEquals("Hello JDriven", response.body().getText());
-            }
+        try(RxHttpClient client = embeddedServer.getApplicationContext().createBean(RxHttpClient.class, embeddedServer.getURL())) {
+            HttpResponse&lt;Message&gt; response = client.toBlocking().exchange("/greeting/JDriven", Message.class);
+            assertEquals(HttpStatus.OK, response.status());
+            assertEquals("Hello JDriven", response.body().getText());
         }
     }
 }</code></pre>
@@ -1536,36 +2030,38 @@ We can add more tests for the other methods of <code>HelloController</code>.</p>
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-java hljs" data-lang="java">package hello;
 
-import io.micronaut.context.ApplicationContext;
 import io.micronaut.http.HttpResponse;
 import io.micronaut.http.HttpStatus;
 import io.micronaut.http.client.RxHttpClient;
 import io.micronaut.runtime.server.EmbeddedServer;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import io.micronaut.test.annotation.MicronautTest;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import javax.inject.Inject;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+@MicronautTest
 public class HelloControllerTest {
 
-    private static EmbeddedServer server = ApplicationContext.run(EmbeddedServer.class);
-    private static RxHttpClient client = server.getApplicationContext().createBean(RxHttpClient.class, server.getURL());
+    @Inject
+    private EmbeddedServer server;
+
+    private RxHttpClient client;
 
     /**
      * Server only needs to start once for all tests in this class.
      */
-    @BeforeClass
-    public static void startServer() {
-        server.start();
+    @BeforeEach
+    public void createClient() {
+        client = server.getApplicationContext().createBean(RxHttpClient.class, server.getURL());
     }
 
-    @AfterClass
-    public static void cleanup() {
-        if (server != null) {
-            server.stop();
-        }
+    @AfterEach
+    public void cleanupClient() {
         if (client != null) {
             client.stop();
         }
@@ -1746,7 +2242,7 @@ $</pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_http_client">HTTP Client</h2>
+<h2 id="_http_client_2">HTTP Client</h2>
 <div class="sectionbody">
 <div class="admonitionblock tip">
 <table>
@@ -2196,7 +2692,7 @@ public class ConferenceLoader implements ApplicationEventListener&lt;ServiceStar
 
     @Override
     public void onApplicationEvent(final ServiceStartedEvent event) {
-        Flowable.just("JFall", "JavaLand", "JFokus")
+        Flowable.just("Teqnation", "JFall", "JavaLand", "JFokus")
                 .map(name -&gt; new Conference(name))
                 .flatMapSingle(conferenceRepository::save)
                 .subscribe(System.out::println);
@@ -2744,7 +3240,7 @@ $</pre>
 <div class="listingblock">
 <div class="content">
 <pre>$ curl -X GET http://localhost:8080/gateway
-[JFall,JFokus,JavaLand]
+[Teqnation,JFall,JFokus,JavaLand]
 $</pre>
 </div>
 </div>
@@ -2873,7 +3369,7 @@ To learn about other cloud native features in Micronaut read <a href="https://do
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-01-30 11:01:23 +0100
+Last updated 2019-05-14 15:16:20 +0200
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/github.min.css">

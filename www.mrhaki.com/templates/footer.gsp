@@ -12,12 +12,7 @@
             <h3>Link to friends</h3>
             <ul>
                 <li><a href='http://www.facebook.com/droomkoekjes'>Droomkoekjes</a></li>
-                <!--<li><a href='http://www.etsy.com/shop/BeadsByKC?ref=pr_shop'>Beads by KC</a></li> -->
-                <!--<li><a href='http://www.kralencreatie.nl'>KralenCreatie</a></li> -->
                 <li><a href='http://blog.jdriven.com/'>JDriven Blog</a></li>
-                <!-- <li><a href='http://www.pixeldam.net'>Pixeldam</a></li>
-                <li><a href='http://www.x-panded.com/'>Xpanded</a></li> -->
-                <!-- <li><a href='http://www.drbob42.com/'>DrBob42</a></li> -->
                 <li><a href='http://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='/images/jdriven.png' title='JDriven Logo'/></a></li>
             </ul>
         </nav>
@@ -25,11 +20,7 @@
             <h3>Connect</h3>
             <ul>
                 <li><a href="http://www.twitter.com/mrhaki">Twitter</a></li>
-                <!--<li><a href="http://gplus.to/mrhaki">Google+</a></li>-->
-                <li><a href="https://plus.google.com/116304108087638220732?rel=author">Google+</a></li>
                 <li><a href="http://nl.linkedin.com/in/mrhaki">LinkedIn</a></li>
-                <li><a href="http://www.facebook.com/mrhaki">Facebook</a></li>
-                <li><a href="http://www.delicious.com/mrhaki">Delicious</a></li>
                 <li><a href="/about/mrhaki.vcf">Contact</a></li>
             </ul>
         </nav>

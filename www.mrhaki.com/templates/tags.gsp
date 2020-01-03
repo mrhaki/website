@@ -1,4 +1,4 @@
-<%include "header.gsp"%>
+	<%include "header.gsp"%>
 
 	<%include "menu.gsp"%>
 	
