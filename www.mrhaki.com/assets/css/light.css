@@ -135,7 +135,7 @@ div.syntaxhighlighter {
 
 .syntaxhighlighter .string,
 .syntaxhighlighter .string a {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(40, 79, 158) !important;
 }
 
 .syntaxhighlighter .keyword {
@@ -144,7 +144,8 @@ div.syntaxhighlighter {
 }
 
 .syntaxhighlighter .preprocessor {
-    color: gray !important;
+    color: #444 !important;
+    font-weight: bold !important;
 }
 
 .syntaxhighlighter .variable {
@@ -160,7 +161,8 @@ div.syntaxhighlighter {
 }
 
 .syntaxhighlighter .constants {
-    color: rgb(102, 14, 122) !important;
+    color: #444 !important;
+    font-style: italic !important;
 }
 
 .syntaxhighlighter .script {
