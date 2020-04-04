@@ -113,7 +113,7 @@ border: 3px solid #d97802; }
 
 /* Blog styles
    ----------- */
-#activities h2.date-header, .blog-posts h2.date-header { font-weight: normal; font-size: 16px; line-height: 18px; margin-bottom: 8px; color: #b6b3ac; font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, "Arial Narrow", Arial, sans-serif; }
+#activities h2.date-header, .blog-posts h2.date-header { font-weight: normal; font-size: 16px; line-height: 18px; margin-bottom: 8px; color: #424242; font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, "Arial Narrow", Arial, sans-serif; }
 h3.post-title { font-size: 26px; margin-bottom: 16px; }
 h3.post-title a { text-decoration: none; }
 h3.post-title a:hover { text-decoration: underline; }
