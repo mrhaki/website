@@ -121,7 +121,7 @@ a.blog-pager-newer-link { background: none; padding-right: 0;}
   color: #696854 !important;
 }
 .syntaxhighlighter .string, .syntaxhighlighter .string a {
-    color: #afafaf !important;
+    color: rgb(67, 115, 138) !important;
 }
 .syntaxhighlighter .keyword {
   font-weight: bold !important;
@@ -129,17 +129,20 @@ a.blog-pager-newer-link { background: none; padding-right: 0;}
 }
 .syntaxhighlighter .preprocessor {
   color: #435a5f !important;
+  font-weight: bold !important;
 }
 .syntaxhighlighter .variable {
   color: #898989 !important;
 }
 .syntaxhighlighter .value {
+  color: rgb(67, 115, 138) !important;
 }
 .syntaxhighlighter .functions {
   font-weight: bold !important;
+  color: #afafaf !important;
 }
 .syntaxhighlighter .constants {
-
+  color: #868484 !important;
 }
 .syntaxhighlighter .script {
   font-weight: bold !important;
