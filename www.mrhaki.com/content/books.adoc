@@ -7,8 +7,8 @@ The last couple of years I've worked on different books. On this page is a list 
 
 == Gradle Effective Implementation Guide (Second edition)
 
-pass:[<a href="https://www.packtpub.com/web-development/gradle-effective-implementations-guide-second-edition"><img align="left" class="photo" width="130" border="0" src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/4974OS_3796_Gradle%20Effective%20Implementations%20Guide,%20Second%20Edition.jpg" /></a>]In 2016 I have written the book
-pass:[<a href="https://www.packtpub.com/web-development/gradle-effective-implementations-guide-second-edition">Gradle Effective Implementation Guide Second Edition</a>]
+image:gradle-effective-impl-guide-ed2.jpg[width=170,float="left",role="photo",link="https://www.packtpub.com/web-development/gradle-effective-implementations-guide-second-edition"] In 2016 I have written the book
+https://www.packtpub.com/web-development/gradle-effective-implementations-guide-second-edition[Gradle Effective Implementation Guide Second Edition]
 for Packt Publishing.
 The book is a great introduction and reference for using Gradle.
 The Gradle build language is explained with hands on code and practical applications.
@@ -19,17 +19,15 @@ You will quickly learn the basics of Gradle, how to write tasks, work with files
 
 == Gradle Dependency Management
 
-pass:[<a href="https://www.packtpub.com/application-development/gradle-dependency-management"><img border="0" align="left" class="photo" width="130" src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/2789OS_Gradle%20Dependency%20Management.jpg" ></a>]In 2015 I wrote a book specifically about dependency management in Gradle for Java:
-pass:[<a href="https://www.packtpub.com/application-development/gradle-dependency-management">Gradle Dependency Management</a>].
+image:gradle-dependency-management.jpg[width=170,float="left",role="photo",link="https://www.packtpub.com/application-development/gradle-dependency-management"] In 2015 I wrote a book specifically about dependency management in Gradle for Java: https://www.packtpub.com/application-development/gradle-dependency-management[Gradle Dependency Management].
 Gradle Dependency Management defines dependencies for your Java-based project and customizes how they are resolved. You will learn how to configure the publication of artifacts to different repositories. Packed with plenty of code samples, you will understand how to define the repositories that contain dependencies. Following this, you will learn how to customize the dependency resolution process in Gradle.
 If you work on Java projects, use Gradle as a build automation tool, and you use dependencies in your project, this is the book for you. Additionally, if you want to deploy your project artifacts as dependencies for other developers using Gradle, you've found the right book.
 
 
 == Gradle Effective Implementation Guide
 
-pass:[<a href="https://www.packtpub.com/application-development/gradle-effective-implementation-guide"><img align="left" class="photo" width="130" border="0" src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/8109OS_mockupcover_normal.jpg" /></a>]In 2012 I have written the book
-pass:[<a href="https://www.packtpub.com/application-development/gradle-effective-implementation-guide">Gradle Effective Implementation Guide</a>]
-for Packt Publishing.
+image:gradle-effective-impl-guide-ed1.jpg[width=170,float="left",role="photo",link="https://www.packtpub.com/application-development/gradle-effective-implementation-guide"]In 2012 I have written the book
+https://www.packtpub.com/application-development/gradle-effective-implementation-guide[Gradle Effective Implementation Guide] for Packt Publishing.
 The book is a great introduction and reference for using Gradle.
 The Gradle build language is explained with hands on code and practical applications.
 You learn how to apply Gradle in your Java, Scala or Groovy projects, integrate with your favorite
@@ -38,7 +36,7 @@ Start with the foundations and work your way through hands on examples to build 
 
 == Groovy Goodness Notebook
 
-pass:[<a href="http://www.leanpub.com/groovy-goodness-notebook"><img align="left" class="photo" src="http://titlepages.leanpub.com/groovy-goodness-notebook/small" /></a>] In 2013 I have bundled the Groovy Goodness blog posts into a single electronic publication: Groovy Goodness Notebook. The book contains the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Groovy. Features are explained with a lot of code, so it is very practical. +
+image:http://titlepages.leanpub.com/groovy-goodness-notebook/small[float="left",role="photo",link="http://www.leanpub.com/groovy-goodness-notebook"] In 2013 I have bundled the Groovy Goodness blog posts into a single electronic publication: Groovy Goodness Notebook. The book contains the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Groovy. Features are explained with a lot of code, so it is very practical. +
 The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Groovy Goodness blog posts will be added to the book and those updates are free if you have bought the book. +
 The book is also available in https://leanpub.com/b/groovygrails-goodness-notebooks[a bundle] with the Grails Goodness Notebook. +
 The book is also available in https://leanpub.com/b/groovyandgradlegoodnessnotebooks[a bundle] with the Gradle Goodness Notebook. +
@@ -47,30 +45,31 @@ The book is also available in https://leanpub.com/b/groovygrailsgradlegoodnessno
 
 == Grails Goodness Notebook
 
-pass:[<a href="http://www.leanpub.com/grails-goodness-notebook"><img align="left" class="photo" src="http://titlepages.leanpub.com/grails-goodness-notebook/small" /></a>] In 2014 I have bundled the Grails Goodness blog posts into a single electronic publication: Grails Goodness Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Grails instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Grails. Features are explained with a lot of code, so it is very practical. +
+image:http://titlepages.leanpub.com/grails-goodness-notebook/small[float="left",role="photo",link="http://www.leanpub.com/grails-goodness-notebook"] In 2014 I have bundled the Grails Goodness blog posts into a single electronic publication: Grails Goodness Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Grails instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Grails. Features are explained with a lot of code, so it is very practical. +
 The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Grails Goodness blog posts will be added to the book and those updates are free if you have bought the book. +
 The book is also available in https://leanpub.com/b/groovygrails-goodness-notebooks[a bundle] with the Groovy Goodness Notebook. +
 The book is also available in https://leanpub.com/b/groovygrailsgradlegoodnessnotebooks[a bundle] with the Groovy Goodness Notebook and Gradle Goodness Notebook.
 
 == Gradle Goodness Notebook
 
-pass:[<a href="http://www.leanpub.com/gradle-goodness-notebook"><img align="left" class="photo" src="http://titlepages.leanpub.com/gradle-goodness-notebook/small" /></a>] In 2015 I have bundled the Gradle Goodness blog posts into a single electronic publication: Gradle Goodness Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Gradle. Features are explained with a lot of code, so it is very practical. +
+image:http://titlepages.leanpub.com/gradle-goodness-notebook/small[float="left",role="photo",link="http://www.leanpub.com/gradle-goodness-notebook"] In 2015 I have bundled the Gradle Goodness blog posts into a single electronic publication: Gradle Goodness Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Gradle. Features are explained with a lot of code, so it is very practical. +
 The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Gradle Goodness blog posts will be added to the book and those updates are free if you have bought the book. +
 The book is also available in https://leanpub.com/b/groovyandgradlegoodnessnotebooks[a bundle] with the Groovy Goodness Notebook. +
 The book is also available in https://leanpub.com/b/groovygrailsgradlegoodnessnotebooks[a bundle] with the Groovy Goodness Notebook and Grails Goodness Notebook.
 
 == Ratpacked Notebook (FREE)
 
-pass:[<a href="http://www.leanpub.com/ratpacked-notebook"><img align="left" class="photo" src="http://titlepages.leanpub.com/ratpacked-notebook/small" /></a>] In 2016 I have bundled the Ratpacked blog posts into a single electronic publication: Ratpacked Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Ratpack. Features are explained with a lot of code, so it is very practical. +
+image:http://titlepages.leanpub.com/ratpacked-notebook/small[float="left",role="photo",link="http://www.leanpub.com/ratpacked-notebook"]
+In 2016 I have bundled the Ratpacked blog posts into a single electronic publication: Ratpacked Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Ratpack. Features are explained with a lot of code, so it is very practical. +
 The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Ratpaced blog posts will be added to the book and those updates are free if you have bought the book.
 
 == Spocklight Notebook (FREE)
 
-pass:[<a href="https://www.leanpub.com/spockframeworknotebook"><img align="left" class="photo" src="http://titlepages.leanpub.com/spockframeworknotebook/small" /></a>] In 2014 I have bundled the Spocklight blog posts into a single electronic publication: Spocklight Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Spock instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Spock. Features are explained with a lot of code, so it is very practical. +
+image:http://titlepages.leanpub.com/spockframeworknotebook/small[float="left",role="photo",link="http://www.leanpub.com/spockframeworknotebook"] In 2014 I have bundled the Spocklight blog posts into a single electronic publication: Spocklight Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Spock instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Spock. Features are explained with a lot of code, so it is very practical. +
 The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Grails Goodness blog posts will be added to the book and those updates are free if you have bought the book.
 
 == Awesome Asciidoctor Notebook (FREE)
 
-pass:[<a href="http://www.leanpub.com/awesomeasciidoctornotebook"><img align="left" class="photo" src="http://titlepages.leanpub.com/awesomeasciidoctornotebook/small" /></a>] In 2015 I have bundled the Awesome Asciidoctor blog posts into a single electronic publication: Awesome Asciidoctor Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Asciidoctor instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Asciidoctor. Features are explained with a lot of code, so it is very practical. +
+image:http://titlepages.leanpub.com/awesomeasciidoctornotebook/small[float="left",role="photo",link="http://www.leanpub.com/awesomeasciidoctornotebook"] In 2015 I have bundled the Awesome Asciidoctor blog posts into a single electronic publication: Awesome Asciidoctor Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Asciidoctor instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Asciidoctor. Features are explained with a lot of code, so it is very practical. +
 The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Grails Goodness blog posts will be added to the book and those updates are free if you have bought the book.
 
