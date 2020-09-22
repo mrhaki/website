@@ -36,7 +36,6 @@
     <!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
     <script src="${content.rootpath ?: ''}js/switchstylesheet.js"></script>
-    <script src="${content.rootpath ?: ''}js/google-analytics.js"></script>
 </head>
 
 <body>
