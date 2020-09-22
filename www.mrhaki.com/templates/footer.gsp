@@ -11,9 +11,9 @@
         <nav id="friend_links">
             <h3>Link to friends</h3>
             <ul>
-                <li><a href='http://www.facebook.com/droomkoekjes'>Droomkoekjes</a></li>
-                <li><a href='http://blog.jdriven.com/'>JDriven Blog</a></li>
-                <li><a href='http://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='/images/jdriven.png' title='JDriven Logo'/></a></li>
+                <li><a href="http://www.droomkoekjes.nl">Droomkoekjes</a></li>
+                <li><a href="http://blog.jdriven.com/">JDriven Blog</a></li>
+                <li><a href="http://www.jdriven.com/"><img alt='JDriven Logo' id='jdriven-logo' src='/images/jdriven.png' title='JDriven Logo'/></a></li>
             </ul>
         </nav>
         <nav id="connect_links">
