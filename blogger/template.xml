@@ -3,7 +3,7 @@
 <html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
     <head>
         <meta charset='utf-8'/>
-        <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/>
+        <meta content='IE=9; IE=8; IE=7; IE=EDGE; chrome=1' http-equiv='X-UA-Compatible'/>
 
         <b:include data='blog' name='all-head-content'/>
 
@@ -13,29 +13,39 @@
             <title><data:blog.pageName/> - <data:blog.title/></title>
             <meta expr:content='data:blog.pageName' property='og:title'/>
             <meta content='article' property='og:type'/>
-            <meta content='http://www.mrhaki.com/images/jdriven-photo.png' property='og:image'/>
+            <meta content='https://www.mrhaki.com/images/jdriven-photo.png' property='og:image'/>
             <meta expr:content='data:blog.title' property='og:site_name'/>
         </b:if>
         <meta content='mrhaki' property='fb:admins'/>
         <meta content='@mrhaki' name='twitter:site'/>
         <meta content='@mrhaki' name='twitter:creator'/>
         <meta content='summary' name='twitter:card'/>
-        <meta content='A blog about Groovy, Grails, Gradle and other cool developer subjects.' name='twitter:description'/>
-        <meta expr:content='data:blog.title' name='twitter:title'/> 
+        <meta content='A blog about Groovy, Clojure, Java, Gradle, Asciidoctor, Micronaut and other cool developer subjects.' name='twitter:description'/>
+        <meta expr:content='data:blog.title' name='twitter:title'/>
 
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        <script src='https://use.fontawesome.com/f4056f4b57.js'/>
 
-        <link href='http://www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
-        <link href='http://www.mrhaki.com/css/default.css' media='all' rel='stylesheet'/>
-        <link href='http://www.mrhaki.com/css/13col.css' media='all' rel='stylesheet'/>
-        <link href='http://www.mrhaki.com/css/3col.css' media='all' rel='stylesheet'/>
-        <link href='http://www.mrhaki.com/css/5col.css' media='all' rel='stylesheet'/>
-        <link href='http://www.mrhaki.com/css/iphone4.css' media='all' rel='stylesheet'/>
+        <link href='//cdn.jsdelivr.net/font-hack/2.010/css/hack-extended.min.css' rel='stylesheet'/>
 
-        <link href='http://www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
-        <link href='http://www.mrhaki.com/css/shThemeBlackWhite.css' rel='stylesheet' type='text/css'/>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet'/>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet'/>
+        <link href='//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata' rel='stylesheet' type='text/css'/>
+
+        <link href='//www.mrhaki.com/css/resets.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/default.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/13col.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/3col.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/5col.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/iphone4.css' media='all' rel='stylesheet'/>
+
+        <link href='//www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
+
+        <link href='//www.mrhaki.com/css/light.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/dark.css' media='all' rel='alternate stylesheet' title='dark-color'/>
+        <link href='//www.mrhaki.com/css/light.css' media='all' rel='alternate stylesheet' title='light-color'/>
 
         <b:skin><![CDATA[.label-size-5, .label-size-4, .label-size-3, .label-size-2, .label-size-1 { font-weight: normal; font-size: 100%; opacity: 1.0; }
 .label-size-5 { font-weight: bolder; }
@@ -44,17 +54,17 @@
     ]]></b:skin>
 
         <!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. -->
-        <meta content='width=device-width; initial-scale=1' name='viewport'/>
+        <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
 
-        <link href='http://www.mrhaki.com/favicon.png' rel='shortcut icon'/>
-        <link href='http://www.mrhaki.com/favicon.png' rel='icon' type='image/png'/>
-        <link href='http://www.mrhaki.com/favicon.png' rel='icon' type='image/vnd.microsoft.icon'/>
+        <link href='https://www.mrhaki.com/favicon.png' rel='shortcut icon'/>
+        <link href='https://www.mrhaki.com/favicon.png' rel='icon' type='image/png'/>
+        <link href='https://www.mrhaki.com/favicon.png' rel='icon' type='image/vnd.microsoft.icon'/>
 
-        <script src='http://www.google.com/jsapi' type='text/javascript'> </script>
-        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'> </script>
-        <script src='http://www.mrhaki.com/js/google-analytics-blogger.js'/>
-        <script src='http://www.mrhaki.com/related-posts/blogger-extras.js'/>
-        <script src='http://apis.google.com/js/plusone.js' type='text/javascript'/>
+        <script src='https://www.google.com/jsapi' type='text/javascript'> </script>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'> </script>
+        <script src='//www.mrhaki.com/js/switchstylesheet.js'/>
+        <script src='//www.mrhaki.com/js/google-analytics-blogger.js'/>
+        <script src='//www.mrhaki.com/related-posts/blogger-extras.js'/>
 
         <script type='text/javascript'>
             /* <![CDATA[ */
@@ -76,7 +86,7 @@
 
     <body>
         <b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'>
-          <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar'>
+          <b:widget id='Navbar1' locked='false' title='Navbar' type='Navbar' version='1'>
             <b:includable id='main'>&lt;script type=&quot;text/javascript&quot;&gt;
     function setAttributeOnload(object, attribute, val) {
       if(window.addEventListener) {
@@ -90,16 +100,16 @@
 &lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
-        gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
-          if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
-            gapi.iframes.getContext().openChild({
-                url: &#39;https://www.blogger.com/navbar.g?targetBlogID\0756671019398434141469\46blogName\75Messages+from+mrhaki\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75SILVER\46layoutType\75LAYOUTS\46searchRoot\75http://mrhaki.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://mrhaki.blogspot.com/\46blogFollowUrl\75https://plus.google.com/116304108087638220732\46vt\75-8033786472953828463&#39;,
-                where: document.getElementById(&quot;navbar-iframe-container&quot;),
-                id: &quot;navbar-iframe&quot;
-            });
-          }
-        });
-      &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+      gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
+        if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: &#39;https://www.blogger.com/navbar.g?targetBlogID\x3d6671019398434141469\x26blogName\x3dMessages+from+mrhaki\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://mrhaki.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://mrhaki.blogspot.com/\x26vt\x3d-1517418956669924853&#39;,
+              where: document.getElementById(&quot;navbar-iframe-container&quot;),
+              id: &quot;navbar-iframe&quot;
+          });
+        }
+      });
+    &lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
 (function() {
 var script = document.createElement(&#39;script&#39;);
 script.type = &#39;text/javascript&#39;;
@@ -122,89 +132,49 @@ head.appendChild(script);
 
         <header>
             <div id='header_logo'>
-                <a href='http://www.mrhaki.com/'>
-                    <img alt='Logo haki' height='64' src='http://www.mrhaki.com/images/haki-logo-black-64.png' title='Logo haki' width='64'/>
+                <a href='https://www.mrhaki.com/'>
+                    <img alt='Logo haki' height='64' src='https://www.mrhaki.com/images/haki-logo-black-64.png' title='Logo haki' width='64'/>
                 </a>
             </div>
             <nav id='headernav'>
                 <ul>
-                    <li><a href='http://mrhaki.blogspot.com'>Blog</a></li>
-                    <li><a href='http://github.com/mrhaki'>Github</a></li>
-                    <li><a href='http://stream.mrhaki.com'>Livestream</a></li>
-                    <li><a href='http://www.mrhaki.com/about/'>About</a></li>
+                    <li><a href='https://mrhaki.blogspot.com'>Blog</a></li>
+                    <li><a href='https://www.mrhaki.com/books.html'>Books</a></li>
+                    <li><a href='https://github.com/mrhaki'>Github</a></li>
+                    <li><a href='https://www.mrhaki.com/about/'>About</a></li>
                 </ul>
             </nav>
 
             <b:section class='main-header' id='main-header' showaddelement='no'>
-              <b:widget id='CustomSearch1' locked='false' title='Search This Blog' type='CustomSearch'>
+              <b:widget id='BlogSearch1' locked='false' title='Search' type='BlogSearch'>
                 <b:includable id='main'>
-                        <div class='widget-content'>
-                            <div expr:id='data:widget.instanceId + &quot;_form&quot;'>
-                                <span class='cse-status'><data:loadingMsg/></span>
-                            </div>
-                        </div>
+    <!-- only display title if it's non-empty -->
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2 class='title'><data:title/></h2>
+    </b:if>
 
-                        <!-- override gsearch.css -->
-                        <style type='text/css'>
-                            #uds-searchControl .gs-result .gs-title,
-                            #uds-searchControl .gs-result .gs-title *,
-                            #uds-searchControl .gsc-results .gsc-trailing-more-results,
-                            #uds-searchControl .gsc-results .gsc-trailing-more-results * {
-                                /*color: #333;*/
-                            }
+    <div class='widget-content'>
+      <div expr:id='data:widget.instanceId + &quot;_form&quot;'>
+        <form class='gsc-search-box' expr:action='data:blog.searchUrl'>
+          <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
+          <table cellpadding='0' cellspacing='0' class='gsc-search-box'>
+            <tbody>
+              <tr>
+                <td class='gsc-input'>
+                  <input autocomplete='off' class='gsc-input' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q' size='10' title='search' type='text'/>
+                </td>
+                <td class='gsc-search-button'>
+                  <input class='gsc-search-button' expr:value='data:messages.search' title='search' type='submit'/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </div>
+    </div>
 
-                            #uds-searchControl .gs-result .gs-title a:visited,
-                            #uds-searchControl .gs-result .gs-title a:visited * {
-                                color: #333;
-                            }
-
-                            #uds-searchControl .gs-relativePublishedDate,
-                            #uds-searchControl .gs-publishedDate {
-                                color: #333;
-                            }
-
-                            #uds-searchControl .gs-result a.gs-visibleUrl,
-                            #uds-searchControl .gs-result .gs-visibleUrl {
-                                color: #333;
-                            }
-
-                            #uds-searchControl .gsc-results {
-                                border-color: #d9d9d9;
-                                background-color: #f6f6f6;
-                            }
-
-                            #uds-searchControl .gsc-tabhActive {
-                                border-color: #d9d9d9;
-                                border-top-color: #aaa;
-                                background-color: #f6f6f6;
-                                color: #333;
-                            }
-
-                            #uds-searchControl .gsc-tabhInactive {
-                                border-color: #d9d9d9;
-                                background-color: transparent;
-                                color: #333;
-                            }
-
-                            #uds-searchClearResults {
-                                border-color: #d9d9d9;
-                            }
-
-                            #uds-searchClearResults:hover {
-                                border-color: #d9d9d9;
-                            }
-
-                            #uds-searchControl .gsc-cursor-page {
-                                color: #333;
-                            }
-
-                            #uds-searchControl .gsc-cursor-current-page {
-                                color: #333;
-                            }
-                        </style>
-
-                        <b:include name='quickedit'/>
-                    </b:includable>
+    <b:include name='quickedit'/>
+  </b:includable>
               </b:widget>
             </b:section>
 
@@ -215,7 +185,30 @@ head.appendChild(script);
             <div id='main_content'>
 
                 <b:section class='main' id='main' showaddelement='no'>
-                  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+                  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
+                    <b:widget-settings>
+                      <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+                      <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+                      <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+                      <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+                      <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+                      <b:widget-setting name='showAuthor'>true</b:widget-setting>
+                      <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
+                      <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+                      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
+                      <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+                      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+                      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
+                      <b:widget-setting name='showLabels'>true</b:widget-setting>
+                      <b:widget-setting name='showLocation'>false</b:widget-setting>
+                      <b:widget-setting name='postLabelsLabel'>Tags:</b:widget-setting>
+                      <b:widget-setting name='showTimestamp'>false</b:widget-setting>
+                      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
+                      <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
+                      <b:widget-setting name='showInlineAds'>false</b:widget-setting>
+                      <b:widget-setting name='showReactions'>false</b:widget-setting>
+                    </b:widget-settings>
                     <b:includable id='main' var='top'>
                             <!-- posts -->
                             <div class='blog-posts hfeed'>
@@ -228,10 +221,12 @@ head.appendChild(script);
                                     </b:if>
                                     <b:include data='post' name='post'/>
                                     <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
-                                        <b:include data='post' name='comments'/>
+
+                                        <div class='cmt_iframe_holder' expr:data-href='data:post.canonicalUrl' expr:data-viewtype='data:post.viewType'/>
                                     </b:if>
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <b:include data='post' name='comments'/>
+
+                                        <div class='cmt_iframe_holder' expr:data-href='data:post.canonicalUrl' expr:data-viewtype='data:post.viewType'/>
                                     </b:if>
                                     <b:if cond='data:post.includeAd'>
                                         <b:if cond='data:post.isFirstPost'>
@@ -256,7 +251,7 @@ head.appendChild(script);
                             <b:include name='feedLinks'/>
 
                             <b:if cond='data:top.showStars'>
-                                <script src='http://www.google.com/jsapi' type='text/javascript'/>
+                                <script src='https://www.google.com/jsapi' type='text/javascript'/>
                                 <script type='text/javascript'>
                                     google.load(&quot;annotations&quot;, &quot;1&quot;, {&quot;locale&quot;: &quot;<data:top.languageCode/>&quot;});
                                     function initialize() {
@@ -588,16 +583,19 @@ head.appendChild(script);
                                 <b:if cond='data:newerPageUrl'>
                                     <div class='mobile-link-button' id='blog-pager-newer-link'>
                                         <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+                                        <span class='fa fa-arrow-right'/>
                                     </div>
                                 </b:if>
 
                                 <b:if cond='data:olderPageUrl'>
                                     <div class='mobile-link-button' id='blog-pager-older-link'>
+                                        <span class='fa fa-arrow-left'/>
                                         <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
                                     </div>
                                 </b:if>
 
                                 <div class='mobile-link-button' id='blog-pager-home-link'>
+                                    <span class='fa fa-home'/>
                                     <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
                                 </div>
 
@@ -712,15 +710,18 @@ head.appendChild(script);
                                 <b:if cond='data:newerPageUrl'>
                                     <span id='blog-pager-newer-link'>
                                         <a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle'><data:newerPageTitle/></a>
+                                        <span class='fa fa-arrow-right'/>
                                     </span>
                                 </b:if>
 
                                 <b:if cond='data:olderPageUrl'>
                                     <span id='blog-pager-older-link'>
+                                        <span class='fa fa-arrow-left'/>
                                         <a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle'><data:olderPageTitle/></a>
                                     </span>
                                 </b:if>
 
+                                <span class='fa fa-home'/>
                                 <a class='home-link' expr:href='data:blog.homepageUrl'><data:homeMsg/></a>
 
                                 <b:if cond='data:mobileLinkUrl'>
@@ -761,19 +762,16 @@ head.appendChild(script);
                                     <div style='clear: both;'/>
                                 </div>
 
-                                <div class='clearfix' id='social-sharing-buttons'>
+                                <!--div class='clearfix' id='social-sharing-buttons'>
                                     <div class='social-button' id='twitter-widget-button'>
                                         <a class='twitter-share-button' data-count='horizontal' data-url='data:post.link' data-via='mrhaki' expr:data-text='data:post.title' expr:data-url='data:post.url' href='http://twitter.com/share' rel='nofollow'>Tweet</a>
-                                        <script src='http://platform.twitter.com/widgets.js' type='text/javascript'>
-                                        </script>
-                                    </div>
-                                    <div class='social-button' id='google-plus-widget-button'>
-                                        <g:plusone expr:href='data:post.url' size='medium'/>
+                                        <script src='https://platform.twitter.com/widgets.js' type='text/javascript'>
+                                        </script
                                     </div>
                                     <div class='social-button' id='flattr-widget-button'>
                                         <a class='FlattrButton' expr:href='data:post.url' expr:title='data:post.title' style='display:none;'>Flattr</a>
                                     </div>
-                                </div>
+                                </div-->
 
                                 <div class='post-footer'>
                                     <div class='post-footer-line post-footer-line-1'>
@@ -781,21 +779,6 @@ head.appendChild(script);
                                             <b:if cond='data:top.showAuthor'>
                                                 <data:top.authorLabel/>
                                                 <span class='fn'><data:post.author/></span>
-                                            </b:if>
-                                        </span>
-                                        <span class='post-timestamp'>
-                                            <b:if cond='data:top.showTimestamp'>
-                                                <data:top.timestampLabel/>
-                                                <b:if cond='data:post.url'>
-                                                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601'><data:post.timestamp/></abbr></a>
-                                                </b:if>
-                                            </b:if>
-                                        </span>
-                                        <span class='post-comment-link'>
-                                            <b:if cond='data:blog.pageType != &quot;item&quot;'>
-                                                <b:if cond='data:post.allowComments'>
-                                                    <a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
-                                                </b:if>
                                             </b:if>
                                         </span>
                                         <span class='post-icons'>
@@ -811,6 +794,21 @@ head.appendChild(script);
                                             <!-- quickedit pencil -->
                                             <b:include data='post' name='postQuickEdit'/>
                                         </span>
+                                        <span class='post-timestamp'>
+                                            <b:if cond='data:top.showTimestamp'>
+                                                <data:top.timestampLabel/>
+                                                <b:if cond='data:post.url'>
+                                                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601'><data:post.timestamp/></abbr></a>
+                                                </b:if>
+                                            </b:if>
+                                        </span>
+                                        <span class='post-comment-link'>
+                                            <b:if cond='data:blog.pageType != &quot;item&quot;'>
+                                                <b:if cond='data:post.allowComments'>
+                                                    <a class='comment-link link-label' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'><b:if cond='data:post.numComments == 1'>1 <data:top.commentLabel/><b:else/><data:post.numComments/> <data:top.commentLabelPlural/></b:if></a>
+                                                </b:if>
+                                            </b:if>
+                                        </span>
                                     </div>
 
                                     <div class='post-footer-line post-footer-line-2'>
@@ -818,7 +816,7 @@ head.appendChild(script);
                                             <b:if cond='data:post.labels'>
                                                 <data:postLabelsLabel/>
                                                 <b:loop values='data:post.labels' var='label'>
-                                                    <a expr:href='data:label.url' rel='tag'><data:label.name/></a><b:if cond='data:label.isLast != &quot;true&quot;'>,</b:if>
+                                                    <a class='tag-link link-label' expr:href='data:label.url' rel='tag'><data:label.name/></a>
                                                 </b:loop>
                                             </b:if>
                                         </span>
@@ -828,30 +826,12 @@ head.appendChild(script);
                                     </div>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <table border='0' cellpadding='0' cellspacing='0'>
-                                            <tr>
-                                                <td>
-                                        <iframe allowtransparency='true' frameborder='0' height='450' src='https://leanpub.com/groovy-goodness-notebook/embed' width='160'/>
-                                                </td>
-                                                <td>
-                                        <iframe allowtransparency='true' frameborder='0' height='450' src='https://leanpub.com/grails-goodness-notebook/embed' width='160'/>
-                                                </td>
-                                                <td>
-                                        <iframe allowtransparency='true' frameborder='0' height='450' src='https://leanpub.com/gradle-goodness-notebook/embed' width='160'/>
-                                                </td>
-                                                <td>
-                                                    <iframe allowtransparency='true' frameborder='0' height='450' src='https://leanpub.com/b/groovygrails-goodness-notebooks/embed' width='160'/>
-                                                </td>
-                                                <td>
-                                                    <iframe allowtransparency='true' frameborder='0' height='450' src='https://leanpub.com/b/groovyandgradlegoodnessnotebooks/embed' width='160'/>
-                                                </td>
-                                            </tr>
-                                        </table>
+                                        <a name='disqus_thread'/>
+                                        <div class='comments' id='comments'>
+                                            <a name='comments'/>
+                                       </div>
                                     </b:if>
 
-                                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                                        <br/>
-<SCRIPT charset='utf-8' src='http://ws.amazon.com/widgets/q?rt=tf_mfw&amp;ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822/US/mrhakicom-20/8001/0ea20d9d-76f0-42d8-a11b-650b20cc38f8' type='text/javascript'> </SCRIPT> <NOSCRIPT><A HREF='http://ws.amazon.com/widgets/q?rt=tf_mfw&amp;ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fmrhakicom-20%2F8001%2F0ea20d9d-76f0-42d8-a11b-650b20cc38f8&amp;Operation=NoScript'>Amazon.com Widgets</A></NOSCRIPT>                                    </b:if>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
                                         <div class='widget' id='blog-item-labels'>
@@ -864,18 +844,13 @@ head.appendChild(script);
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
                                         <div class='widget' id='blog-item-labels'>
-                                            <ul id='blog-item-label-series'>
+                                            <ul class='post-label-series' expr:rel='data:post.title'>
                                             </ul>
                                             <div class='clear'/>
+                                            <!--Loading posts with same label...-->
                                         </div>
-
-                                        <script>
-                                            var blogitemTitle = &quot;<data:post.title/>&quot;;
-                                            var blogitemId = &quot;<data:post.id/>&quot;;
-                                        </script>
-
-                                        <script src='http://www.mrhaki.com/js/labelseries.js' type='text/javascript'> </script>
                                     </b:if>
+
 
                                 </div>
 
@@ -1169,46 +1144,82 @@ head.appendChild(script);
             <nav id='footer_links'>
                 <h2>Links</h2>
                 <ul>
-                    <li><a href='http://www.mrhaki.com/'>Website</a></li>
-                    <li><a href='http://mrhaki.blogspot.com'>Blog</a></li>
-                    <li><a href='http://github.com/mrhaki'>Github</a></li>
-                    <li><a href='http://stream.mrhaki.com'>Livestream</a></li>
-                    <li><a href='http://www.mrhaki.com/about/'>About</a></li>
-                    <li><a href='http://www.leanpub.com/groovy-goodness-notebook'><img src='http://titlepages.leanpub.com/groovy-goodness-notebook/small'/></a></li>
-                    <li><a href='http://www.leanpub.com/grails-goodness-notebook'><img src='http://titlepages.leanpub.com/grails-goodness-notebook/small'/></a></li>
-                    <li><a href='http://www.leanpub.com/gradle-goodness-notebook'><img src='http://titlepages.leanpub.com/gradle-goodness-notebook/small'/></a></li>
-                    <li><a href='http://www.leanpub.com/spockframeworknotebook'><img src='http://titlepages.leanpub.com/spockframeworknotebook/small'/></a></li>
-                    <li><a href='http://www.amazon.com/gp/product/1849518106/ref=as_li_qf_sp_asin_il?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1849518106&amp;linkCode=as2&amp;tag=mrhakicom-20'><img border='0' src='http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&amp;ASIN=1849518106&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=mrhakicom-20'/></a><img alt='' border='0' height='1' src='http://www.assoc-amazon.com/e/ir?t=mrhakicom-20&amp;l=as2&amp;o=1&amp;a=1849518106' style='border:none !important; margin:0px !important;' width='1'/>
-                    </li>
+                    <li><a href='https://www.mrhaki.com/'>Website</a></li>
+                    <li><a href='https://mrhaki.blogspot.com'>Blog</a></li>
+                    <li><a href='https://www.mrhaki.com/books.html'>Books</a></li>
+                    <li><a href='https://github.com/mrhaki'>Github</a></li>
+                    <li><a href='https://www.mrhaki.com/about/'>About</a></li>
                 </ul>
             </nav>
             <nav id='friend_links'>
                 <h2>Link to friends</h2>
                 <ul>
-                    <li><a href='http://www.facebook.com/droomkoekjes'>Droomkoekjes</a></li>
-                    <li><a href='http://www.etsy.com/shop/BeadsByKC?ref=pr_shop'>Beads by KC</a></li>
-                    <li><a href='http://blog.jdriven.com/'>JDriven Blog</a></li>
-                    <li><a href='http://www.pixeldam.net'>Pixeldam</a></li>
-                    <li><a href='http://www.x-panded.com/'>Xpanded</a></li>
-                    <li><a href='http://www.drbob42.com/'>DrBob42</a></li>
-                    <li><a href='http://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='http://www.mrhaki.com/images/jdriven.png' title='JDriven Logo'/></a></li>
+                    <li><a href='https://www.facebook.com/droomkoekjes'>Droomkoekjes</a></li>
+                    <li><a href='https://blog.jdriven.com/'>JDriven Blog</a></li>
+                    <li><a href='https://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='http://www.mrhaki.com/images/jdriven.png' title='JDriven Logo'/></a></li>
                 </ul>
             </nav>
             <nav id='connect_links'>
                 <h2>Connect</h2>
                 <ul>
-                    <li><a href='http://www.twitter.com/mrhaki'>Twitter</a></li>
+                    <li><a href='https://www.twitter.com/mrhaki'>Twitter</a></li>
                     <!--li><a href='http://gplus.to/mrhaki'>Google+</a></li-->
-                    <li><a href='https://plus.google.com/116304108087638220732?rel=author'>Google+</a></li>
-                    <li><a href='http://nl.linkedin.com/in/mrhaki'>LinkedIn</a></li>
-                    <li><a href='http://www.facebook.com/mrhaki'>Facebook</a></li>
-                    <li><a href='http://www.delicious.com/mrhaki'>Delicious</a></li>
-                    <li><a href='http://www.mrhaki.com/about/mrhaki.vcf'>Contact</a></li>
+                    <li><a href='https://nl.linkedin.com/in/mrhaki'>LinkedIn</a></li>
+                    <li><a href='https://www.mrhaki.com/about/mrhaki.vcf'>Contact</a></li>
                 </ul>
             </nav>
 
             <b:section class='footer-widgets' id='footer-widgets' preferred='yes'>
+              <b:widget id='HTML1' locked='false' mobile='yes' title='Disqus' type='HTML' version='1'>
+                <b:widget-settings>
+                  <b:widget-setting name='content'/>
+                </b:widget-settings>
+                <b:includable id='main'>
+                  <script type='text/javascript'>
+                      var disqus_shortname = &#39;mrhaki-blogspot&#39;;
+                      var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
+                      if (!disqus_blogger_current_url.length) {
+                          disqus_blogger_current_url = &quot;<data:blog.url/>&quot;;
+                      }
+                      var disqus_blogger_homepage_url = &quot;<data:blog.homepageUrl/>&quot;;
+                      var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUrl/>&quot;;
+                  </script>
+                  <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                      <style type='text/css'>
+                          #comments {display:none;}
+                      </style>
+                      <script type='text/javascript'>
+                          (function() {
+                              var bloggerjs = document.createElement(&#39;script&#39;);
+                              bloggerjs.type = &#39;text/javascript&#39;;
+                              bloggerjs.async = true;
+                              bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_item.js&#39;;
+                              (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
+                          })();
+                      </script>
+                  </b:if>
+                      <style type='text/css'>
+                          .post-comment-link { visibility: hidden; }
+                      </style>
+                      <script type='text/javascript'>
+                      (function() {
+                          var bloggerjs = document.createElement(&#39;script&#39;);
+                          bloggerjs.type = &#39;text/javascript&#39;;
+                          bloggerjs.async = true;
+                          bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_index.js&#39;;
+                          (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
+                      })();
+                      </script>
+                </b:includable>
+              </b:widget>
               <b:widget id='Label1' locked='false' title='Labels' type='Label'>
+                <b:widget-settings>
+                  <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
+                  <b:widget-setting name='display'>LIST</b:widget-setting>
+                  <b:widget-setting name='selectedLabelsList'>Apache Camel,Asciidoc,Asciidoctor,Awesome:Asciidoctor,Clojure,Clojure:Goodness,Cocoon,Git,Google App Egine,Google Guava,Gradle,Gradle:Goodness,Grails,Grails:Goodness,Griffon:Goodness,Groovy,Groovy:Goodness,IntelliJ IDEA,Java,Java:Joy,Maven,Maven2,Micronaut,Micronaut:Mastery,NetBeans,OSX,PlantUML,PlantUML:Pleasantness,RESTful webservices,Ratpack,Ratpacked,Spock,Spock:Spotlight,Spring,Spring Boot,Spring Cloud,Spring:Sweets,Tomcat,XSLT,Yahoo Pipes</b:widget-setting>
+                  <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
+                  <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
+                </b:widget-settings>
                 <b:includable id='main'>
                         <b:if cond='data:title'>
                             <h2><data:title/></h2>
@@ -1247,111 +1258,38 @@ head.appendChild(script);
                         </div>
                     </b:includable>
               </b:widget>
-              <b:widget id='Followers1' locked='false' title='Followers' type='Followers'>
-                <b:includable id='main'>
-  <b:if cond='data:title != &quot;&quot;'>
-    <b:if cond='data:codeSnippet != &quot;&quot;'>
-      <h2 class='title'><data:title/></h2>
-    <b:else/>
-      <b:if cond='data:totalFollowerCount != &quot;&quot;'>
-        <h2 class='title'><data:title/> (<data:totalFollowerCount/>)</h2>
-      </b:if>
-    </b:if>  
-  </b:if>
-  <div class='widget-content'>
-    <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
-      <b:if cond='data:codeSnippet != &quot;&quot;'>
-        <div style='margin-right:2px;'>
-          <data:codeSnippet/>
-        </div>
-      <b:else/>
-        <b:if cond='data:totalFollowerCount == &quot;&quot;'>
-          <span class='item-control following-not-admin'>
-            <b><data:failureSnippet/></b>
-          </span>
-          <span class='item-control blog-admin'>
-            <b><data:adminFailureSnippet/></b>
-          </span>
-        <b:else/>
-          <b:if cond='data:followingLinkPresent'>
-            <div class='follow-this profile-link item-control following-follow-this'>
-              <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
-                <data:followThisMessage/>
-              </a>
-            </div>
-            <div class='follow-this profile-link item-control following-stop-following-this'>
-              <a expr:href='&quot;javascript:_FollowersView._openPopup(\&quot;&quot; + data:followUri + &quot;\&quot;);&quot;'>
-                <data:stopFollowingMessage/>
-              </a>
-            </div>
-          </b:if>
-  
-          <div class='followers-grid'>
-            <b:if cond='data:totalFollowerCount == 0'>
-              <div class='profile-link item-control following-follow-this'>
-                <data:emptyFollowersMessage/>
-              </div>
-            </b:if>
-            <!--
-            Relies on the js written out in navbar.gxp
-            -->
-            <b:loop values='data:followers' var='follower'>
-              <div class='follower'>
-                <a expr:href='data:follower.profileUrl' expr:title='data:follower.displayName' rel='nofollow'>
-                <img class='follower-img' expr:alt='data:follower.displayName' expr:height='data:follower.imageHeight' expr:onerror='&quot;this.onerror=null;this.src=\&quot;&quot; + data:anonFollowerImageUrl + &quot;\&quot;;&quot;' expr:onload='&quot;setAttributeOnload(this, \&quot;src\&quot;, \&quot;&quot; + data:follower.imageUrl + &quot;\&quot;)&quot;' expr:width='data:follower.imageWidth' src='http://img1.blogblog.com/img/blank.gif'/>
-                </a>
-              </div>
-            </b:loop>
-            <div class='clear'/>
-          </div>
-  
-          <div class='followers-canvas profile-link'>
-            <data:followersFooterMessage/>
-            <span class='item-control following-not-admin'>
-              <a expr:href='data:followersUri'>
-                <data:viewAllMessage/>
-              </a>
-            </span>
-            <span class='item-control blog-admin'>
-              <a expr:href='data:manageFollowersUri'>
-                <data:manageFollowersMessage/>
-              </a>
-            </span>
-          </div>
-          </b:if>
-      </b:if>
-    </div>
-    <b:include name='quickedit'/>
-  </div>
-</b:includable>
-              </b:widget>
             </b:section>
 
             <div class='clearfix'/>
 
             <p id='copyright'>
-                &amp;copy; 2008-2014
-                <a href='http://iam.mrhaki.com'>Hubert A. Klein Ikkink</a>
+                &amp;copy; 2008-2020
+                <a href='http://www.mrhaki.com'>Hubert A. Klein Ikkink</a>
+                |
+                <a class='changecolor' href='#' title='dark-color'>Dark theme</a>
+                |
+                <a class='changecolor' href='#' title='light-color'>Light theme</a>
+
             </p>
             <p id='subscribe-feed'>
-                <a href='http://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'><img alt='' src='http://www.feedburner.com/fb/images/pub/feed-icon16x16.png' style='vertical-align:middle;border:0'/></a>
-                <a href='http://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'>Subscribe in a reader</a>
+                <a href='https://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'><img alt='' src='http://www.feedburner.com/fb/images/pub/feed-icon16x16.png' style='vertical-align:middle;border:0'/></a>
+                <a href='https://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'>Subscribe in a reader</a>
             </p>
 
         </footer>
 
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shCore.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shLegacy.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushJava.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushXml.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushJScript.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushGroovy.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushPlain.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushBash.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushSql.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushCss.js'/>
-        <script language='javascript' src='http://www.mrhaki.com/js/syntax/shBrushAsciidoc.js'/>
-
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shCore.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shLegacy.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushJava.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushXml.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushJScript.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushGroovy.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushPlain.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushBash.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushSql.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushCss.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushAsciidoc.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushClojure.js'/>
 
         <script language='javascript'>
             SyntaxHighlighter.config.bloggerMode = true;
@@ -1362,7 +1300,18 @@ head.appendChild(script);
         </script>
 
         <script>
-            $(document).ready(function() { blogger_extras.related(); });
+            $(document).ready(function() {
+                blogger_extras.related();
+                blogger_extras.labelSeries();
+            });
         </script>
+
+        <script type='text/javascript'>
+        $(document).ready(function(){
+            $(&quot;.changecolor&quot;).switchstylesheet( { seperator:&quot;color&quot;} );
+        });
+        </script>
+
+        <script async='true' id='dsq-count-scr' src='//mrhaki-blogspot.disqus.com/count.js'/>
     </body>
 </html>
