@@ -157,7 +157,7 @@ div.syntaxhighlighter {
 }
 
 .syntaxhighlighter .functions {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(85, 85, 85) !important;
 }
 
 .syntaxhighlighter .constants {

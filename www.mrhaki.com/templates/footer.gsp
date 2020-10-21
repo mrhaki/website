@@ -2,25 +2,25 @@
         <nav id="footer_links">
             <h3>Links</h3>
             <ul>
-                <li><a href="http://mrhaki.blogspot.com/ncr">Blog</a></li>
+                <li><a href="//blog.mrhaki.com">Blog</a></li>
                 <li><a href="${content.rootpath ?: ''}books.html">Books</a></li>
-                <li><a href="http://github.com/mrhaki">Github</a></li>
+                <li><a href="//github.com/mrhaki">Github</a></li>
                 <li><a href="${content.rootpath ?: ''}about/">About</a></li>
             </ul>
         </nav>
         <nav id="friend_links">
             <h3>Link to friends</h3>
             <ul>
-                <li><a href="http://www.droomkoekjes.nl">Droomkoekjes</a></li>
-                <li><a href="http://blog.jdriven.com/">JDriven Blog</a></li>
-                <li><a href="http://www.jdriven.com/"><img alt='JDriven Logo' id='jdriven-logo' src='/images/jdriven.png' title='JDriven Logo'/></a></li>
+                <li><a href="//www.droomkoekjes.nl">Droomkoekjes</a></li>
+                <li><a href="//blog.jdriven.com/">JDriven Blog</a></li>
+                <li><a href="//www.jdriven.com/"><img alt='JDriven Logo' id='jdriven-logo' src='/images/jdriven.png' title='JDriven Logo'/></a></li>
             </ul>
         </nav>
         <nav id="connect_links">
             <h3>Connect</h3>
             <ul>
-                <li><a href="http://www.twitter.com/mrhaki">Twitter</a></li>
-                <li><a href="http://nl.linkedin.com/in/mrhaki">LinkedIn</a></li>
+                <li><a href="//www.twitter.com/mrhaki">Twitter</a></li>
+                <li><a href="//nl.linkedin.com/in/mrhaki">LinkedIn</a></li>
                 <li><a href="/about/mrhaki.vcf">Contact</a></li>
             </ul>
         </nav>

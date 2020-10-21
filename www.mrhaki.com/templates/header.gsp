@@ -49,7 +49,7 @@
         </div>
         <nav id="headernav">
             <ul>
-                <li><a href="//mrhaki.blogspot.com">Blog</a></li>
+                <li><a href="//blog.mrhaki.com">Blog</a></li>
                 <li><a href="${content.rootpath ?: ''}books.html">Books</a></li>
                 <li><a href="//github.com/mrhaki">Github</a></li>
                 <li><a href="${content.rootpath ?: ''}about/index.html">About</a></li>
