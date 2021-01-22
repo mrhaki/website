@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	font-family: "Lucida Grande",Arial,Verdana,sans-serif;
+	font-family: "Open Sans", "Helvetica", "Lucida Grande", Arial,Verdana,sans-serif;
 	line-height: 150%;
 }
 
@@ -73,7 +73,7 @@ h3.post-title {
 .widget h2 {
 	color: rgb(136,136,136);
 	font-weight: bold;
-	margin-bottom: 0.3em;	
+	margin-bottom: 0.3em;
 }
 
 .widget {
@@ -108,7 +108,7 @@ img {
 }
 
 h2.date-header {
-	color: rgb(204, 204, 204);
+	color: #424242;
 }
 
 #comments, .post-feeds {

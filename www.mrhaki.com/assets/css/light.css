@@ -1,3 +1,42 @@
+body {
+    background: #fff;
+    color: #444; font-weight: 300;
+}
+
+#body_content { background-color: inherit;}
+
+.syntaxhighlighter  code {   color: #444 !important; }
+code, a { color: #444; }
+
+h3.post-title a, h3.entry-title a, h3, h2 { color: #000; }
+
+::selection { background: rgb(255, 255, 0); }
+::-moz-selection { background: rgb(255, 255, 0); }
+
+.syntaxhighlighter { padding: 1em 0 1em 0 ;}
+
+.related-posts a, .post-label-series a { text-decoration: none; }
+
+a.home-link { background: none; padding-left: 0;}
+a.blog-pager-older-link { background: none; padding-left: 0;}
+a.blog-pager-newer-link { background: none; padding-right: 0;}
+
+#uds-searchControl,
+#uds-searchControl a,
+#uds-searchControl .gs-publishedDate,
+#uds-searchControl .gs-relativePublishedDate,
+#uds-searchControl .gs-result .gs-title a:visited,
+#uds-searchControl .gsc-cursor-page,
+#uds-searchControl .gsc-cursor-current-page,
+#uds-searchControl .gs-result .gs-title,
+#uds-searchControl .gs-result .gs-title *,
+#uds-searchControl .gsc-tabHeader.gsc-tabhActive,
+#uds-searchControl .gsc-tabHeader.gsc-tabhActive,
+#uds-searchControl .gs-result .gs-visibleUrl { color: #444; }
+#uds-searchControl .gsc-tabHeader.gsc-tabhInactive { border: none; background-color: transparent; }
+#uds-searchControl .gsc-results { border-style: none !important; border-bottom: 1px solid; }
+
+
 .syntaxhighlighter .toolbar { display: none !important; }
 .syntaxhighlighter { padding: 1em 0 1em 0 ;}
 
@@ -5,7 +44,10 @@
     /* background-color: #E7E5DC !important; */
 
 }
-div.syntaxhighlighter { margin: 1em 0 1em 0 !important; }
+div.syntaxhighlighter {
+    margin: 1em 0 1em 0 !important;
+    background-color: #fafafa;
+}
 
 .syntaxhighlighter table td.gutter .line { color: rgb(128, 128, 128); }
 .syntaxhighlighter .toolbar a { display: none !important; }
@@ -93,7 +135,7 @@ div.syntaxhighlighter { margin: 1em 0 1em 0 !important; }
 
 .syntaxhighlighter .string,
 .syntaxhighlighter .string a {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(36, 57, 98) !important;
 }
 
 .syntaxhighlighter .keyword {
@@ -102,7 +144,8 @@ div.syntaxhighlighter { margin: 1em 0 1em 0 !important; }
 }
 
 .syntaxhighlighter .preprocessor {
-    color: gray !important;
+    color: #444 !important;
+    font-weight: bold !important;
 }
 
 .syntaxhighlighter .variable {
@@ -110,15 +153,16 @@ div.syntaxhighlighter { margin: 1em 0 1em 0 !important; }
 }
 
 .syntaxhighlighter .value {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(120, 78, 121) !important;
 }
 
 .syntaxhighlighter .functions {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(85, 85, 85) !important;
 }
 
 .syntaxhighlighter .constants {
-    color: rgb(102, 14, 122) !important;
+    color: #444 !important;
+    font-style: italic !important;
 }
 
 .syntaxhighlighter .script {

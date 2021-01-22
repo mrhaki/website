@@ -5,12 +5,12 @@
     60px  144px  228px	*/
 
 @media only screen and (max-width: 479px) {
-
     body {
         padding: 14px 10px 0;
         width: 310px;
         -webkit-text-size-adjust: 100%;
     }
+    p { text-align: left; }
 
     header { height: 140px; }
     #headernav ul { float: none; list-style: none; }
@@ -22,8 +22,8 @@
     footer nav h3 { margin-top: 10px; }
     #connect_links, #footer_links, .Followers, .Label { width: 228px; }
     .CustomSearch { display: none; }
+    .BlogSearch { display: none; }
     .Followers { margin-top: 0px; }
 
     .syntaxhighlighter .toolbar { display: none; }
 }
-

@@ -11,6 +11,10 @@ if (/^Groovy Goodness:.*$/.test(blogitemTitle)) {
     blogitemLabel = "Awesome:Asciidoctor";
 } else if (/^Spocklight:.*$/.test(blogitemTitle)) {
     blogitemLabel = "Spocklight";
+} else if (/^Spring Sweets:.*$/.test(blogitemTitle)) {
+    blogitemLabel = "Spring:Sweets"
+} else if (/^PlantUML Pleasantness:.*$/.test(blogitemLabel)) {
+    blogitemLabel = "PlantUML:Pleasantness"
 }
 if (blogitemLabel) {
     var url = "http://pipes.yahoo.com/pipes/pipe.run?_id=d443a3bc3450d40648e6939b0a49bd42&_render=json&label=" + escape(blogitemLabel) + "&title=" + escape(blogitemTitle) + "&_callback=?"

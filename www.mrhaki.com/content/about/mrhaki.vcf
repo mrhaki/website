@@ -4,15 +4,15 @@ N:Klein Ikkink;Hubert;A.;;
 FN:Hubert A. Klein Ikkink
 NICKNAME:mrhaki
 BDAY:1973-07-09
-PHOTO;VALUE=URL:http://www.mrhaki.com/images/jdriven-photo.jpg
-ADR;TYPE=work:;;Marconibaan 1f;Nieuwegein;;3439 MR;The Netherlands
+PHOTO;VALUE=URL:https://www.mrhaki.com/images/jdriven-photo.jpg
+ADR;TYPE=work:;;Coltbaan 4d;Nieuwegein;;3439 NG;The Netherlands
 ADR;TYPE=home:;;;Tilburg;;;The Netherlands
 TEL;TYPE=voice,msg,work:+31631905914
-LOGO;VALUE=URL:http://www.mrhaki.com/images/logo-vcf.png
+LOGO;VALUE=URL:https://www.mrhaki.com/images/logo-vcf.png
 ORG:JDriven;;
-URL:http://www.mrhaki.com
-URL:http://www.jdriven.com
-EMAIL;TYPE=internet,pref:h.kleinikkink@gmail.com
+URL:https://www.mrhaki.com
+URL:https://www.jdriven.com
+EMAIL;TYPE=internet,pref:h.kleinikkink@icloud.com
 EMAIL;TYPE=internet:hubert.klein.ikkink@jdriven.com
 NOTE:Groovy and Java Developer
 REV:2014-10-01
