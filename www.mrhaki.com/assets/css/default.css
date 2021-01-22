@@ -55,8 +55,9 @@ footer a:hover { text-decoration: underline; }
 footer nav { float: left; margin-right: 24px; }
 #jdriven-logo { width: 144px;}
 #book-cover { width: 144px;}
-#copyright { margin-top: 24px; margin-bottom: 0px; }
+#copyright { margin-top: 24px; }
 #copyright a { text-decoration: underline; }
+#copyright, #subscribe-feed, #license { margin-bottom: 5px; }
 
 /*	Typography presets
     ------------------	*/
