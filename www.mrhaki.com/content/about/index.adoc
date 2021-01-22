@@ -1,7 +1,7 @@
 = About mrhaki
 :jbake-type: page
 :imagesdir: ../images
-:socialicons: {imagesdir}/matte-white-square-icons/
+:socialicons: {imagesdir}/social-svg/
 :idprefix:
 
 == Connect
@@ -10,17 +10,22 @@
 ++++
 <ul class="connect">
     <li>
-        <p><a href="http://www.twitter.com/mrhaki"><img src="{socialicons}twitter-webtreatsetc.png"
+        <p><a href="//www.twitter.com/mrhaki"><img src="{socialicons}twitter.svg"
             alt="Twitter" title="Twitter" width="48" height="48"/></a></p>
-        <p class="description"><a href="http://www.twitter.com/mrhaki">Tweet, tweet</a></p>
+        <p class="description"><a href="//www.twitter.com/mrhaki">Tweet, tweet</a></p>
     </li>
     <li>
-        <p><a href="http://nl.linkedin.com/in/mrhaki"><img src="{socialicons}linkedin-logo-webtreatsetc.png"
+        <p><a href="//nl.linkedin.com/in/mrhaki"><img src="{socialicons}linkedin.svg"
             alt="Linkedin" title="Linkedin" width="48" height="48"/></a></p>
-        <p class="description"><a href="http://nl.linkedin.com/in/mrhaki">Let's connect</a></p>
+        <p class="description"><a href="//nl.linkedin.com/in/mrhaki">Let's connect</a></p>
     </li>
     <li>
-        <p><a href="mrhaki.vcf"><img src="{socialicons}mail-webtreatsetc.png"
+        <p><a href="//github.com/mrhaki"><img src="{socialicons}github.svg"
+            alt="Github" title="Github" width="48" height="48"/></a></p>
+        <p class="description"><a href="//github.com/mrhaki">Code</a></p>
+    </li>
+    <li>
+        <p><a href="mrhaki.vcf"><img src="{socialicons}email.svg"
             alt="vCard" title="vCard" width="48" height="48"/></a></p>
         <p class="description"><a href="mrhaki.vcf">Contact</a></p>
     </li>
@@ -57,11 +62,11 @@ I also published several articles in Java Magazine which is a quarterly magazine
 == Speaker
 
 In 2010, 2011, 2012, 2013, 2014 and 2016 I was invited to speak at http://gr8conf.eu[Gr8Conf] in Copenhagen, Denmark.
-And in 2014 and 2015 also at http://gr8conf.us[Gr8Conf US] in Minneapolis, USA.
+And in 2014 and 2015 also at https://gr8conf.us[Gr8Conf US] in Minneapolis, USA.
 This is very good conference with all project leaders of Groovy and Groovy-related projects.
 So it was a great honor to be invited and to speak at the conference about my Groovy Goodness posts.
-You can see a Youtube video about http://www.youtube.com/watch?v=jmWrjIhOq-s[Grails Goodness] and https://www.youtube.com/watch?v=Ls7u38U0HFw[Groovy Goodness] I presented at Gr8Conf 2013 and https://www.youtube.com/watch?v=zSnsi6wd6GA[Gradle Goodness] at Gr8Conf 2014. +
-In April 2015 I presented a Grails Goodness talk at http://www.greachconf.com[Greach].
+You can see a Youtube video about https://www.youtube.com/watch?v=jmWrjIhOq-s[Grails Goodness] and https://www.youtube.com/watch?v=Ls7u38U0HFw[Groovy Goodness] I presented at Gr8Conf 2013 and https://www.youtube.com/watch?v=zSnsi6wd6GA[Gradle Goodness] at Gr8Conf 2014. +
+In April 2015 I presented a Grails Goodness talk at https://www.greachconf.com[Greach].
 Greach is a very good conference with a good atmosphere. +
 In November 2010 I presented a Gradle talk at the J-Fall conference of the Dutch Java User Group.
 And in November 2011 I presented about the new features in Groovy 1.8 at the same conference.
@@ -75,7 +80,7 @@ I spoke also at several meetups and local meetings about various subjects concer
 == Developer
 
 pass:attributes[<img src="{imagesdir}/logo-jdriven.png" alt=JDriven width=72 height=72 align="left" class="photo"/>]
-I work at the great IT company http://www.jdriven.com/[JDriven].
+I work at the great IT company https://www.jdriven.com/[JDriven].
 Here I work on projects with Groovy & Grails, Gradle and Spring.
 At JDriven we focus on agile, enterpris technologies.
 All colleagues want to learn new technologies, support craftmanship and are very eager to learn.

@@ -35,7 +35,7 @@
             &copy; 2008 - ${new Date().format('yyyy')}
             <a href="/">Hubert A. Klein Ikkink</a>
             |
-            Baked with <a href="http://jbake.org">JBake ${version}</a>
+            Baked with <a href="https://jbake.org">JBake ${version}</a>
             |
             <a href="#" class="changecolor" title="dark-color">Dark theme</a>
             |
