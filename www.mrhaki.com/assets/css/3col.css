@@ -15,6 +15,7 @@
     header { height: 140px; }
     #headernav ul { float: none; list-style: none; }
     #headernav li { float: none; padding: 4px 0; }
+    #top-theme-selector { left: 0px !important; }
     ul.connect, ul.connect li, h2#connect { float: none; }
     ul.connect { margin: 0; }
     ul.connect li p.description { display: none; }
