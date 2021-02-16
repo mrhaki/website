@@ -121,7 +121,7 @@ head.appendChild(script);
             </div>
             <nav id='headernav'>
                 <ul>
-                    <li><a href='https://mrhaki.blogspot.com'>Blog</a></li>
+                    <li><a href='https://blog.mrhaki.com'>Blog</a></li>
                     <li><a href='https://www.mrhaki.com/books.html'>Books</a></li>
                     <li><a href='https://github.com/mrhaki'>Github</a></li>
                     <li><a href='https://www.mrhaki.com/about/'>About</a></li>
@@ -161,7 +161,7 @@ head.appendChild(script);
               </b:widget>
             </b:section>
 
-          <div id="top-theme-selector">
+          <div id='top-theme-selector'>
                 <a class='changecolor' href='#' title='dark-color'>Dark theme</a>
                 |
                 <a class='changecolor' href='#' title='light-color'>Light theme</a>
@@ -1272,6 +1272,8 @@ head.appendChild(script);
         <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushCss.js'/>
         <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushAsciidoc.js'/>
         <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushClojure.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushKotlin.js'/>
+
 
         <script language='javascript'>
             SyntaxHighlighter.config.bloggerMode = true;
