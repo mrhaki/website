@@ -121,7 +121,7 @@ head.appendChild(script);
             </div>
             <nav id='headernav'>
                 <ul>
-                    <li><a href='https://mrhaki.blogspot.com'>Blog</a></li>
+                    <li><a href='https://blog.mrhaki.com'>Blog</a></li>
                     <li><a href='https://www.mrhaki.com/books.html'>Books</a></li>
                     <li><a href='https://github.com/mrhaki'>Github</a></li>
                     <li><a href='https://www.mrhaki.com/about/'>About</a></li>
@@ -161,6 +161,11 @@ head.appendChild(script);
               </b:widget>
             </b:section>
 
+          <div id='top-theme-selector'>
+                <a class='changecolor' href='#' title='dark-color'>Dark theme</a>
+                |
+                <a class='changecolor' href='#' title='light-color'>Light theme</a>
+          </div>
         </header>
 
         <div id='body_content'>
@@ -176,14 +181,14 @@ head.appendChild(script);
                       <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
                       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                       <b:widget-setting name='timestampLabel'>op</b:widget-setting>
-                      <b:widget-setting name='reactionsLabel'>Reacties:</b:widget-setting>
+                      <b:widget-setting name='reactionsLabel'/>
                       <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
                       <b:widget-setting name='style.layout'>1x1</b:widget-setting>
                       <b:widget-setting name='showLocation'>false</b:widget-setting>
                       <b:widget-setting name='showTimestamp'>false</b:widget-setting>
                       <b:widget-setting name='postsPerAd'>1</b:widget-setting>
                       <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-                      <b:widget-setting name='backlinksLabel'>Links naar deze post</b:widget-setting>
+                      <b:widget-setting name='backlinksLabel'/>
                       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
                       <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
                       <b:widget-setting name='showCommentLink'>false</b:widget-setting>
@@ -1239,7 +1244,7 @@ head.appendChild(script);
             <div class='clearfix'/>
 
             <p id='copyright'>
-                &amp;copy; 2008-2020
+                &amp;copy; 2008-2021
                 <a href='http://www.mrhaki.com'>Hubert A. Klein Ikkink</a>
                 |
                 <a class='changecolor' href='#' title='dark-color'>Dark theme</a>
@@ -1251,7 +1256,8 @@ head.appendChild(script);
                 <a href='https://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'><img alt='' src='http://www.feedburner.com/fb/images/pub/feed-icon16x16.png' style='vertical-align:middle;border:0'/></a>
                 <a href='https://feeds.feedburner.com/mrhaki' rel='alternate' type='application/rss+xml'>Subscribe in a reader</a>
             </p>
-
+            <p id='license' xmlns:cc='http://creativecommons.org/ns#' xmlns:dct='http://purl.org/dc/terms/'><a href='https://blog.mrhaki.com/' property='dct:title' rel='cc:attributionURL'>Messages from mrhaki</a> by <a href='https://www.mrhaki.com/' property='cc:attributionName' rel='cc:attributionURL dct:creator'>Hubert Klein Ikkink</a> is licensed under <a href='http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1' rel='license noopener noreferrer' style='display:inline-block;' target='_blank'>Attribution 4.0 International<img src='https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1' style='height:22px!important;margin-left:3px;vertical-align:text-bottom;'/><img src='https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1' style='height:22px!important;margin-left:3px;vertical-align:text-bottom;'/></a>
+            </p>
         </footer>
 
         <script language='javascript' src='//www.mrhaki.com/js/syntax/shCore.js'/>
@@ -1266,6 +1272,8 @@ head.appendChild(script);
         <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushCss.js'/>
         <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushAsciidoc.js'/>
         <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushClojure.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushKotlin.js'/>
+        <script language='javascript' src='//www.mrhaki.com/js/syntax/shBrushDataWeave.js'/>
 
         <script language='javascript'>
             SyntaxHighlighter.config.bloggerMode = true;
