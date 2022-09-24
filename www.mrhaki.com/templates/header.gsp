@@ -43,7 +43,7 @@
     <header>
         <div id="header_logo">
             <a href="${content.rootpath ?: ''}index.html">
-                <img src="${content.rootpath ?: ''}images/haki-logo-black-64.png" width="64" height="64"
+                <img src="${content.rootpath ?: ''}images/haki-logo-black-128.png" width="64" height="64"
                     alt="Logo haki" title="Logo haki"/>
             </a>
         </div>
@@ -51,7 +51,6 @@
             <ul>
                 <li><a href="//blog.mrhaki.com">Blog</a></li>
                 <li><a href="${content.rootpath ?: ''}books.html">Books</a></li>
-                <li><a href="//github.com/mrhaki">Github</a></li>
                 <li><a href="${content.rootpath ?: ''}about/index.html">About</a></li>
             </ul>
         </nav>
