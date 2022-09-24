@@ -81,7 +81,7 @@
     }
   &lt;/script&gt;
 &lt;div id=&quot;navbar-iframe-container&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/plusone.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://apis.google.com/js/platform.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
       gapi.load(&quot;gapi.iframes:gapi.iframes.style.bubble&quot;, function() {
         if (gapi.iframes &amp;&amp; gapi.iframes.getContext) {
@@ -123,7 +123,6 @@ head.appendChild(script);
                 <ul>
                     <li><a href='https://blog.mrhaki.com'>Blog</a></li>
                     <li><a href='https://www.mrhaki.com/books.html'>Books</a></li>
-                    <li><a href='https://github.com/mrhaki'>Github</a></li>
                     <li><a href='https://www.mrhaki.com/about/'>About</a></li>
                 </ul>
             </nav>
@@ -178,7 +177,6 @@ head.appendChild(script);
                       <b:widget-setting name='commentLabel'>reacties</b:widget-setting>
                       <b:widget-setting name='showShareButtons'>false</b:widget-setting>
                       <b:widget-setting name='authorLabel'>Gepost door</b:widget-setting>
-                      <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
                       <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                       <b:widget-setting name='timestampLabel'>op</b:widget-setting>
                       <b:widget-setting name='reactionsLabel'/>
@@ -808,10 +806,12 @@ head.appendChild(script);
                                     </div>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                                        <!--
                                         <a name='disqus_thread'/>
                                         <div class='comments' id='comments'>
                                             <a name='comments'/>
-                                       </div>
+                                        </div>
+                                        -->
                                     </b:if>
 
 
@@ -1151,53 +1151,11 @@ head.appendChild(script);
             </nav>
 
             <b:section class='footer-widgets' id='footer-widgets' preferred='yes'>
-              <b:widget id='HTML1' locked='false' mobile='yes' title='Disqus' type='HTML' version='1'>
-                <b:widget-settings>
-                  <b:widget-setting name='content'/>
-                </b:widget-settings>
-                <b:includable id='main'>
-                  <script type='text/javascript'>
-                      var disqus_shortname = &#39;mrhaki-blogspot&#39;;
-                      var disqus_blogger_current_url = &quot;<data:blog.canonicalUrl/>&quot;;
-                      if (!disqus_blogger_current_url.length) {
-                          disqus_blogger_current_url = &quot;<data:blog.url/>&quot;;
-                      }
-                      var disqus_blogger_homepage_url = &quot;<data:blog.homepageUrl/>&quot;;
-                      var disqus_blogger_canonical_homepage_url = &quot;<data:blog.canonicalHomepageUrl/>&quot;;
-                  </script>
-                  <b:if cond='data:blog.pageType == &quot;item&quot;'>
-                      <style type='text/css'>
-                          #comments {display:none;}
-                      </style>
-                      <script type='text/javascript'>
-                          (function() {
-                              var bloggerjs = document.createElement(&#39;script&#39;);
-                              bloggerjs.type = &#39;text/javascript&#39;;
-                              bloggerjs.async = true;
-                              bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_item.js&#39;;
-                              (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
-                          })();
-                      </script>
-                  </b:if>
-                      <style type='text/css'>
-                          .post-comment-link { visibility: hidden; }
-                      </style>
-                      <script type='text/javascript'>
-                      (function() {
-                          var bloggerjs = document.createElement(&#39;script&#39;);
-                          bloggerjs.type = &#39;text/javascript&#39;;
-                          bloggerjs.async = true;
-                          bloggerjs.src = &#39;//&#39;+disqus_shortname+&#39;.disqus.com/blogger_index.js&#39;;
-                          (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(bloggerjs);
-                      })();
-                      </script>
-                </b:includable>
-              </b:widget>
               <b:widget id='Label1' locked='false' title='Labels' type='Label'>
                 <b:widget-settings>
                   <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
                   <b:widget-setting name='display'>LIST</b:widget-setting>
-                  <b:widget-setting name='selectedLabelsList'>Apache Camel,Asciidoc,Asciidoctor,Awesome:Asciidoctor,Clojure,Clojure:Goodness,Cocoon,Git,Google App Egine,Google Guava,Gradle,Gradle:Goodness,Grails,Grails:Goodness,Griffon:Goodness,Groovy,Groovy:Goodness,IntelliJ IDEA,Java,Java:Joy,Maven,Maven2,Micronaut,Micronaut:Mastery,NetBeans,OSX,PlantUML,PlantUML:Pleasantness,RESTful webservices,Ratpack,Ratpacked,Spock,Spock:Spotlight,Spring,Spring Boot,Spring Cloud,Spring:Sweets,Tomcat,XSLT,Yahoo Pipes</b:widget-setting>
+                  <b:widget-setting name='selectedLabelsList'>Apache Camel,Asciidoc,Asciidoctor,Awesome:Asciidoctor,Clojure,Clojure:Goodness,DataWeave,DataWeave:Delight,Gradle,Gradle:Goodness,Grails,Grails:Goodness,Groovy,Groovy:Goodness,IntelliJ IDEA,Java,Java:Joy,Maven,Micronaut,Micronaut:Mastery,NetBeans,OSX,PlantUML,PlantUML:Pleasantness,Ratpack,Ratpacked,Spock,Spock:Spotlight,Spring,Spring Boot,Spring Cloud,Spring:Sweets,XSLT</b:widget-setting>
                   <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
                   <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
                 </b:widget-settings>
@@ -1296,6 +1254,8 @@ head.appendChild(script);
         });
         </script>
 
+        <!--
         <script async='true' id='dsq-count-scr' src='//mrhaki-blogspot.disqus.com/count.js'/>
+        -->
     </body>
 </html>
