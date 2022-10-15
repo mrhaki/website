@@ -25,6 +25,11 @@
         <p class="description"><a href="//github.com/mrhaki">Code</a></p>
     </li>
     <li>
+        <p><a href="//gitlab.com/mrhaki"><img src="{socialicons}gitlab.svg"
+            alt="Gitlab" title="Gitlab" width="48" height="48"/></a></p>
+        <p class="description"><a href="//gitlab.com/mrhaki">Code</a></p>
+    </li>
+    <li>
         <p><a href="mrhaki.vcf"><img src="{socialicons}email.svg"
             alt="vCard" title="vCard" width="48" height="48"/></a></p>
         <p class="description"><a href="mrhaki.vcf">Contact</a></p>
