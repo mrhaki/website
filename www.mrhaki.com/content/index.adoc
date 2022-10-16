@@ -31,4 +31,4 @@ Or in Clojure code:
 
 In 2009 I started writing blog posts about Groovy with the name http://mrhaki.blogspot.com/search/label/Groovy%3AGoodness[Groovy Goodness].
 These posts contain small snippets of code explaining core and exotic features of the Groovy language.
-During the years I wrote about subjects like Grails, Micronaut, Gradle, Spock and Asciidoctor.
+During the years I wrote about subjects like Grails, Micronaut, Gradle, Spock, Clojure and Asciidoctor.
