@@ -8,7 +8,7 @@ body {
 .syntaxhighlighter  code {   color: #afafaf !important; }
 code, a { color: #ebebeb; }
 
-h3.post-title a, h3.entry-title a, h3, h2 { color: #C97C48; }
+h3.post-title a, h3.entry-title a, h3, h2 { color: #e9832a; }
 
 ::selection { background: #4A6E9F; }
 ::-moz-selection { background: #4A6E9F; }
@@ -20,6 +20,13 @@ h3.post-title a, h3.entry-title a, h3, h2 { color: #C97C48; }
 a.home-link { background: none; padding-left: 0;}
 a.blog-pager-older-link { background: none; padding-left: 0;}
 a.blog-pager-newer-link { background: none; padding-right: 0;}
+
+#activities h2.date-header, .blog-posts h2.date-header { color: #afafaf; }
+
+a.comment-link, a.tag-link { background-color: #3a3a3a; }
+a.link-label, a.disqus-blogger-comment-link {
+    color: #ebebeb;
+}
 
 #uds-searchControl,
 #uds-searchControl a,
@@ -59,11 +66,11 @@ a.blog-pager-newer-link { background: none; padding-right: 0;}
 
 .syntaxhighlighter {
   background-color: #1d2026 !important;
-  color: #afafaf !important;
+  color: #cccccc !important;
 }
 .syntaxhighlighter .plain,
 .syntaxhighlighter .plain a {
-    color: #afafaf !important;
+    color: #cccccc !important;
 }
 .syntaxhighlighter .line.alt1 {
   background-color: #1d2026 !important;
@@ -118,24 +125,24 @@ a.blog-pager-newer-link { background: none; padding-right: 0;}
 .syntaxhighlighter .plain, .syntaxhighlighter .plain a {
 }
 .syntaxhighlighter .comments, .syntaxhighlighter .comments a {
-  color: #696854 !important;
+  color: #a09f7e !important;
 }
 .syntaxhighlighter .string, .syntaxhighlighter .string a {
-    color: rgb(145, 112, 70) !important;
+    color: #e9832a !important;
 }
 .syntaxhighlighter .keyword {
   font-weight: bold !important;
   color: #afafaf !important;
 }
 .syntaxhighlighter .preprocessor {
-  color: #435a5f !important;
+  color: #3b8aaf !important;
   font-weight: bold !important;
 }
 .syntaxhighlighter .variable {
   color: #898989 !important;
 }
 .syntaxhighlighter .value {
-  color: rgb(67, 115, 138) !important;
+  color: #3b8aaf !important;
 }
 .syntaxhighlighter .functions {
   font-weight: bold !important;
