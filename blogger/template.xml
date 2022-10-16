@@ -40,6 +40,7 @@
         <link href='//www.mrhaki.com/css/3col.css' media='all' rel='stylesheet'/>
         <link href='//www.mrhaki.com/css/5col.css' media='all' rel='stylesheet'/>
         <link href='//www.mrhaki.com/css/iphone4.css' media='all' rel='stylesheet'/>
+        <link href='//www.mrhaki.com/css/rainbow.css' media='all' rel='stylesheet'/>
 
         <link href='//www.mrhaki.com/css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
 
@@ -113,6 +114,19 @@ head.appendChild(script);
             <a href='#sidebar'>skip to sidebar</a>
         </span>
 
+        <div id="header-rainbow">
+            <div class="color" style="background-color: #000000;">&#160;</div>
+            <div class="color" style="background-color: #784f16;">&#160;</div>
+            <div class="color" style="background-color: #e40303;">&#160;</div>
+            <div class="color" style="background-color: #ff8c00;">&#160;</div>
+            <div class="color" style="background-color: #ffed00;">&#160;</div>
+            <div class="color" style="background-color: #008026;">&#160;</div>
+            <div class="color" style="background-color: #004dff;">&#160;</div>
+            <div class="color" style="background-color: #750787;">&#160;</div>
+            <div class="color" style="background-color: #5ccefa;">&#160;</div>
+            <div class="color" style="background-color: #f6a8b7;">&#160;</div>
+        </div>
+        
         <header>
             <div id='header_logo'>
                 <a href='https://www.mrhaki.com/'>
