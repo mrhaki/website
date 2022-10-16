@@ -1,0 +1,20 @@
+alias bd := build-and-deploy
+
+default:
+	@just --list
+
+# Run JBake in server mode
+server:
+	jbake -s
+
+# Build site using JBake
+build:
+	jbake -b
+
+# Deploy site to www.mrhaki.com
+deploy:
+	rsync -rvuz --progress output/ mrhaki@162.209.73.215:/home/mrhaki/public_html/www.mrhaki.com/public
+
+# Build site using JBake and deploy to www.mrhaki.com
+build-and-deploy: build deploy
+
