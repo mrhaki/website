@@ -23,6 +23,7 @@
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/3col.css"/>
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/5col.css"/>
     <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/iphone4.css"/>
+    <link rel="stylesheet" media="all" href="${content.rootpath ?: ''}css/rainbow.css"/>
 
     <link href='${content.rootpath ?: ''}css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
 
@@ -39,7 +40,18 @@
 </head>
 
 <body>
-
+    <div id="header-rainbow">
+        <div class="color" style="background-color: #000000;">&nbsp;</div>
+        <div class="color" style="background-color: #784f16;">&nbsp;</div>
+        <div class="color" style="background-color: #e40303;">&nbsp;</div>
+        <div class="color" style="background-color: #ff8c00;">&nbsp;</div>
+        <div class="color" style="background-color: #ffed00;">&nbsp;</div>
+        <div class="color" style="background-color: #008026;">&nbsp;</div>
+        <div class="color" style="background-color: #004dff;">&nbsp;</div>
+        <div class="color" style="background-color: #750787;">&nbsp;</div>
+        <div class="color" style="background-color: #5ccefa;">&nbsp;</div>
+        <div class="color" style="background-color: #f6a8b7;">&nbsp;</div>
+    </div>
     <header>
         <div id="header_logo">
             <a href="${content.rootpath ?: ''}index.html">
