@@ -19,6 +19,7 @@
         <nav id="connect_links">
             <h3>Connect</h3>
             <ul>
+                <li><a rel="me" href="https://mastodon.online/@mrhaki">Mastodon</a></li>
                 <li><a href="//www.twitter.com/mrhaki">Twitter</a></li>
                 <li><a href="//nl.linkedin.com/in/mrhaki">LinkedIn</a></li>
                 <li><a href="/about/mrhaki.vcf">Contact</a></li>

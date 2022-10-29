@@ -1158,6 +1158,7 @@ head.appendChild(script);
             <nav id='connect_links'>
                 <h2>Connect</h2>
                 <ul>
+                    <li><a rel="me" href="https://mastodon.online/@mrhaki">Mastodon</a></li>
                     <li><a href='https://www.twitter.com/mrhaki'>Twitter</a></li>
                     <li><a href='https://nl.linkedin.com/in/mrhaki'>LinkedIn</a></li>
                     <li><a href='https://www.mrhaki.com/about/mrhaki.vcf'>Contact</a></li>
@@ -1216,7 +1217,7 @@ head.appendChild(script);
             <div class='clearfix'/>
 
             <p id='copyright'>
-                &amp;copy; 2008-2021
+                &amp;copy; 2008-2022
                 <a href='http://www.mrhaki.com'>Hubert A. Klein Ikkink</a>
                 |
                 <a class='changecolor' href='#' title='dark-color'>Dark theme</a>
