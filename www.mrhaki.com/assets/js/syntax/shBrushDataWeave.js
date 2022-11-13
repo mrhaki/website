@@ -46,4 +46,4 @@ SyntaxHighlighter.brushes.DataWeave = function()
 };
 
 SyntaxHighlighter.brushes.DataWeave.prototype    = new SyntaxHighlighter.Highlighter();
-SyntaxHighlighter.brushes.DataWeave.aliases      = ['dwl'];
+SyntaxHighlighter.brushes.DataWeave.aliases      = ['dwl', 'dw', 'dataweave'];
