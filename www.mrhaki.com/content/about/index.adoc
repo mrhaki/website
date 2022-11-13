@@ -10,6 +10,21 @@
 ++++
 <ul class="connect">
     <li>
+        <p><a href="//mastodon.online/@mrhaki"><img src="{socialicons}mastodon.svg"
+            alt="Mastodon" title="Mastodon" width="48" height="48"/></a></p>
+        <p class="description"><a href="//mastodon.online/@mrhaki">Toot, toot</a></p>
+    </li>
+    <li>
+        <p><a href="//gitlab.com/mrhaki"><img src="{socialicons}gitlab.svg"
+            alt="Gitlab" title="Gitlab" width="48" height="48"/></a></p>
+        <p class="description"><a href="//gitlab.com/mrhaki">Code</a></p>
+    </li>
+    <li>
+        <p><a href="//github.com/mrhaki"><img src="{socialicons}github.svg"
+            alt="Github" title="Github" width="48" height="48"/></a></p>
+        <p class="description"><a href="//github.com/mrhaki">Code</a></p>
+    </li>
+    <li>
         <p><a href="//www.twitter.com/mrhaki"><img src="{socialicons}twitter.svg"
             alt="Twitter" title="Twitter" width="48" height="48"/></a></p>
         <p class="description"><a href="//www.twitter.com/mrhaki">Tweet, tweet</a></p>
@@ -18,16 +33,6 @@
         <p><a href="//nl.linkedin.com/in/mrhaki"><img src="{socialicons}linkedin.svg"
             alt="Linkedin" title="Linkedin" width="48" height="48"/></a></p>
         <p class="description"><a href="//nl.linkedin.com/in/mrhaki">Let's connect</a></p>
-    </li>
-    <li>
-        <p><a href="//github.com/mrhaki"><img src="{socialicons}github.svg"
-            alt="Github" title="Github" width="48" height="48"/></a></p>
-        <p class="description"><a href="//github.com/mrhaki">Code</a></p>
-    </li>
-    <li>
-        <p><a href="//gitlab.com/mrhaki"><img src="{socialicons}gitlab.svg"
-            alt="Gitlab" title="Gitlab" width="48" height="48"/></a></p>
-        <p class="description"><a href="//gitlab.com/mrhaki">Code</a></p>
     </li>
     <li>
         <p><a href="mrhaki.vcf"><img src="{socialicons}email.svg"
