@@ -1,0 +1,10 @@
+<%#encoding:UTF-8%><%
+nowrap = !(@document.attr? :prewrap) || (option? :nowrap)
+if @style == 'source'
+  language = attr :language
+   %>
+<pre class="brush:<%= language %>;"><%= content %></pre>
+<%
+else %>
+<pre<%= nowrap ? ' class="nowrap"' : nil %>><%= content %></pre><%
+end %>
