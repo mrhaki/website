@@ -48,6 +48,8 @@
     <script language='javascript' src='${content.rootpath ?: ''}js/syntax/shLegacy.js'/></script>
     <script language='javascript' src='${content.rootpath ?: ''}js/syntax/shBrushGroovy.js'/></script>
     <script language='javascript' src='${content.rootpath ?: ''}js/syntax/shBrushClojure.js'/></script>
+    <script language='javascript' src='${content.rootpath ?: ''}js/syntax/shBrushKotlin.js'/></script>
+    <script language='javascript' src='${content.rootpath ?: ''}js/syntax/shBrushJava.js'/></script>
     <script language='javascript'>
         SyntaxHighlighter.config.clipboardSwf = null;
         SyntaxHighlighter.defaults['first-line'] = 0;

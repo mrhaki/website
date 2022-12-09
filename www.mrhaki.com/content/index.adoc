@@ -11,9 +11,9 @@ The following Groovy code shows this:
 
 ++++
 <pre class="brush:groovy;light:true;">
-assert ['Hubert', 'Alexander', 'Klein', 'Ikkink'].inject('mr') { nickname, name ->
-    nickname + name[0].toLowerCase()
-} == 'mrhaki'
+assert ['Hubert', 'Alexander', 'Klein', 'Ikkink']
+  .inject('mr') { nickname, name -> nickname + name[0].toLowerCase() } 
+  == 'mrhaki'
 </pre>
 ++++
 
@@ -23,12 +23,36 @@ Or in Clojure code:
 <pre class="brush:clojure;light:true;">
 (assert
   (= "mrhaki"
-     (reduce (fn [nickname name] (str nickname (clojure.string/lower-case (first name))))
-             "mr"
-             ["Hubert" "Alexander" "Klein" "Ikkink"])))
+    (reduce 
+      (fn [nickname name] (str nickname (clojure.string/lower-case (first name))))
+          "mr"
+          ["Hubert" "Alexander" "Klein" "Ikkink"])))
 </pre>
 ++++
 
-In 2009 I started writing blog posts about Groovy with the name http://mrhaki.blogspot.com/search/label/Groovy%3AGoodness[Groovy Goodness].
+Or in Kotlin code:
+
+++++
+<pre class="brush:kotlin;light:true;">
+assert(
+  listOf("Hubert", "Alexander", "Klein", "Ikkink")
+    .fold("mr") { nickname, name -> nickname + name[0].toLowerCase() }
+        == "mrhaki"
+)
+</pre>
+++++
+
+And finally the Java code:
+
+++++
+<pre class="brush:java;light:true;">
+assert List.of("Hubert", "Alexander", "Klein", "Ikkink")
+  .stream()
+  .reduce("mr", (nickname, name) -> nickname + Character.toLowerCase(name.charAt(0)))
+  .equals("mrhaki")
+</pre>
+++++
+
+In 2009 I started writing blog posts about Groovy with the name http://blog.mrhaki.com/search/label/Groovy%3AGoodness[Groovy Goodness].
 These posts contain small snippets of code explaining core and exotic features of the Groovy language.
 During the years I wrote about subjects like Grails, Micronaut, Gradle, Spock, Clojure and Asciidoctor.
