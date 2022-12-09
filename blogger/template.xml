@@ -114,17 +114,17 @@ head.appendChild(script);
             <a href='#sidebar'>skip to sidebar</a>
         </span>
 
-        <div id="header-rainbow">
-            <div class="color" style="background-color: #000000;">&#160;</div>
-            <div class="color" style="background-color: #784f16;">&#160;</div>
-            <div class="color" style="background-color: #e40303;">&#160;</div>
-            <div class="color" style="background-color: #ff8c00;">&#160;</div>
-            <div class="color" style="background-color: #ffed00;">&#160;</div>
-            <div class="color" style="background-color: #008026;">&#160;</div>
-            <div class="color" style="background-color: #004dff;">&#160;</div>
-            <div class="color" style="background-color: #750787;">&#160;</div>
-            <div class="color" style="background-color: #5ccefa;">&#160;</div>
-            <div class="color" style="background-color: #f6a8b7;">&#160;</div>
+        <div id='header-rainbow'>
+            <div class='color' style='background-color: #000000;'>&#160;</div>
+            <div class='color' style='background-color: #784f16;'>&#160;</div>
+            <div class='color' style='background-color: #e40303;'>&#160;</div>
+            <div class='color' style='background-color: #ff8c00;'>&#160;</div>
+            <div class='color' style='background-color: #ffed00;'>&#160;</div>
+            <div class='color' style='background-color: #008026;'>&#160;</div>
+            <div class='color' style='background-color: #004dff;'>&#160;</div>
+            <div class='color' style='background-color: #750787;'>&#160;</div>
+            <div class='color' style='background-color: #5ccefa;'>&#160;</div>
+            <div class='color' style='background-color: #f6a8b7;'>&#160;</div>
         </div>
         
         <header>
@@ -1158,7 +1158,7 @@ head.appendChild(script);
             <nav id='connect_links'>
                 <h2>Connect</h2>
                 <ul>
-                    <li><a rel="me" href="https://mastodon.online/@mrhaki">Mastodon</a></li>
+                    <li><a href='https://mastodon.online/@mrhaki' rel='me'>Mastodon</a></li>
                     <li><a href='https://www.twitter.com/mrhaki'>Twitter</a></li>
                     <li><a href='https://nl.linkedin.com/in/mrhaki'>LinkedIn</a></li>
                     <li><a href='https://www.mrhaki.com/about/mrhaki.vcf'>Contact</a></li>
