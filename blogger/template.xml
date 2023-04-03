@@ -1170,7 +1170,7 @@ head.appendChild(script);
                 <b:widget-settings>
                   <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
                   <b:widget-setting name='display'>LIST</b:widget-setting>
-                  <b:widget-setting name='selectedLabelsList'>Apache Camel,Asciidoc,Asciidoctor,Awesome:Asciidoctor,Clojure,Clojure:Goodness,DataWeave,DataWeave:Delight,Gradle,Gradle:Goodness,Grails,Grails:Goodness,Groovy,Groovy:Goodness,IntelliJ IDEA,Java,Java:Joy,Maven,Micronaut,Micronaut:Mastery,NetBeans,OSX,PlantUML,PlantUML:Pleasantness,Ratpack,Ratpacked,Spock,Spock:Spotlight,Spring,Spring Boot,Spring Cloud,Spring:Sweets,XSLT</b:widget-setting>
+                  <b:widget-setting name='selectedLabelsList'>Apache Camel,Asciidoc,Asciidoctor,Awesome:Asciidoctor,Clojure,Clojure:Goodness,DataWeave,DataWeave:Delight,Gradle,Gradle:Goodness,Grails,Grails:Goodness,Groovy,Groovy:Goodness,IntelliJ IDEA,Java,Java:Joy,Kotlin,Kotlin:Kandy,Mastering:Maven,Maven,Micronaut,Micronaut:Mastery,NetBeans,OSX,PlantUML,PlantUML:Pleasantness,Ratpack,Ratpacked,Spock,Spock:Spocklight,Spring,Spring Boot,Spring Cloud,Spring:Sweets,XSLT</b:widget-setting>
                   <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
                   <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
                 </b:widget-settings>
