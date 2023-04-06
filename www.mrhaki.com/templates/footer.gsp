@@ -4,7 +4,7 @@
             <ul>
                 <li><a href="//blog.mrhaki.com">Blog</a></li>
                 <li><a href="${content.rootpath ?: ''}books.html">Books</a></li>
-                <li><a href="//github.com/mrhaki">Github</a></li>
+                <li><a href="${content.rootpath ?: ''}talks.html">Talks</a></li>
                 <li><a href="${content.rootpath ?: ''}about/">About</a></li>
             </ul>
         </nav>

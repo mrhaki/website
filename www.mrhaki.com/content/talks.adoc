@@ -1,0 +1,119 @@
+= Talks
+:jbake-type: page
+:idprefix:
+
+In the last couple of years I have spoken at different conferences and meetups.
+For example Gr8Conf, JavaLand, JFall, JBCNConf and others.
+On this page are some recorded talks that are published on YouTube.
+
+== Writing tests is fun at JBCNConf 2017 
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YzhIyF836-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Skyrocketing development of our microservices at JFall 2018
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wkqm4NlM5hE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Building HTTP applications with Ratpack at JFall 2016
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xt12p-eAUz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Groovy Goodness at Gr8Conf US 2015
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ugy4wSEy_A0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Grails Goodness at Gr8Conf US 2015
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qyj7A-8n49w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Gradle Goodness at Gr8Conf US 2015
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/erg5Ng8yuKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Express yourself with DSLs at Gr8Conf 2018
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iQwWOzkS13k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Groovy Goodness at Gr8Conf 2018
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DerfquHP3G8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Grails 3 Goodness at Gr8Conf 2018
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VDiEr56nQ7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Gradle Goodness at Gr8Conf 2015
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zSnsi6wd6GA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Groovy Goodness at Gr8Conf 2015
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ls7u38U0HFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Grails Goodness at Gr8Conf 2014
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jmWrjIhOq-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Grails Goodness at Greach 2015
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qUPn6S-7ZHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
+
+== Building HTTP applications with Ratpack at Utrecht JUG 2017
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fsqyIAkeuKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br />
+<br />
+++++
