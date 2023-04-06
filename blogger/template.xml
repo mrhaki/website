@@ -1152,7 +1152,7 @@ head.appendChild(script);
                 <ul>
                     <li><a href='https://www.droomkoekjes.nl'>Droomkoekjes</a></li>
                     <li><a href='https://blog.jdriven.com/'>JDriven Blog</a></li>
-                    <li><a href='https://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='http://www.mrhaki.com/images/jdriven.png' title='JDriven Logo'/></a></li>
+                    <li><a href='https://www.jdriven.com/'><img alt='JDriven Logo' id='jdriven-logo' src='https://www.mrhaki.com/images/jdriven.png' title='JDriven Logo'/></a></li>
                 </ul>
             </nav>
             <nav id='connect_links'>
@@ -1217,7 +1217,7 @@ head.appendChild(script);
             <div class='clearfix'/>
 
             <p id='copyright'>
-                &amp;copy; 2008-2022
+                &amp;copy; 2008-2023
                 <a href='http://www.mrhaki.com'>Hubert A. Klein Ikkink</a>
                 |
                 <a class='changecolor' href='#' title='dark-color'>Dark theme</a>
