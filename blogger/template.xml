@@ -1142,8 +1142,7 @@ head.appendChild(script);
                 <ul>
                     <li><a href='https://www.mrhaki.com/'>Website</a></li>
                     <li><a href='https://blog.mrhaki.com'>Blog</a></li>
-                    <li><a href='https://www.mrhaki.com/books.html'>Books</a></li>
-                    <li><a href='https://github.com/mrhaki'>Github</a></li>
+                    <li><a href='https://www.mrhaki.com/talks.html'>Talks</a></li>
                     <li><a href='https://www.mrhaki.com/about/'>About</a></li>
                 </ul>
             </nav>
