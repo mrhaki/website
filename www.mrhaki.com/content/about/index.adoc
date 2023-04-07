@@ -45,14 +45,15 @@
 == Me
 
 pass:attributes[<img src="{imagesdir}/jdriven-photo.png" alt="Photo" width="128" height="128" align="left" class="photo">] My name is Hubert Klein Ikkink, but I am also known as mrhaki.
-I am born in 1973 and live in Tilburg, The Netherlands, with my beautiful wife and three gorgeous children. +
+I am born in 1973 and live in Tilburg, The Netherlands, with my three gorgeous children. +
 I studied Information Systems and Management at the Tilburg University.
 After finishing my study I started to work at a company specialized in knowledge based software.
-There I started writing my first Java software (yes, an applet!) in 1996.
-During the years my focus switched from applets, to servlets, to Java Enterprise Edition, to Spring based software. +
+There I started writing my first Java software (yes, an applet!) in 1996. +
+During the years my focus switched from applets, to servlets, to Java Enterprise Edition, to Spring based software. 
+At that same company I also was inspired by a colleague to write articles about Java (and Borland JBuilder) for magazines.
+From that I was also invited to speak at the Borland conference and local meetups about Java. +
 In 2008 I wanted to have fun again when writing software.
-The larger projects I was working on
-were more about writing configuration XML files, tuning performance and less about _real_ development in my eyes.
+The larger projects I was working on were more about writing configuration XML files, tuning performance and less about _real_ development in my eyes.
 So I started to look around and noticed Groovy as a very good language to learn about.
 I could still use existing Java code and libraries and can use my Groovy classes in Java.
 The learning curve isn't steep and to support my learning phase I wrote down interesting Groovy facts in http://www.mrhaki.com/blog[my blog] with the title _Groovy Goodness_.
@@ -80,7 +81,7 @@ From 2016 I spoke about Asciidoctor and Micronaut at Javaland in Germany.
 A community driven Java conference at the Phantasialand amusement park. +
 I spoke also at several meetups and local meetings about various subjects like Groovy, Clojure, Gradle, Asciidoctor and much more.
 
-Checkout the pass:attributes[<a href="/talks.html">Books</a>] page for more information and links to videos.
+Checkout the pass:attributes[<a href="/talks.html">Talks</a>] page for more information and links to videos.
 
 == Developer
 
