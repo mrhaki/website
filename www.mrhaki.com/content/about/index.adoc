@@ -66,9 +66,9 @@ image::{imagesdir}/mvbbutton.png[width=200,height=91,alt=DZone Most Value Blogge
 
 I have written three books about Gradle that are published by Packt Publishing.
 I also bundled a lot of my blog posts into books published at Leanpub.
-Checkout the pass:attributes[<a href="/books.html">Books</a>] page for more information.
-
 I also published several articles in Java Magazine which is a quarterly magazine published by the dutch Java user group NLJUG.
+
+Checkout the pass:attributes[<a href="/books.html">Books</a>] page for more information.
 
 == Speaker
 
@@ -77,7 +77,7 @@ This is very good conference with all project leaders of Groovy and Groovy-relat
 So it was a great honor to be invited and to speak at the conference about my Groovy, Grails and Gradle Goodness posts.
 I also presented a talks about Gradle, Micronaut, Ratpack and Asciidoctor at the J-Fall conference of the Dutch Java User Group.
 The conference is visited by 1000 Java developers and I got the chance to educate some of them about some nice Java frameworks and tools. +
-From 2016 I spoke about Asciidoctor and Micronaut at Javaland in Germany.
+From 2016 I spoke about Asciidoctor and Micronaut at JavaLand in Germany.
 A community driven Java conference at the Phantasialand amusement park. +
 I spoke also at several meetups and local meetings about various subjects like Groovy, Clojure, Gradle, Asciidoctor and much more.
 
