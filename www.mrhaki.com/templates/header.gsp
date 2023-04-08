@@ -66,4 +66,10 @@
                 <li><a href="${content.rootpath ?: ''}about/index.html">About</a></li>
             </ul>
         </nav>
+
+        <div id="top-theme-selector" class="site">
+            <a class='changecolor' href='#' title='dark-color'>Dark theme</a>
+            |
+            <a class='changecolor' href='#' title='light-color'>Light theme</a>
+        </div>
     </header>
