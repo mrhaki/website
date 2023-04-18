@@ -58,17 +58,6 @@ The book is also available in https://leanpub.com/b/groovyandgradlegoodnessnoteb
 </div>
 ++++
 
-== Ratpacked Notebook
-
-In 2016 I have bundled the Ratpacked blog posts into a single electronic publication: Ratpacked Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Ratpack. Features are explained with a lot of code, so it is very practical. +
-The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Ratpacked blog posts will be added to the book and those updates are free if you have bought the book.
-
-++++
-<div style="display: flex;align-items: center;justify-content: center;">
-<iframe width='160' height='470' src='https://leanpub.com/ratpacked-notebook/embed' frameborder='0' allowtransparency='true'></iframe>
-</div>
-++++
-
 == Spocklight Notebook (FREE)
 
 In 2014 I have bundled the Spocklight blog posts into a single electronic publication: Spocklight Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Spock instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Spock. Features are explained with a lot of code, so it is very practical. +
@@ -102,4 +91,13 @@ The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available 
 </div>
 ++++
 
+== Ratpacked Notebook (FREE)
 
+In 2016 I have bundled the Ratpacked blog posts into a single electronic publication: Ratpacked Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Ratpack. Features are explained with a lot of code, so it is very practical. +
+The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Ratpacked blog posts will be added to the book and those updates are free if you have bought the book.
+
+++++
+<div style="display: flex;align-items: center;justify-content: center;">
+<iframe width='160' height='470' src='https://leanpub.com/ratpacked-notebook/embed' frameborder='0' allowtransparency='true'></iframe>
+</div>
+++++
