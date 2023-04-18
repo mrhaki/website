@@ -26,4 +26,6 @@
     .Followers { margin-top: 0px; }
 
     .syntaxhighlighter .toolbar { display: none; }
+
+    #top-theme-selector.site { top: 48px; }
 }
