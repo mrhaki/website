@@ -7,3 +7,6 @@
 /www.mrhaki.com/images/socialbuttons/48x48/.DS_Store
 /www.mrhaki.com/.gradle
 /www.mrhaki.com/cache
+
+# Local Netlify folder
+.netlify

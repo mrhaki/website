@@ -13,8 +13,12 @@ build:
 
 # Deploy site to www.mrhaki.com
 deploy:
-	rsync -rvuz --progress output/ mrhaki@162.209.73.215:/home/mrhaki/public_html/www.mrhaki.com/public
+	netlify deploy --dir=output --alias=mrhaki --prod --site=mrhaki
 
 # Build site using JBake and deploy to www.mrhaki.com
 build-and-deploy: build deploy
+
+# Open Netlify Admin UI
+admin:
+	netlify open:admin
 
