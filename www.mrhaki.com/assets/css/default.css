@@ -59,6 +59,8 @@ footer nav { float: left; margin-right: 24px; }
 #copyright { margin-top: 24px; }
 #copyright a { text-decoration: underline; }
 #copyright, #subscribe-feed, #license { margin-bottom: 5px; }
+div.book-links { display: flex; flex-wrap: wrap; }
+div.book-link { flex: 1; flex-basis: 22%; }
 
 /*	Typography presets
     ------------------	*/

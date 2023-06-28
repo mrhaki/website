@@ -16,7 +16,6 @@ You learn how to apply Gradle in your Java, Scala or Groovy projects, integrate 
 IDE and how to integrate with well-known continuous integration servers. +
 You will quickly learn the basics of Gradle, how to write tasks, work with files and how to use write build scripts using the Groovy DSL. Then as you develop you will be shown how to use Gradle for Java projects. Compile, package, test and deploy your applications with ease. When you’ve mastered the simple, move on to the sublime and integrate your code with continuous integration servers and IDEs. By the end of the "Gradle Effective Implementation Guide" you will be able to use Gradle in your daily development. Writing tasks, applying plugins and creating build logic will be second nature.
 
-
 == Gradle Dependency Management
 
 image:gradle-dependency-management.jpg[width=170,float="left",role="photo",link="https://www.packtpub.com/application-development/gradle-dependency-management"] In 2015 I wrote a book specifically about dependency management in Gradle for Java: https://www.packtpub.com/application-development/gradle-dependency-management[Gradle Dependency Management].
@@ -34,70 +33,46 @@ You learn how to apply Gradle in your Java, Scala or Groovy projects, integrate 
 IDE and how to integrate with well-known continuous integration servers. +
 Start with the foundations and work your way through hands on examples to build your knowledge of Gradle to skyscraper heights. You will quickly learn the basics of Gradle, how to write tasks, work with files and how to use write build scripts using the Groovy DSL. Then as you develop you will be shown how to use Gradle for Java projects. Compile, package, test and deploy your applications with ease. When you’ve mastered the simple, move on to the sublime and integrate your code with continuous integration servers and IDEs. By the end of the "Gradle Effective Implementation Guide" you will be able to use Gradle in your daily development. Writing tasks, applying plugins and creating build logic will be second nature.
 
-== Groovy Goodness Notebook
+== Notebook Series on Leanpub
 
-In 2013 I have bundled the Groovy Goodness blog posts into a single electronic publication: Groovy Goodness Notebook. The book contains the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Groovy. Features are explained with a lot of code, so it is very practical. +
-The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Groovy Goodness blog posts will be added to the book and those updates are free if you have bought the book. +
+In 2013 I have bundled the Groovy Goodness blog posts into a single electronic publication: Groovy Goodness Notebook. 
+The book contains the blog posts bundled into categories. 
+The posts have been slightly edited, but mainly for formatting purposes. 
+It gives a broad and in-depth overview of common and more hidden features of Groovy. 
+Features are explained with a lot of code, so it is very practical. +
+The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in two formats: PDF and EPUB. 
+Updates are available for free. 
+So any new Groovy Goodness blog posts will be added to the book and those updates are free if you have bought the book. +
 The book is also available in https://leanpub.com/b/groovyandgradlegoodnessnotebooks[a bundle] with the Gradle Goodness Notebook.
 
+Since then I also bundled blog posts about Gradle, Asciidoctor, Spock, Clojure, DataWeave, Ratpack and Grails into e-books available at Leanpub.
+The following is a list of all books in the Notebook series:
+
 ++++
-<div style="display: flex;align-items: center;justify-content: center;">
+<div class="book-links">
+<div class="book-link">
 <iframe width='160' height='470' src='https://leanpub.com/groovy-goodness-notebook/embed' frameborder='0' allowtransparency='true'></iframe>
 </div>
-++++
-
-== Gradle Goodness Notebook
-
-In 2015 I have bundled the Gradle Goodness blog posts into a single electronic publication: Gradle Goodness Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Gradle. Features are explained with a lot of code, so it is very practical. +
-The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Gradle Goodness blog posts will be added to the book and those updates are free if you have bought the book. +
-The book is also available in https://leanpub.com/b/groovyandgradlegoodnessnotebooks[a bundle] with the Groovy Goodness Notebook.
-
-++++
-<div style="display: flex;align-items: center;justify-content: center;">
+<div class="book-link">
 <iframe width='160' height='470' src='https://leanpub.com/gradle-goodness-notebook/embed' frameborder='0' allowtransparency='true'></iframe>
 </div>
-++++
-
-== Spocklight Notebook (FREE)
-
-In 2014 I have bundled the Spocklight blog posts into a single electronic publication: Spocklight Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Spock instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Spock. Features are explained with a lot of code, so it is very practical. +
-The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Spocklight blog posts will be added to the book and those updates are free if you have bought the book.
-
-++++
-<div style="display: flex;align-items: center;justify-content: center;">
+<div class="book-link">
 <iframe width='160' height='470' src='https://leanpub.com/spockframeworknotebook/embed' frameborder='0' allowtransparency='true'></iframe>
 </div>
-++++
-
-== Awesome Asciidoctor Notebook (FREE)
-
-In 2015 I have bundled the Awesome Asciidoctor blog posts into a single electronic publication: Awesome Asciidoctor Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Asciidoctor instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Asciidoctor. Features are explained with a lot of code, so it is very practical. +
-The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Awesome Asciidoctor blog posts will be added to the book and those updates are free if you have bought the book.
-
-++++
-<div style="display: flex;align-items: center;justify-content: center;">
+<div class="book-link">
 <iframe width='160' height='470' src='https://leanpub.com/awesomeasciidoctornotebook/embed' frameborder='0' allowtransparency='true'></iframe>
 </div>
-++++
-
-== Grails Goodness Notebook (FREE)
-
-In 2014 I have bundled the Grails Goodness blog posts into a single electronic publication: Grails Goodness Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. This time the posts are of course about Grails instead of Groovy. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Grails. Features are explained with a lot of code, so it is very practical. +
-The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Grails Goodness blog posts will be added to the book and those updates are free if you have bought the book.
-
-++++
-<div style="display: flex;align-items: center;justify-content: center;">
+<div class="book-link">
+<iframe width='160' height='470' src='https://leanpub.com/clojure-goodness-notebook/embed' frameborder='0' allowtransparency='true'></iframe>
+</div>
+<div class="book-link">
+<iframe width='160' height='470' src='https://leanpub.com/dataweave-delight-notebook/embed' frameborder='0' allowtransparency='true'></iframe>
+</div>
+<div class="book-link">
 <iframe width='160' height='470' src='https://leanpub.com/grails-goodness-notebook/embed' frameborder='0' allowtransparency='true'></iframe>
 </div>
-++++
-
-== Ratpacked Notebook (FREE)
-
-In 2016 I have bundled the Ratpacked blog posts into a single electronic publication: Ratpacked Notebook. Just like the Groovy Goodness Notebook does the book contain the blog posts bundled into categories. The posts have been slightly edited, but mainly for formatting purposes. It gives a broad and in-depth overview of common and more hidden features of Ratpack. Features are explained with a lot of code, so it is very practical. +
-The book is published at https://leanpub.com/u/mrhaki[Leanpub] and is available in three formats: PDF, MOBI (for Kindle) and EPUB (for iPad). Updates are available for free. So any new Ratpacked blog posts will be added to the book and those updates are free if you have bought the book.
-
-++++
-<div style="display: flex;align-items: center;justify-content: center;">
+<div class="book-link">
 <iframe width='160' height='470' src='https://leanpub.com/ratpacked-notebook/embed' frameborder='0' allowtransparency='true'></iframe>
+</div>
 </div>
 ++++
