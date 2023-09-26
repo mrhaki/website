@@ -28,7 +28,7 @@ var leanpub_books = function() {
                 }
 
                 if (frameSrc) {
-                    holder.html('<iframe width="160" height="430" src="https://leanpub.com/' + frameSrc + '/embed" frameborder="0" allowtransparency="true"></iframe>');
+                    holder.html('<iframe width="160" height="450" src="https://leanpub.com/' + frameSrc + '/embed" frameborder="0" allowtransparency="true"></iframe>');
                 } else {
                     holder.html('');
                 }
