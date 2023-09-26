@@ -1158,7 +1158,6 @@ head.appendChild(script);
                 <h2>Connect</h2>
                 <ul>
                     <li><a href='https://mastodon.online/@mrhaki' rel='me'>Mastodon</a></li>
-                    <li><a href='https://www.twitter.com/mrhaki'>Twitter</a></li>
                     <li><a href='https://nl.linkedin.com/in/mrhaki'>LinkedIn</a></li>
                     <li><a href='https://www.mrhaki.com/about/mrhaki.vcf'>Contact</a></li>
                 </ul>
