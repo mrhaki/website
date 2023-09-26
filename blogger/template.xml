@@ -66,6 +66,7 @@
         <script src='//www.mrhaki.com/js/switchstylesheet.js'/>
         <script src='//www.mrhaki.com/js/google-analytics-blogger.js'/>
         <script src='//www.mrhaki.com/related-posts/blogger-extras.js'/>
+        <script src='//www.mrhaki.com/js/leanpub-books.js' />
     </head>
 
     <body>
@@ -828,6 +829,14 @@ head.appendChild(script);
                                         -->
                                     </b:if>
 
+                                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                                        <div class='widget' id='blog-item-labels'>
+                                            <div class='leanpub-books' expr:rel='data:post.title'>
+                                            </div>
+                                            <div class='clear'/>
+                                            <!--Loading Leanpub books...-->
+                                        </div>
+                                    </b:if>
 
                                     <b:if cond='data:blog.pageType == &quot;item&quot;'>
                                         <div class='widget' id='blog-item-labels'>
@@ -1260,6 +1269,7 @@ head.appendChild(script);
             $(document).ready(function() {
                 blogger_extras.related();
                 blogger_extras.labelSeries();
+                leanpub_books.books();
             });
         </script>
 
