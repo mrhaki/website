@@ -19,4 +19,5 @@
     .Label { margin-right: 24px; width: 288px; }
     .Followers { margin-right: 0px; margin-top: 0px; width: 228px;  }
     #top-theme-selector.site { top: 48px; }
+    .leanpub-books { position: fixed; top: 125px; left: 10px;}
 }
