@@ -202,11 +202,11 @@ head.appendChild(script);
                       <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
                       <b:widget-setting name='backlinksLabel'/>
                       <b:widget-setting name='showDateHeader'>true</b:widget-setting>
-                      <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
+                      <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
                       <b:widget-setting name='showCommentLink'>false</b:widget-setting>
-                      <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
+                      <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
                       <b:widget-setting name='showAuthor'>false</b:widget-setting>
-                      <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
+                      <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
                       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
                       <b:widget-setting name='showLabels'>true</b:widget-setting>
                       <b:widget-setting name='postLabelsLabel'>Tags:</b:widget-setting>
