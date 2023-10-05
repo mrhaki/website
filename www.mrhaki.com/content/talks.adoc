@@ -3,8 +3,13 @@
 :idprefix:
 
 In the last couple of years I have spoken at different conferences and meetups.
-For example Gr8Conf, JavaLand, JFall, JBCNConf and others.
+For example Gr8Conf, JavaLand, JFall, Devoxx, JBCNConf and others.
 On this page are some recorded talks that are published on YouTube.
+
+== Coding Your Documentation at Devoxx Belgium 2023
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mIb_jPaakoY?si=SSIuOINghDQwpZJq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+++++
 
 == Spice Up Asciidoctor Documentation With Java at JFall 2022
 ++++

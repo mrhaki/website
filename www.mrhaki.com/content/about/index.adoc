@@ -72,13 +72,14 @@ Checkout the pass:attributes[<a href="/books.html">Books</a>] page for more info
 
 == Speaker
 
-In recent years I was invited to speak at http://gr8conf.eu[Gr8Conf] in Copenhagen, Denmark and  at https://gr8conf.us[Gr8Conf US] in Minneapolis, USA.
+In recent years I was invited to speak at http://gr8conf.eu[Gr8Conf] in Copenhagen, Denmark and at https://gr8conf.us[Gr8Conf US] in Minneapolis, USA.
 This is very good conference with all project leaders of Groovy and Groovy-related projects.
 So it was a great honor to be invited and to speak at the conference about my Groovy, Grails and Gradle Goodness posts.
 I also presented a talks about Gradle, Micronaut, Ratpack and Asciidoctor at the J-Fall conference of the Dutch Java User Group.
 The conference is visited by 1000 Java developers and I got the chance to educate some of them about some nice Java frameworks and tools. +
-From 2016 I spoke about Asciidoctor and Micronaut at JavaLand in Germany.
+From 2016 I spoke about Asciidoctor, Spock and Micronaut at JavaLand in Germany.
 A community driven Java conference at the Phantasialand amusement park. +
+Recently I was invited to speak at Devoxx Belgium about Asciidoctor. + 
 I spoke also at several meetups and local meetings about various subjects like Groovy, Clojure, Gradle, Asciidoctor and much more.
 
 Checkout the pass:attributes[<a href="/talks.html">Talks</a>] page for more information and links to videos.
