@@ -1,2 +1,5 @@
 *.adoc
 *.html
+.idea/
+*.class
+.vscode/
