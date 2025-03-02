@@ -25,9 +25,9 @@
         <p class="description"><a href="//github.com/mrhaki">Code</a></p>
     </li>
     <li>
-        <p><a href="//www.twitter.com/mrhaki"><img src="{socialicons}twitter.svg"
-            alt="Twitter" title="Twitter" width="48" height="48"/></a></p>
-        <p class="description"><a href="//www.twitter.com/mrhaki">Tweet, tweet</a></p>
+        <p><a href="//bsky.app/profile/mrhaki.com"><img src="{socialicons}twitter.svg"
+            alt="Bluesky" title="Bluesky" width="48" height="48"/></a></p>
+        <p class="description"><a href="//bsky.app/profile/mrhaki.com">Bluesky</a></p>
     </li>
     <li>
         <p><a href="//nl.linkedin.com/in/mrhaki"><img src="{socialicons}linkedin.svg"
