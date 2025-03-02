@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Test Brushes</title>
+
+        <script src='shLegacy.js'></script>
+        <script src='shCore.js'></script>
+        <script src='shBrushAsciidoc.js'></script>
+        <script src='shBrushBash.js'></script>
+        <script src='shBrushClojure.js'></script>
+        <script src='shBrushCss.js'></script>
+        <script src='shBrushDataWeave.js'></script>
+        <script src='shBrushGroovy.js'></script>
+        <script src='shBrushJava.js'></script>
+        <script src='shBrushJScript.js'></script>
+        <script src='shBrushKotlin.js'></script>
+        <script src='shBrushNushell.js'></script>
+        <script src='shBrushPlain.js'></script>
+        <script src='shBrushSql.js'></script>
+        <script src='shBrushToml.js'></script>
+        <script src='shBrushYaml.js'></script>
+        <script src='shBrushXml.js'></script>
+
+        <link href='../../css/syntax/shCore.css' rel='stylesheet' type='text/css'/>
+
+        <link href='../../css/light.css' media='all' rel='stylesheet'/>
+        <link href='../../css/dark.css' media='all' rel='alternate stylesheet' title='dark-color'/>
+        <link href='../../css/light.css' media='all' rel='alternate stylesheet' title='light-color'/>
+
+    </head>
+    <body>
+
+        <h1>Test Brushes</h1>
+
+        <pre class="brush:nu;">
+# Add assertion support.
+use std/assert
+
+assert (1 == 0)
+
+# Different examples of string types that are transformed to kebab-case.
+assert equal ('stringInCamelCase' | str kebab-case) 'string-in-camel-case'
+assert equal ('string_with_underscores' | str kebab-case) 'string-with-underscores'
+assert equal ('StringInPascalCase' | str kebab-case) 'string-in-pascal-case'
+assert equal ('string with spaces' | str kebab-case) 'string-with-spaces'
+assert equal ('STRING-WITH-UPCASE' | str kebab-case) 'string-with-upcase'
+
+# Special characters are removed.
+assert equal ('Nushell rocks!' | str kebab-case) 'nushell-rocks'
+
+# The str kebab-case command accepts names of keys to
+# transform the values to kebab-case in a record.
+let user = {
+    name: 'Hubert Klein Ikkink',
+    alias: 'MrHaki'
+} | str kebab-case name alias
+
+assert equal $user {
+    name: 'hubert-klein-ikkink',
+    alias: 'mr-haki'
+}
+
+use std/assert
+
+# The str kebab-case command can be applied to lists
+# to transform each element to kebab-case.
+let shells = ['Nushell' 'PowerShell'] | str kebab-case
+assert equal $shells ['nushell' 'power-shell']
+
+
+use std/assert
+
+# The str kebab-case command also accepts names of columns for a table.
+# The values in the column are transformed to kebab-case.
+let users = [
+    [name alias];
+    ['Hubert Klein Ikkink' 'MrHaki']
+] | str kebab-case alias
+
+# Values in the alias column are transformed into kebab-case.
+assert equal $users.alias ['mr-haki']
+# Values in the name column are not changed.
+assert equal $users.name ['Hubert Klein Ikkink']
+# Assertion for complete table.
+assert equal $users [[name alias]; ['Hubert Klein Ikkink' 'mr-haki']]
+
+version check
+# => 0.102.0
+        </pre>
+
+        <script>
+            SyntaxHighlighter.config.bloggerMode = true;
+            SyntaxHighlighter.config.clipboardSwf = null;
+            //SyntaxHighlighter.defaults[&#39;first-line&#39;] = 0;
+            //SyntaxHighlighter.defaults[&#39;auto-links&#39;] = false;
+            SyntaxHighlighter.all();
+        </script>
+
+    </body>
+</html>
