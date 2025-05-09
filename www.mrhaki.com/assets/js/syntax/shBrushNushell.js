@@ -1,9 +1,12 @@
 SyntaxHighlighter.brushes.Nushell = function()
 {
-	var keywords =	'if let match where select in while loop each try return';
+	var keywords =	'if let match where in while loop each try return';
 	var commands =  'str kebab-case snake-case up-case ' +
+                    'http ' +
                     'use ' +
-                    'version check'
+                    'select where ' +
+                    'version check ' + 
+                    'assert equal not-equal ' 
 					;
     var operators =	'== != > < => <=';
 
@@ -13,8 +16,8 @@ SyntaxHighlighter.brushes.Nushell = function()
 		{ regex: SyntaxHighlighter.regexLib.singleQuotedString,		css: 'string' },			// single quoted strings
         { regex: /\b([\d]+(\.[\d]+)?|0x[a-f0-9]+)\b/gi,             css: 'value' },         // numbers
 		{ regex: new RegExp(this.getKeywords(operators), 'gm'),			css: 'color1' },			// operators and such
-        { regex: new RegExp(this.getKeywords(keywords), 'gm'),			css: 'keyword' },		// keywords
-		{ regex: new RegExp(this.getKeywords(commands), 'gm'),			css: 'functions' }		// commands
+		{ regex: new RegExp(this.getKeywords(commands), 'gm'),			css: 'keyword' },		// commands
+        { regex: new RegExp(this.getKeywords(keywords), 'gm'),			css: 'keyword' }	// keywords
 		];
 }
 

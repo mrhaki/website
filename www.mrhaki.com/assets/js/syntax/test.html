@@ -44,6 +44,9 @@ assert equal ('StringInPascalCase' | str kebab-case) 'string-in-pascal-case'
 assert equal ('string with spaces' | str kebab-case) 'string-with-spaces'
 assert equal ('STRING-WITH-UPCASE' | str kebab-case) 'string-with-upcase'
 
+http get https://httpbin.org/get | get status
+http get https://httpbin.org/get | select status
+
 # Special characters are removed.
 assert equal ('Nushell rocks!' | str kebab-case) 'nushell-rocks'
 
