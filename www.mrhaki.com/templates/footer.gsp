@@ -33,7 +33,7 @@
 
         <div class="clearfix"></div>
         <p id="copyright">
-            &copy; 2008 - ${new Date().format('yyyy')}
+            &copy; 2008 - ${java.time.LocalDate.now().format(java.time.format.DateTimeFormatter.ofPattern("yyyy"))}
             <a href="/">Hubert A. Klein Ikkink</a>
             |
             Baked with <a href="https://jbake.org">JBake ${version}</a>
