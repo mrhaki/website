@@ -1178,7 +1178,7 @@ head.appendChild(script);
                 <b:widget-settings>
                   <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
                   <b:widget-setting name='display'>LIST</b:widget-setting>
-                  <b:widget-setting name='selectedLabelsList'>Apache Camel,Asciidoc,Asciidoctor,AssertJ,Awesome:Asciidoctor,Awesome:AssertJ,Clojure,Clojure:Goodness,DataWeave,DataWeave:Delight,Gradle,Gradle:Goodness,Grails,Grails:Goodness,Groovy,Groovy:Goodness,Helidon,Helidon:Helpings,IntelliJ HTTP Client,IntelliJ IDEA,Java,Java:Joy,Keycloak,Kotlin,Kotlin:Kandy,Mastering:Maven,Maven,Micronaut,Micronaut:Mastery,Mockito,MuleSoft,NetBeans,OSX,PlantUML,PlantUML:Pleasantness,Ratpack,Ratpacked,SDKMAN!,Spock,Spock:Spocklight,Spring,Spring Boot,Spring Cloud,Spring:Sweets,SpringBoot,XML,XSLT,macOS</b:widget-setting>
+                  <b:widget-setting name='selectedLabelsList'>Apache Camel,Asciidoc,Asciidoctor,AsiidoctorJ,AssertJ,Awesome Asciidoctor,Awesome:Asciidoctor,Awesome:AssertJ,Clojure,Clojure:Goodness,Cocoon,Cocoon 2.2,DSL,DataWeave,DataWeave:Delight,Docker,Eclipse,GPars,Git,GoogleGuava:Goodness,Gradle,Gradle:Goodness,Grails,Grails:Goodness,Groovy,Groovy:Goodness,HTML,Helidon,Helidon:Helpings,HelidonSE:Helpings,IntelliJ HTTP Client,IntelliJ IDEA,JOOQ,JSON,Java,Java:Joy,Keycloak,Kotlin,Kotlin:Kandy,Mastering:Maven,Mastering:Mockito,Maven,Micronaut,Micronaut:Mastery,Mockito,MuleSoft,NetBeans,Nushell,Nushell:Niceties,OSX,PlantUML,PlantUML:Pleasantness,Ratpack,Ratpacked,SDKMAN!,SQL,Spock,Spock:Spocklight,Spring,Spring Boot,Spring Boot:Sweets,Spring Cloud,Spring:Sweets,SpringBoot,XML,XSLT,jq,jq:Joy,macOS</b:widget-setting>
                   <b:widget-setting name='showType'>USER_SELECTED</b:widget-setting>
                   <b:widget-setting name='showFreqNumbers'>true</b:widget-setting>
                 </b:widget-settings>
@@ -1225,7 +1225,7 @@ head.appendChild(script);
             <div class='clearfix'/>
 
             <p id='copyright'>
-                &amp;copy; 2008-2023
+                &amp;copy; 2008-2025
                 <a href='https://www.mrhaki.com'>Hubert A. Klein Ikkink</a>
                 |
                 <a class='changecolor' href='#' title='dark-color'>Dark theme</a>
