@@ -71,7 +71,7 @@ div.book-link { flex: 1; flex-basis: 22%; }
 .big, h3 { font-weight: 300; font-size: 20px; line-height: 26px; font-family: "Open Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: 0px;}
 .normal, body { font: 16px/28px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #444;  font-weight: 300;}
 .small { font-size: 13px; line-height: 18px; }
-code, pre { font: 16px/24px Hack, Menlo, Monaco, "Liberation Mono", Consolas, monospace; }
+code, pre { font: 16px/24px Menlo, Monaco, "Liberation Mono", Consolas, monospace; }
 code { font-weight: normal; color: #444; }
 
 div.paragraph, div.post-body.entry-content { font-family: "Merriweather", serif; }
